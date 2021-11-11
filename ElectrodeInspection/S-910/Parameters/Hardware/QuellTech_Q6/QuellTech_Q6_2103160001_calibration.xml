@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cx3d MajorVersion="1" MinorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cx3d.xsd">
+	<CalibCase3d id="cal0">
+		<name>Q6-C15-145</name>
+		<sensorSN/>
+		<dateTime>2021-03-30T14:15:08</dateTime>
+		<creator>unknown</creator>
+		<description>-</description>
+		<target>2</target>
+		<sensorSize>0 0</sensorSize>
+		<fov>0 0 0 0 0 0</fov>
+		<roc>0 0 0 0</roc>
+		<intrinsic>
+			<model>65537</model>
+			<rangeScale>0.0625</rangeScale>
+			<rrH>1</rrH>
+			<rrV>1</rrV>
+			<sensorRoi>0 0 0 0</sensorRoi>
+			<sensorR>0 0 0</sensorR>
+			<pixelSize>0 0</pixelSize>
+			<f>0</f>
+			<cp>0 0</cp>
+			<L>
+				<rows>1</rows>
+				<cols>0</cols>
+				<dt>d</dt>
+				<data/>
+			</L>
+			<P>
+				<rows>3</rows>
+				<cols>3</cols>
+				<dt>d</dt>
+				<data>0.05093260109424591 -0.0001009449988487177 -103.1240005493164 -1.433189993349515e-07 0.07932580262422562 -122.4769973754883 -3.50933987647295e-07 0.0002694140130188316 1</data>
+			</P>
+			<C>
+				<rows>15</rows>
+				<cols>2</cols>
+				<dt>d</dt>
+				<data>0.009926469996571541 -0.015229900367558 0.9874699711799622 -1.224370043928502e-05 -0.000572175020352006 0.9923170208930969 1.480759965488687e-05 -1.103049999073846e-05 -1.47418995766202e-05 3.344490096424124e-06 -1.177950025521568e-06 8.016899664653465e-05 2.172770052766282e-07 3.341059937156388e-06 1.69310999353911e-06 8.334980350355181e-08 3.5800298974209e-06 -1.22005996416874e-08 1.790260029110868e-07 1.597170012246352e-06 2.056439996067638e-08 7.776240207313379e-10 4.127949981835854e-09 1.591519982468981e-08 -1.893829953969473e-10 -4.514150164780517e-11 1.430899954080189e-09 -7.226089726586338e-10 -3.167610063137261e-10 -4.144829901520097e-08</data>
+			</C>
+		</intrinsic>
+		<extrinsic>
+			<Sy>1</Sy>
+			<Sxy>0</Sxy>
+			<Szy>0</Szy>
+			<T>0 0 0</T>
+			<R>0 0 0</R>
+		</extrinsic>
+		<metric>
+			<offset>0 0 0</offset>
+			<scale>1 1 1</scale>
+			<invalidDataValue>0</invalidDataValue>
+		</metric>
+		<accuracyStat>
+			<rows>4</rows>
+			<cols>3</cols>
+			<dt>d</dt>
+			<data>0 0 0 0 0 0 0 0 0 0 0 0</data>
+		</accuracyStat>
+		<lensCorrStat>
+			<rows>1</rows>
+			<cols>3</cols>
+			<dt>d</dt>
+			<data>0 0 0</data>
+		</lensCorrStat>
+	</CalibCase3d>
+</cx3d>

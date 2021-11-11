@@ -1,0 +1,3 @@
+LineEdit;manualInputsmodified.sbi;Zulässige Höhe bis zu:(+/-) in mm:;$userconfig.application.tolerance;0.1
+LineEdit;manualInputsmodified.sbi;Länge in mm:;$userconfig.application.lengthVar;680
+LineEdit;manualInputsmodified.sbi;Geschwindigkeit in mm/s:;$userconfig.application.speedVar;40

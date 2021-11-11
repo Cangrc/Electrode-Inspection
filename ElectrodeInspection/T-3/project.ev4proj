@@ -1,0 +1,195 @@
+
+[3D]
+	CompressionResolution = 0,000500000000	 ;Resolution to which coordinates get rounded when creating a .e3c file
+	DefaultViewerHeight = 0	 ;Default-Height for 3D viewer, used in case the application starts minimized. 0 to disable.
+	DefaultViewerWidth = 0	 ;Default-Width for 3D viewer, used in case the application starts minimized. 0 to disable.
+	NumberFormat = 5:0::1:	 ;Format for displaying values. MinTotalDigits:MinDecimalsAfterComma:UnitString:Multiplier:CommaMode
+	OctreeCalc = 1	 ;0: Never, 1: On Request, 2: Always. 
+	OrderedImportCloudWidth = 0	 ;Width to use when importing ordered Pointclouds, for example for .cs3d. Check if Surface Mode looks correct to verify.
+	TextPointcloudLoadingFormat = xyz
+
+[Commands]
+
+[Commands.ImageTransfer]
+	OverlayProtocolVersion = 2	 ;EyeView from Version 3 requires protocol version 1
+
+[Display]
+
+[Display.Format]
+	DecimalMark = .	 ;One of , and .
+	FloatingPrecision = 4	 ;Will be applied in most of the commands.
+
+[EVHD]
+	HardwareConfiguration = 1	 ;0: Use external hardware configurator's settings(Application_config.ini), 1:Use custom configuration from project (project.ev4proj) 
+
+[EVHD.DIO]
+	GUIUpdateInterval = 50	 ;Update interval in ms for polling the digital inputs when the Digital I/O menu is open.
+	Plugin = Camera	 ;Selected DIO plugin (used if EVHD.HardwareConfiguration ist set to 1)
+
+[EVHD.GOI]
+	ClearOnProgramStart = 1
+	MaxNoItems = 10000
+
+[EVHD.GOI.Color]
+	Bad = 255,0,0	 ;comma separated RGB value for color Bad (example: 255,0,0)
+	Good = 0,255,0	 ;comma separated RGB value for color Good (example: 0,255,0)
+	Neutral = 255,0,255	 ;comma separated RGB value for color Neutral (example: 255,0,255)
+	Warning = 255,255,0	 ;comma separated RGB value for color Warning (example: 255,255,0)
+
+[EVHD.IM]
+	NumberOfIM = 30	 ;Fixed number of image memories
+
+[EVHD.IM.Save]
+	AsynchronousQueueLength = 5	 ;Queue length for asynchrnous image save. Long queues may consume lots of RAM.
+	CompressionRate = 1	 ;CompressionRate: png: 0(big), 10(small, slow), jpg: 0(big, good quality) 10(small, poor quality).
+
+[EVHD.RS232]
+	NumberAdapters = 1
+
+[EVHD.RS232.Adapter_0]
+	Baud = 9600
+	DataBits = 8	 ;(4..8)
+	FlowControl = 3	 ;0:Invalid 1:XOn XOff 2:Hardware 3:None
+	Parity = 3	 ;1:Even 2:Mark 3:No 4:Odd 5:Space
+	Port = 1	 ;Windows port index
+	StopBits = 1	 ;1:1 bit 2: 1.5 bits 3:2 bits
+
+[EVHD.SOCK]
+	DefaultUDPPort = 7777
+
+[EVHD.VIC]
+	AlwaysUseSystemTimestamp = 0	 ;0: use timestamp of the camera if available, 1: use local system timestamp
+	AutoAssign = 0	 ;defines VIC to CameraDevice mapping. 0: manual mapping (Entries EVHD.VIC.VIC<index> = <CameraDevice> must follow), 1: sorted (alphabetically) auto assign (cameras names will be sorted alphabetically), 2: auto assign (unsorted (as delievered by driver) camera order))
+	CameraSettingsVisibilityLevel = 2	 ;visibility level of camera settings. 0: Beginner, 1: Expert, 2: Guru
+	GenerateErrorImage = 1	 ;enables/disables error image generation on capture errors
+	NumberOfVIC = 2
+	Plugin = QuellTech_Q5	 ;Comma separated list of VIC plugins (used if EVHD.HardwareConfiguration ist set to 1)
+	SaveSettingsOnDialogClose = 0	 ;enables/disables automatically saving of camera settings on settings dialog close
+	VIC0 = QuellTech_Q5_2120
+	VIC1 = QuellTech_Q5_2121
+
+[EVHD.VIC.CameraMapping]	 ;Mapping from VIC to IM in Liveimage mode
+	VIC0 = IM0	 ;Only mapped VICs get a Liveimage (add mappings for additional cameras below
+
+[GUI]
+	StartupLayout = QuellTech
+
+[GUI.LayoutEditor]
+
+[GUI.LayoutEditor.Tools]
+	GridSize = 20
+	HorizontalRuler1 = 80
+	HorizontalRuler2 = 200
+	UseGrid = 0
+	UseHorizontalRuler = 0
+	UseVerticalRuler = 0
+	VerticalRuler1 = 120
+	VerticalRuler2 = 400
+
+[Interpreter]
+	StopCaptureAfterInterpreterStops = 1
+
+[Path]
+
+[ProgramControl]
+	CameraDiscoverable = 1
+	CameraSearchInterval = 5
+	WaitSecondsBeforeReboot = 10
+
+[ProgramControl.ByteArray]
+	ConfigPath = ./ByteArray_config.ini
+	Endianess = 1	 ;0: little endian, 1: big endian
+	ShowDetailedLog = 0
+
+[ProgramControl.DIO]
+
+[ProgramControl.DIO.Parallel]
+	Enabled = 0
+	HandshakeTimeout = 200
+	NumberOfSignalLines = 1
+	UseHandshake = 0
+
+[ProgramControl.DIO.Serial]
+	Command = 1	 ;Index of the selected Input
+	Control = 0	 ;Index of the selected Input
+	Enabled = 0
+	Mode = 0	 ;0 = One Pulse, 1 = Three Pulse
+	Pulse = 2	 ;Minimal Command Pulse high time in ms
+	Timeout = 100	 ;Timeout in ms between two connected Control Pulses
+
+[ProgramControl.EyeWeb]
+	Enabled = 0
+	MaxConnections = 20
+	MaxRecvFileSize = 4380
+	MaxSendFileSize = 112400
+	Port = 8080
+	Wwwroot = C:/ProgramData/EVT/EyeVision/Projects/PC_Local/Data/Wwwroot/
+
+[ProgramControl.Ini]
+	DeleteEntryAfterRead = 1	 ;The entry is deleted in file after it was read.
+	Enabled = 0
+	FilePath = C:/ProgramData/EVT/EyeVision/ProgramControl.ini	 ;Absolute file path to program control ini file.
+	ScanInterval = 150	 ;Interval in milli seconds to scan ini file.
+
+[ProgramControl.Modbus]
+	Enabled = 0
+	HandleTriggerRequest = 0	 ;(only in program switch mode) 0: handle trigger manually in ckp, 1: modbus toggles softtrigger
+	IP = 127.0.0.1
+	OperationMode = 0	 ;0: Program switch, 1: Simple mode
+	Port = 1502
+	Protocol = 0	 ;0: Modbus TCP client, 1: Modbus TCP server
+	ScanInterval = 5	 ;Interval in milli seconds to communicate with stack.
+
+[ProgramControl.Profinet]
+	Enabled = 0
+	HandleTriggerRequest = 0	 ;(only in program switch mode) 0: handle trigger manually in ckp, 1: profinet toggles softtrigger
+	OperationMode = 0	 ;0: Program switch, 1: Simple mode
+	ScanInterval = 5	 ;Interval in milli seconds to communicate with stack.
+
+[ProgramControl.Programlist]
+	NumberOfPrograms = 0	 ;[0..255], defines the number of manually defined program names. If program name is not defined, AUTO_<number> is used instead.
+
+[ProgramControl.RS232]
+	Enabled = 0
+
+[ProgramControl.RS232.ControlAdapter]
+	Baud = 9600
+	Parity = 3	 ;1:Even 2:Mark 3:No 4:Odd 5:Space
+	Port = 1
+
+[ProgramControl.TCP]
+	Enabled = 0
+	Port = 5953
+
+[ProgramControl.UDP]
+	Enabled = 1
+	Port = 5952
+	SearchPort = 5952
+	SearchPortRange = 5
+
+[StartupPrograms]
+	DebugMode = 0	 ;0: Normal mode 1: Debug Mode
+	StartMode = 2	 ;0: Stopped 1: Endless 2: Execute defined number of cycles 3: Execute defined number of cylces and close
+	StartModeNoCycles = 1	 ;Number of cycles, if start mode is set to 2(Execute defined number of cycles)
+	StartOperationMode = 0	 ;0: Process mode 1: Configuration Mode
+	StartProgramMode = 2	 ;0: empty program 1: last program, 2: given program
+	StartProgramName = main-2021-09-21-instance3-withCommunication.ckp	 ;Name of program, if StartProgramMode is set to given program (2)
+	StartProgramRecentName = ./Q5-CoupleEncoderBasedSettings-2021-08-29.ckp	 ;Name of program that was recently activated in the program list. This file will be used if StartProgramMode ist set to last program (1)
+
+[StartupPrograms.EnterApplication]
+	Enabled = 1	 ;0: Do not execute a startup program when entering the application 1: Execute a startup program with given name
+	Name = Q5-CoupleSettings-2021-08-29.ckp	 ;Name of the startup program when entering the application. This program is executed once before the start program is loaded.
+	Timeout = 3000	 ;Startup program timeout in ms. If the time passes, the program will be stopped immediately. -1: endless
+
+[StartupPrograms.EnterOperation]
+	Enabled = 0
+	Name = ./EnterOperation.ckp	 ;Name of the startup program when entering the operation.
+
+[StartupPrograms.LeaveApplication]
+	Enabled = 0	 ;0: Do not execute an end program when leaving the application 1: Execute an end program with given name
+	Name = ./LeaveApplication.ckp	 ;Name of the end program. This program is executed during termination of the application.
+	Timeout = 3000	 ;End program timeout in ms. If the time passes, the program will be stopped immediately. -1:endless
+
+[StartupPrograms.LeaveOperation]
+	Enabled = 0
+	Name = ./LeaveOperation.ckp	 ;Name of the program when leaving the operation.

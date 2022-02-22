@@ -16,7 +16,7 @@
 [Display]
 
 [Display.Format]
-	DecimalMark = .	 ;One of , and .
+	DecimalMark = ,	 ;One of , and .
 	FloatingPrecision = 4	 ;Will be applied in most of the commands.
 
 [EVHD]
@@ -60,7 +60,7 @@
 [EVHD.VIC]
 	AlwaysUseSystemTimestamp = 0	 ;0: use timestamp of the camera if available, 1: use local system timestamp
 	AutoAssign = 0	 ;defines VIC to CameraDevice mapping. 0: manual mapping (Entries EVHD.VIC.VIC<index> = <CameraDevice> must follow), 1: sorted (alphabetically) auto assign (cameras names will be sorted alphabetically), 2: auto assign (unsorted (as delievered by driver) camera order))
-	CameraSettingsVisibilityLevel = 2	 ;visibility level of camera settings. 0: Beginner, 1: Expert, 2: Guru
+	CameraSettingsVisibilityLevel = 0	 ;visibility level of camera settings. 0: Beginner, 1: Expert, 2: Guru
 	GenerateErrorImage = 1	 ;enables/disables error image generation on capture errors
 	NumberOfVIC = 2
 	Plugin = QuellTech_Q5	 ;Comma separated list of VIC plugins (used if EVHD.HardwareConfiguration ist set to 1)
@@ -169,12 +169,12 @@
 
 [StartupPrograms]
 	DebugMode = 0	 ;0: Normal mode 1: Debug Mode
-	StartMode = 2	 ;0: Stopped 1: Endless 2: Execute defined number of cycles 3: Execute defined number of cylces and close
+	StartMode = 0	 ;0: Stopped 1: Endless 2: Execute defined number of cycles 3: Execute defined number of cylces and close
 	StartModeNoCycles = 1	 ;Number of cycles, if start mode is set to 2(Execute defined number of cycles)
 	StartOperationMode = 0	 ;0: Process mode 1: Configuration Mode
 	StartProgramMode = 2	 ;0: empty program 1: last program, 2: given program
 	StartProgramName = main-2021-09-21-instance8-withCommunication.ckp	 ;Name of program, if StartProgramMode is set to given program (2)
-	StartProgramRecentName = ./main-2021-09-21-instance8-withCommunication.ckp	 ;Name of program that was recently activated in the program list. This file will be used if StartProgramMode ist set to last program (1)
+	StartProgramRecentName = ./ThicknessMeasurement-2021-08-31-fixed.ckp	 ;Name of program that was recently activated in the program list. This file will be used if StartProgramMode ist set to last program (1)
 
 [StartupPrograms.EnterApplication]
 	Enabled = 1	 ;0: Do not execute a startup program when entering the application 1: Execute a startup program with given name

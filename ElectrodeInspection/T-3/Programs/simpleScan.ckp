@@ -1,9 +1,9 @@
 EVT 
 EYEVISION_VERSION 4.00.013
-FILE_VERSION 26
+FILE_VERSION 29
 CREATED 14.12.2021 16:05:51
 CREATED_BY Admin
-LAST_MODIFIED 11.02.2022 15:16:30
+LAST_MODIFIED 10.03.2022 14:18:47
 LAST_MODIFIED_BY Admin
 START_PARM_LIST 
   KEY 1
@@ -578,7 +578,7 @@ START_PARM_LIST
     SaveType 0
     OnlyOnActivate 0
     SaveWithGrafic 0
-    TriggeredCapture 1
+    TriggeredCapture 0
     ApplyTimeout 0
     CaptureWithFlash 0
     NumberOfCyclicFiles 10

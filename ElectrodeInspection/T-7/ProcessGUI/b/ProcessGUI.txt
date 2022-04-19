@@ -1,3 +1,0 @@
-LineEdit;manualInputsmodified.sbi;Nominal Dicke in mm:;$userconfig.application.nominal;0.01
-LineEdit;manualInputsmodified.sbi;Upper Tolerance in mm:;$userconfig.application.uppertolerance;0.005
-LineEdit;manualInputsmodified.sbi;Lower Tolerance in mm:;$userconfig.application.lowertolerance;0.005

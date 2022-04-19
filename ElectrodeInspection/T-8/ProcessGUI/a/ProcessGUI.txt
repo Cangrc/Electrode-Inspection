@@ -1,2 +1,0 @@
-LineEdit;manualInputsmodified.sbi;Länge in mm:;$userconfig.application.lengthVar;680
-LineEdit;manualInputsmodified.sbi;Geschwindigkeit in mm/s:;$userconfig.application.speedVar;40

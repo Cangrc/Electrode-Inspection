@@ -174,7 +174,7 @@
 	StartOperationMode = 0	 ;0: Process mode 1: Configuration Mode
 	StartProgramMode = 2	 ;0: empty program 1: last program, 2: given program
 	StartProgramName = main-2021-09-21-instance3-withCommunication.ckp	 ;Name of program, if StartProgramMode is set to given program (2)
-	StartProgramRecentName = ./ThicknessMeasurement-2021-08-31-fixed.ckp	 ;Name of program that was recently activated in the program list. This file will be used if StartProgramMode ist set to last program (1)
+	StartProgramRecentName = ./main-2021-09-21-instance3-withCommunication.ckp	 ;Name of program that was recently activated in the program list. This file will be used if StartProgramMode ist set to last program (1)
 
 [StartupPrograms.EnterApplication]
 	Enabled = 1	 ;0: Do not execute a startup program when entering the application 1: Execute a startup program with given name

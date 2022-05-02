@@ -1,9 +1,9 @@
 EVT 
-EYEVISION_VERSION 4.00.013
-FILE_VERSION 728
+EYEVISION_VERSION 4.01.003
+FILE_VERSION 765
 CREATED 21.04.2021 12:01:36
 CREATED_BY Admin
-LAST_MODIFIED 30.03.2022 18:02:21
+LAST_MODIFIED 02.05.2022 16:43:09
 LAST_MODIFIED_BY Admin
 START_PARM_LIST 
   KEY 1
@@ -13,7 +13,7 @@ START_PARM_LIST
       Position 1
       CommandType 1
       CommandName Load Data only for Debug Purpose
-      Enabled 3
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
@@ -111,7 +111,7 @@ START_PARM_LIST
       Position 2
       CommandType 1
       CommandName Load Data only for Debug Purpose
-      Enabled 3
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
@@ -478,7 +478,7 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 5
   KEY 6
-    ClassVersion 6
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 7
@@ -548,10 +548,11 @@ START_PARM_LIST
     FillSingleGaps 0
     CloudWidth 0
     CloudHeight 0
+    TrueGrid 0
     TeachInCounter 0
   END_KEY 6
   KEY 7
-    ClassVersion 6
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 8
@@ -621,13 +622,14 @@ START_PARM_LIST
     FillSingleGaps 0
     CloudWidth 0
     CloudHeight 0
+    TrueGrid 0
     TeachInCounter 0
   END_KEY 7
   KEY 8
-    ClassVersion 4
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 9
+      Position 10
       CommandType 19980125
       CommandName 3D Ordered Filter
       Enabled 1
@@ -670,20 +672,22 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    TargetIM 2
+    TargetIM 4
     FilterSize 0
     FilterType 0
     FilterParam1 1,0
     FilterParam2 5,0
     FilterOptionBool 1
-    FilterSizeMedian 3
+    FilterSizeMedian 9
+    SameFilterXY 1
+    FilterParam3 1,2
     TeachInCounter 0
   END_KEY 8
   KEY 9
-    ClassVersion 4
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 10
+      Position 11
       CommandType 19980125
       CommandName 3D Ordered Filter
       Enabled 1
@@ -726,23 +730,147 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    TargetIM 3
+    TargetIM 5
     FilterSize 0
     FilterType 0
     FilterParam1 1,0
     FilterParam2 5,0
     FilterOptionBool 1
-    FilterSizeMedian 3
+    FilterSizeMedian 9
+    SameFilterXY 1
+    FilterParam3 1,2
     TeachInCounter 0
   END_KEY 9
   KEY 10
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 13
+      CommandType 19980137
+      CommandName 3D Cloud Compare
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 2
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 424944
+    END_CKPICKUP_TYPE_WRITE 
+    Operation 2
+    OutputIM 2
+    OutputMode 1
+    DeviationThreshold 1,0
+    TemplateIM 4
+    DistanceMode 1
+    TeachInCounter 0
+  END_KEY 10
+  KEY 11
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 14
+      CommandType 19980137
+      CommandName 3D Cloud Compare
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 3
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 162853
+    END_CKPICKUP_TYPE_WRITE 
+    Operation 2
+    OutputIM 3
+    OutputMode 1
+    DeviationThreshold 1,0
+    TemplateIM 5
+    DistanceMode 1
+    TeachInCounter 0
+  END_KEY 11
+  KEY 12
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 12
+      Position 16
       CommandType 19980105
       CommandName 3D Plane
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 0
       TextMode 2
@@ -824,15 +952,15 @@ START_PARM_LIST
       PickupListIndex 461346
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 10
-  KEY 11
+  END_KEY 12
+  KEY 13
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 13
+      Position 17
       CommandType 19980105
       CommandName 3D Plane
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 0
       TextMode 2
@@ -914,12 +1042,12 @@ START_PARM_LIST
       PickupListIndex 151964
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 11
-  KEY 12
+  END_KEY 13
+  KEY 14
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 15
+      Position 19
       CommandType 1004
       CommandName Write the First Row of the txt File
       Enabled 1
@@ -935,12 +1063,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 12
-  KEY 13
+  END_KEY 14
+  KEY 15
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 16
+      Position 20
       CommandType 1040
       CommandName Script interpreter
       Enabled 1
@@ -983,7 +1111,7 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    Program Dim s As String~s = EVTTimerGetTimeStamp()~~Dim sNew As String~sNew = Left(s, 10)~~Dim sError As String~Dim sValue As String: sValue = sNew + "-logFile"+ ".txt"~If CKI_SetParameterString("File.Filename", sValue,sError) <> 1 Then~  Print (sError)~End If
+    Program Dim s As String~s = EVTTimerGetTimeStamp()~~Dim sNew As String~sNew = Left(s, 10)~~Dim sError As String~Dim sValue As String: sValue = sNew + "-logFile"+ ".txt"~If CKI_SetParameterString("File.Filename", sValue,sError) <> 1 Then~  Print (sError)~End If~LogEntry(sValue)
     EncodedBinary 
     ExternProgramFileName 
     UseExternProgram 0
@@ -996,12 +1124,12 @@ START_PARM_LIST
       PickupListIndex 839930
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 13
-  KEY 14
-    ClassVersion 17
+  END_KEY 15
+  KEY 16
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 17
+      Position 21
       CommandType 246
       CommandName Time
       Enabled 1
@@ -1112,13 +1240,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 1
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 342075
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 14
-  KEY 15
-    ClassVersion 17
+  END_KEY 16
+  KEY 17
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 18
+      Position 22
       CommandType 246
       CommandName tab
       Enabled 1
@@ -1229,13 +1382,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 770630
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 15
-  KEY 16
-    ClassVersion 17
+  END_KEY 17
+  KEY 18
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 19
+      Position 23
       CommandType 246
       CommandName tab
       Enabled 1
@@ -1346,13 +1524,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 362528
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 16
-  KEY 17
-    ClassVersion 17
+  END_KEY 18
+  KEY 19
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 20
+      Position 24
       CommandType 246
       CommandName tab
       Enabled 1
@@ -1463,13 +1666,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 916251
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 17
-  KEY 18
-    ClassVersion 17
+  END_KEY 19
+  KEY 20
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 21
+      Position 25
       CommandType 246
       CommandName StationNum
       Enabled 1
@@ -1580,13 +1808,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 931724
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 18
-  KEY 19
-    ClassVersion 17
+  END_KEY 20
+  KEY 21
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 22
+      Position 26
       CommandType 246
       CommandName tab
       Enabled 1
@@ -1697,13 +1950,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 964229
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 19
-  KEY 20
-    ClassVersion 17
+  END_KEY 21
+  KEY 22
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 23
+      Position 27
       CommandType 246
       CommandName Task
       Enabled 1
@@ -1814,13 +2092,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 527560
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 20
-  KEY 21
-    ClassVersion 17
+  END_KEY 22
+  KEY 23
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 24
+      Position 28
       CommandType 246
       CommandName tab
       Enabled 1
@@ -1931,13 +2234,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 857560
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 21
-  KEY 22
-    ClassVersion 17
+  END_KEY 23
+  KEY 24
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 25
+      Position 29
       CommandType 246
       CommandName SectionID
       Enabled 1
@@ -2048,13 +2376,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 39366
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 22
-  KEY 23
-    ClassVersion 17
+  END_KEY 24
+  KEY 25
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 26
+      Position 30
       CommandType 246
       CommandName Ylocation
       Enabled 1
@@ -2165,13 +2518,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 953937
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 23
-  KEY 24
-    ClassVersion 17
+  END_KEY 25
+  KEY 26
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 27
+      Position 31
       CommandType 246
       CommandName IST-DeltaHöhe
       Enabled 1
@@ -2282,13 +2660,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 291452
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 24
-  KEY 25
-    ClassVersion 17
+  END_KEY 26
+  KEY 27
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 28
+      Position 32
       CommandType 246
       CommandName tab
       Enabled 1
@@ -2399,13 +2802,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 361653
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 25
-  KEY 26
-    ClassVersion 17
+  END_KEY 27
+  KEY 28
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 29
+      Position 33
       CommandType 246
       CommandName UpperLimit
       Enabled 1
@@ -2516,13 +2944,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 437947
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 26
-  KEY 27
-    ClassVersion 17
+  END_KEY 28
+  KEY 29
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 30
+      Position 34
       CommandType 246
       CommandName LowerLimit
       Enabled 1
@@ -2633,13 +3086,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 959602
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 27
-  KEY 28
-    ClassVersion 17
+  END_KEY 29
+  KEY 30
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 31
+      Position 35
       CommandType 246
       CommandName tab
       Enabled 1
@@ -2750,13 +3228,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 957031
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 28
-  KEY 29
-    ClassVersion 17
+  END_KEY 30
+  KEY 31
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 32
+      Position 36
       CommandType 246
       CommandName ProductionID
       Enabled 1
@@ -2867,13 +3370,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 340880
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 29
-  KEY 30
-    ClassVersion 17
+  END_KEY 31
+  KEY 32
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 33
+      Position 37
       CommandType 246
       CommandName NewLine
       Enabled 1
@@ -2984,13 +3512,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 228223
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 30
-  KEY 31
-    ClassVersion 17
+  END_KEY 32
+  KEY 33
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 34
+      Position 38
       CommandType 246
       CommandName File
       Enabled 1
@@ -3043,7 +3596,7 @@ START_PARM_LIST
     SeparationIndex 0
     SendType 1
     TextToDisplay Height:
-    Filename ./2022_03_30-logFile.txt
+    Filename ./2022_05_02-logFile.txt
     AddIntegerOnly 1
     SeperatorAtStartOfString 1
     PortNumber 0
@@ -3101,13 +3654,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 654387
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 31
-  KEY 32
-    ClassVersion 17
+  END_KEY 33
+  KEY 34
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 35
+      Position 39
       CommandType 246
       CommandName Reset
       Enabled 1
@@ -3218,13 +3796,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 680860
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 32
-  KEY 33
+  END_KEY 34
+  KEY 35
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 37
+      Position 41
       CommandType 1004
       CommandName Variable Declaration
       Enabled 1
@@ -3240,12 +3843,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 33
-  KEY 34
-    ClassVersion 17
+  END_KEY 35
+  KEY 36
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 38
+      Position 42
       CommandType 246
       CommandName Reset
       Enabled 1
@@ -3356,13 +3959,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 167794
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 34
-  KEY 35
-    ClassVersion 5
+  END_KEY 36
+  KEY 37
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 39
+      Position 43
       CommandType 122
       CommandName timeStamp
       Enabled 1
@@ -3468,13 +4096,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 35
-  KEY 36
-    ClassVersion 5
+  END_KEY 37
+  KEY 38
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 40
+      Position 44
       CommandType 122
       CommandName create ErrorsBuffer
       Enabled 1
@@ -3580,13 +4215,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 36
-  KEY 37
-    ClassVersion 5
+  END_KEY 38
+  KEY 39
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 41
+      Position 45
       CommandType 122
       CommandName create ErrorsFlag
       Enabled 1
@@ -3692,13 +4334,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 37
-  KEY 38
-    ClassVersion 5
+  END_KEY 39
+  KEY 40
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 42
+      Position 46
       CommandType 122
       CommandName create profCounter
       Enabled 1
@@ -3804,13 +4453,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 38
-  KEY 39
-    ClassVersion 5
+  END_KEY 40
+  KEY 41
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 43
+      Position 47
       CommandType 122
       CommandName create Speed
       Enabled 1
@@ -3916,13 +4572,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 39
-  KEY 40
-    ClassVersion 5
+  END_KEY 41
+  KEY 42
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 44
+      Position 48
       CommandType 122
       CommandName create sectionCounter
       Enabled 1
@@ -4028,13 +4691,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 40
-  KEY 41
+  END_KEY 42
+  KEY 43
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 45
+      Position 49
       CommandType 1040
       CommandName Set Tolerance Channels
       Enabled 1
@@ -4077,7 +4747,7 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    Program Dim upperTolerance As Double~Dim lowerTolerance As Double~~upperTolerance = 2~lowerTolerance = 0~~Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element 'upperLimit'~'Read result and value from Pickuplist~Dim dupperLimitPLC As Double~Dim lupperLimitPLC As Long~Dim lupperLimitPLCUpdateMode As Long~Dim supperLimitPLCName As String~lResult = CKTRANSGetResultFromPickupList(764978 , lupperLimitPLC, dupperLimitPLC, supperLimitPLCName, lupperLimitPLCUpdateMode)~~Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element 'lowerLimit'~'Read result and value from Pickuplist~Dim dlowerLimitPLC As Double~Dim llowerLimitPLC As Long~Dim llowerLimitPLCUpdateMode As Long~Dim slowerLimitPLCName As String~lResult = CKTRANSGetResultFromPickupList(669260 , llowerLimitPLC, dlowerLimitPLC, slowerLimitPLCName, llowerLimitPLCUpdateMode)~~~If dupperLimitPLC > 0 Then~    upperTolerance = dupperLimitPLC~End If~~If dupperLimitPLC > 0 Then~    lowerTolerance = dlowerLimitPLC~End If~~Dim sError As String~Dim dValue As Double: dValue = upperTolerance~If CKI_SetParameterDouble("Distance.Result[0].Evaluation.PlusTolerance", dValue,sError) <> 1 Then~  Print (sError)~End If~LogEntry(upperTolerance)
+    Program Dim upperTolerance As Double~Dim lowerTolerance As Double~~upperTolerance = 0.1~lowerTolerance = 0.1~~Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element 'upperLimit'~'Read result and value from Pickuplist~Dim dupperLimitPLC As Double~Dim lupperLimitPLC As Long~Dim lupperLimitPLCUpdateMode As Long~Dim supperLimitPLCName As String~lResult = CKTRANSGetResultFromPickupList(764978 , lupperLimitPLC, dupperLimitPLC, supperLimitPLCName, lupperLimitPLCUpdateMode)~~Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element 'lowerLimit'~'Read result and value from Pickuplist~Dim dlowerLimitPLC As Double~Dim llowerLimitPLC As Long~Dim llowerLimitPLCUpdateMode As Long~Dim slowerLimitPLCName As String~lResult = CKTRANSGetResultFromPickupList(669260 , llowerLimitPLC, dlowerLimitPLC, slowerLimitPLCName, llowerLimitPLCUpdateMode)~~~If dupperLimitPLC > 0 Then~    upperTolerance = dupperLimitPLC~    Print("Inside")~End If~~If dupperLimitPLC > 0 Then~    lowerTolerance = dlowerLimitPLC~    Print("Inside")~End If~LogEntry(dupperLimitPLC)~~Dim sError As String~Dim dValue As Double: dValue = upperTolerance~If CKI_SetParameterDouble("Distance.Result[0].Evaluation.PlusTolerance", dValue,sError) <> 1 Then~  Print (sError)~End If~LogEntry(upperTolerance)~
     EncodedBinary 
     ExternProgramFileName 
     UseExternProgram 0
@@ -4090,12 +4760,12 @@ START_PARM_LIST
       PickupListIndex 594980
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 41
-  KEY 42
+  END_KEY 43
+  KEY 44
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 46
+      Position 50
       CommandType 2
       CommandName Clear Graphics
       Enabled 1
@@ -4153,12 +4823,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 42
-  KEY 43
-    ClassVersion 17
+  END_KEY 44
+  KEY 45
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 47
+      Position 51
       CommandType 246
       CommandName NewLine
       Enabled 1
@@ -4269,13 +4939,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 617191
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 43
-  KEY 44
-    ClassVersion 7
+  END_KEY 45
+  KEY 46
+    ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 48
+      Position 52
       CommandType 124
       CommandName Clear
       Enabled 1
@@ -4394,13 +5089,39 @@ START_PARM_LIST
     Severity 4
     ModuleName User
     Text2 
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 44
-  KEY 45
+  END_KEY 46
+  KEY 47
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 50
+      Position 54
       CommandType 1004
       CommandName --------------------------------1.Step By Step Investigate--------------------------------
       Enabled 1
@@ -4416,12 +5137,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 45
-  KEY 46
+  END_KEY 47
+  KEY 48
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 51
+      Position 55
       CommandType 19980118
       CommandName 3D RectProbe
       Enabled 1
@@ -4520,12 +5241,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 46
-  KEY 47
+  END_KEY 48
+  KEY 49
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 52
+      Position 56
       CommandType 19980118
       CommandName 3D RectProbe
       Enabled 1
@@ -4624,12 +5345,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 47
-  KEY 48
+  END_KEY 49
+  KEY 50
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 53
+      Position 57
       CommandType 19980132
       CommandName 3D Distance
       Enabled 1
@@ -4773,12 +5494,12 @@ START_PARM_LIST
     PKResult 1
     3DRegVector 0
     TeachInCounter 0
-  END_KEY 48
-  KEY 49
-    ClassVersion 5
+  END_KEY 50
+  KEY 51
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 54
+      Position 58
       CommandType 122
       CommandName /8
       Enabled 1
@@ -4844,9 +5565,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName 
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 0
+    ArithmeticElementType1 2
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 8,0
     ArithmeticManualElementY 0,0
@@ -4884,13 +5605,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 49
-  KEY 50
+  END_KEY 51
+  KEY 52
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 55
+      Position 59
       CommandType 1040
       CommandName Assign Size
       Enabled 1
@@ -4946,12 +5674,12 @@ START_PARM_LIST
       PickupListIndex 371619
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 50
-  KEY 51
+  END_KEY 52
+  KEY 53
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 57
+      Position 61
       CommandType 19980118
       CommandName 3D RectProbe
       Enabled 1
@@ -5050,12 +5778,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 51
-  KEY 52
-    ClassVersion 9
+  END_KEY 53
+  KEY 54
+    ClassVersion 11
     CKGENERAL 
       ClassVersion 3
-      Position 58
+      Position 62
       CommandType 19980107
       CommandName Create a Box
       Enabled 1
@@ -5137,7 +5865,7 @@ START_PARM_LIST
         Name 
         Type 1
         Value0 400,0
-        Value1 73,7337481346
+        Value1 73,7337810644
         Value2 19,0
         Value3 100000000000,0
         Value4 100000000000,0
@@ -5294,13 +6022,17 @@ START_PARM_LIST
     EulerAngleConversionAxis2 2
     EulerAngleConversionDirection 0
     FormatType 0
+    CKMULTI_PICKUP_WRITE 
+      ClassVersion 1
+      NumberOfPickups 0
+    END_CKMULTI_PICKUP_WRITE 
     TeachInCounter 0
-  END_KEY 52
-  KEY 53
-    ClassVersion 9
+  END_KEY 54
+  KEY 55
+    ClassVersion 11
     CKGENERAL 
       ClassVersion 3
-      Position 59
+      Position 63
       CommandType 19980107
       CommandName Translate Box
       Enabled 1
@@ -5382,7 +6114,7 @@ START_PARM_LIST
         Name 
         Type 1
         Value0 0,0
-        Value1 73,7337481346
+        Value1 73,7337810644
         Value2 0,0
         Value3 100000000000,0
         Value4 73,0
@@ -5539,13 +6271,17 @@ START_PARM_LIST
     EulerAngleConversionAxis2 2
     EulerAngleConversionDirection 0
     FormatType 0
+    CKMULTI_PICKUP_WRITE 
+      ClassVersion 1
+      NumberOfPickups 0
+    END_CKMULTI_PICKUP_WRITE 
     TeachInCounter 0
-  END_KEY 53
-  KEY 54
-    ClassVersion 5
+  END_KEY 55
+  KEY 56
+    ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 60
+      Position 64
       CommandType 19980108
       CommandName 3D Overlay
       Enabled 1
@@ -5683,13 +6419,15 @@ START_PARM_LIST
     AppendToPrevious 0
     TextAfter 
     GlobalStringInText 0
+    NumberFormatPrecision 1631799662
+    NumberFormatUnit 
     TeachInCounter 0
-  END_KEY 54
-  KEY 55
-    ClassVersion 3
+  END_KEY 56
+  KEY 57
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 61
+      Position 65
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -5790,12 +6528,12 @@ START_PARM_LIST
       PickupListIndex 198672
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 55
-  KEY 56
-    ClassVersion 3
+  END_KEY 57
+  KEY 58
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 62
+      Position 66
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -5896,12 +6634,12 @@ START_PARM_LIST
       PickupListIndex 593794
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 56
-  KEY 57
+  END_KEY 58
+  KEY 59
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 63
+      Position 67
       CommandType 1040
       CommandName Set Real Translation Value
       Enabled 1
@@ -5957,12 +6695,12 @@ START_PARM_LIST
       PickupListIndex 544276
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 57
-  KEY 58
+  END_KEY 59
+  KEY 60
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 65
+      Position 69
       CommandType 2
       CommandName Step By Step
       Enabled 1
@@ -6020,12 +6758,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 58
-  KEY 59
-    ClassVersion 5
+  END_KEY 60
+  KEY 61
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 67
+      Position 71
       CommandType 122
       CommandName sectionCounter+1
       Enabled 1
@@ -6093,7 +6831,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -6131,13 +6869,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 59
-  KEY 60
-    ClassVersion 9
+  END_KEY 61
+  KEY 62
+    ClassVersion 11
     CKGENERAL 
       ClassVersion 3
-      Position 68
+      Position 72
       CommandType 19980107
       CommandName Translate Box
       Enabled 1
@@ -6219,7 +6964,7 @@ START_PARM_LIST
         Name 
         Type 1
         Value0 0,0
-        Value1 73,7337481346
+        Value1 73,7337810644
         Value2 0,0
         Value3 100000000000,0
         Value4 73,0
@@ -6376,13 +7121,17 @@ START_PARM_LIST
     EulerAngleConversionAxis2 2
     EulerAngleConversionDirection 0
     FormatType 0
+    CKMULTI_PICKUP_WRITE 
+      ClassVersion 1
+      NumberOfPickups 0
+    END_CKMULTI_PICKUP_WRITE 
     TeachInCounter 0
-  END_KEY 60
-  KEY 61
-    ClassVersion 5
+  END_KEY 62
+  KEY 63
+    ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 69
+      Position 73
       CommandType 19980108
       CommandName 3D Overlay
       Enabled 1
@@ -6520,13 +7269,15 @@ START_PARM_LIST
     AppendToPrevious 0
     TextAfter 
     GlobalStringInText 0
+    NumberFormatPrecision 1631799662
+    NumberFormatUnit 
     TeachInCounter 0
-  END_KEY 61
-  KEY 62
+  END_KEY 63
+  KEY 64
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 70
+      Position 74
       CommandType 19980118
       CommandName Check If Empty
       Enabled 1
@@ -6625,12 +7376,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 62
-  KEY 63
+  END_KEY 64
+  KEY 65
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 71
+      Position 75
       CommandType 2
       CommandName Jump to End
       Enabled 1
@@ -6688,12 +7439,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 63
-  KEY 64
+  END_KEY 65
+  KEY 66
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 72
+      Position 76
       CommandType 19980121
       CommandName 3D Cut Filter
       Enabled 1
@@ -6794,12 +7545,12 @@ START_PARM_LIST
       END_CKSOURCEVALUE 
     ShrinkOrderedToFit 1
     TeachInCounter 0
-  END_KEY 64
-  KEY 65
+  END_KEY 66
+  KEY 67
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 73
+      Position 77
       CommandType 2
       CommandName Update Display
       Enabled 1
@@ -6857,12 +7608,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 65
-  KEY 66
+  END_KEY 67
+  KEY 68
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 75
+      Position 79
       CommandType 1004
       CommandName Profile Based Inspection
       Enabled 1
@@ -6878,12 +7629,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 66
-  KEY 67
+  END_KEY 68
+  KEY 69
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 76
+      Position 80
       CommandType 1040
       CommandName ProfileStep Reset
       Enabled 1
@@ -6939,12 +7690,12 @@ START_PARM_LIST
       PickupListIndex 977965
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 67
-  KEY 68
+  END_KEY 69
+  KEY 70
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 77
+      Position 81
       CommandType 1004
       CommandName LOOP over PROFILES
       Enabled 1
@@ -6960,12 +7711,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 68
-  KEY 69
+  END_KEY 70
+  KEY 71
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 78
+      Position 82
       CommandType 2
       CommandName --- Loop Mark ---
       Enabled 1
@@ -7023,12 +7774,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 69
-  KEY 70
+  END_KEY 71
+  KEY 72
     ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 80
+      Position 84
       CommandType 19980141
       CommandName Profile Capture
       Enabled 1
@@ -7106,12 +7857,12 @@ START_PARM_LIST
     ExtractionMode 1
     CurrentCloudPosition 0,0
     TeachInCounter 0
-  END_KEY 70
-  KEY 71
+  END_KEY 72
+  KEY 73
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 81
+      Position 85
       CommandType 2
       CommandName Jump to End Loop
       Enabled 1
@@ -7169,12 +7920,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 71
-  KEY 72
+  END_KEY 73
+  KEY 74
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 82
+      Position 86
       CommandType 2
       CommandName Clear Graphics
       Enabled 1
@@ -7232,12 +7983,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 72
-  KEY 73
-    ClassVersion 5
+  END_KEY 74
+  KEY 75
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 83
+      Position 87
       CommandType 122
       CommandName profCounter + 1
       Enabled 1
@@ -7305,7 +8056,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -7343,13 +8094,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 73
-  KEY 74
+  END_KEY 75
+  KEY 76
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 85
+      Position 89
       CommandType 1004
       CommandName Find Defect
       Enabled 1
@@ -7365,12 +8123,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 74
-  KEY 75
+  END_KEY 76
+  KEY 77
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 86
+      Position 90
       CommandType 19980142
       CommandName ProbeDown
       Enabled 1
@@ -7450,12 +8208,12 @@ START_PARM_LIST
     UseCurve 1
     ProfileConeAngle 45
     TeachInCounter 0
-  END_KEY 75
-  KEY 76
+  END_KEY 77
+  KEY 78
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 87
+      Position 91
       CommandType 19980142
       CommandName ProbeUp
       Enabled 1
@@ -7535,12 +8293,12 @@ START_PARM_LIST
     UseCurve 1
     ProfileConeAngle 45
     TeachInCounter 0
-  END_KEY 76
-  KEY 77
+  END_KEY 78
+  KEY 79
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 88
+      Position 92
       CommandType 108
       CommandName Distance
       Enabled 1
@@ -7565,7 +8323,7 @@ START_PARM_LIST
         GlobalToleranceIndex -1
         UseWarningTolerances 0
         NominalValue 0,0
-        PlusTolerance 2,0
+        PlusTolerance 0,1
         MinusTolerance 0,0
         WarnPlusTolerance 0,0
         WarnMinusTolerance 0,0
@@ -7641,12 +8399,12 @@ START_PARM_LIST
     DisplayDistance 0
     FontSize 24
     TeachInCounter 0
-  END_KEY 77
-  KEY 78
+  END_KEY 79
+  KEY 80
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 89
+      Position 93
       CommandType 2
       CommandName Jump to Continue if above function return True
       Enabled 1
@@ -7704,12 +8462,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 78
-  KEY 79
+  END_KEY 80
+  KEY 81
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 91
+      Position 95
       CommandType 2
       CommandName Mark Error
       Enabled 1
@@ -7767,12 +8525,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 79
-  KEY 80
-    ClassVersion 5
+  END_KEY 81
+  KEY 82
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 92
+      Position 96
       CommandType 122
       CommandName increment ErrorsBuffer
       Enabled 1
@@ -7840,7 +8598,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -7878,13 +8636,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 80
-  KEY 81
+  END_KEY 82
+  KEY 83
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 93
+      Position 97
       CommandType 1040
       CommandName Jump to loop if errorBuffer < 4
       Enabled 1
@@ -7940,12 +8705,12 @@ START_PARM_LIST
       PickupListIndex 696394
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 81
-  KEY 82
+  END_KEY 83
+  KEY 84
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 95
+      Position 99
       CommandType 1004
       CommandName If Decided to be an Error
       Enabled 1
@@ -7961,12 +8726,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 82
-  KEY 83
-    ClassVersion 7
+  END_KEY 84
+  KEY 85
+    ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 96
+      Position 100
       CommandType 124
       CommandName Fehler Größe
       Enabled 0
@@ -8085,13 +8850,39 @@ START_PARM_LIST
     Severity 4
     ModuleName User
     Text2 mm
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString Fehler Größe:
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString mm
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 83
-  KEY 84
-    ClassVersion 5
+  END_KEY 85
+  KEY 86
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 98
+      Position 102
       CommandType 122
       CommandName set ErrorBuffer to 0
       Enabled 1
@@ -8159,7 +8950,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -8197,13 +8988,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 84
-  KEY 85
-    ClassVersion 5
+  END_KEY 86
+  KEY 87
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 99
+      Position 103
       CommandType 122
       CommandName errorFlag+4
       Enabled 1
@@ -8271,7 +9069,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 4,0
     ArithmeticManualElementY 0,0
@@ -8309,13 +9107,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 85
-  KEY 86
+  END_KEY 87
+  KEY 88
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 101
+      Position 105
       CommandType 1004
       CommandName Log File Creation
       Enabled 1
@@ -8331,15 +9136,15 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 86
-  KEY 87
+  END_KEY 88
+  KEY 89
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 102
+      Position 106
       CommandType 1040
       CommandName LogFile
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
@@ -8379,7 +9184,7 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    Program Dim s As String~s = EVTTimerGetTimeStamp()~~Dim sNew As String~sNew = Left(s, 10)~~Dim sError As String~Dim sValue As String: sValue = sNew + "-logFile"+ ".txt"~If CKI_SetParameterString("File.Filename", sValue,sError) <> 1 Then~  Print (sError)~End If~
+    Program Dim s As String~s = EVTTimerGetTimeStamp()~~Dim sNew As String~sNew = Left(s, 10)~~Dim sError As String~Dim sValue As String: sValue = sNew + "-logFile"+ ".txt"~If CKI_SetParameterString("File.Filename", sValue,sError) <> 1 Then~  Print (sError)~End If~LogEntry(sValue)~
     EncodedBinary 
     ExternProgramFileName 
     UseExternProgram 0
@@ -8392,12 +9197,12 @@ START_PARM_LIST
       PickupListIndex 898238
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 87
-  KEY 88
-    ClassVersion 17
+  END_KEY 89
+  KEY 90
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 103
+      Position 107
       CommandType 246
       CommandName Time
       Enabled 1
@@ -8508,13 +9313,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 1
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 955308
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 88
-  KEY 89
-    ClassVersion 17
+  END_KEY 90
+  KEY 91
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 104
+      Position 108
       CommandType 246
       CommandName tab
       Enabled 1
@@ -8625,13 +9455,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 120563
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 89
-  KEY 90
-    ClassVersion 17
+  END_KEY 91
+  KEY 92
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 105
+      Position 109
       CommandType 246
       CommandName tab
       Enabled 1
@@ -8742,13 +9597,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 973067
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 90
-  KEY 91
-    ClassVersion 17
+  END_KEY 92
+  KEY 93
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 106
+      Position 110
       CommandType 246
       CommandName Station
       Enabled 1
@@ -8859,13 +9739,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 691065
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 91
-  KEY 92
-    ClassVersion 17
+  END_KEY 93
+  KEY 94
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 107
+      Position 111
       CommandType 246
       CommandName tab
       Enabled 1
@@ -8976,13 +9881,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 314884
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 92
-  KEY 93
-    ClassVersion 17
+  END_KEY 94
+  KEY 95
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 108
+      Position 112
       CommandType 246
       CommandName Task
       Enabled 1
@@ -9093,13 +10023,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 789242
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 93
-  KEY 94
-    ClassVersion 17
+  END_KEY 95
+  KEY 96
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 109
+      Position 113
       CommandType 246
       CommandName tab
       Enabled 1
@@ -9210,13 +10165,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 872183
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 94
-  KEY 95
-    ClassVersion 17
+  END_KEY 96
+  KEY 97
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 110
+      Position 114
       CommandType 246
       CommandName tab
       Enabled 1
@@ -9327,13 +10307,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 451891
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 95
-  KEY 96
-    ClassVersion 17
+  END_KEY 97
+  KEY 98
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 111
+      Position 115
       CommandType 246
       CommandName SectionID
       Enabled 1
@@ -9444,13 +10449,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 569217
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 96
-  KEY 97
-    ClassVersion 17
+  END_KEY 98
+  KEY 99
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 112
+      Position 116
       CommandType 246
       CommandName tab
       Enabled 1
@@ -9561,13 +10591,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 159768
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 97
-  KEY 98
-    ClassVersion 17
+  END_KEY 99
+  KEY 100
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 113
+      Position 117
       CommandType 246
       CommandName Ylocation
       Enabled 1
@@ -9678,13 +10733,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 177642
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 98
-  KEY 99
-    ClassVersion 17
+  END_KEY 100
+  KEY 101
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 114
+      Position 118
       CommandType 246
       CommandName tab
       Enabled 1
@@ -9795,13 +10875,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 378029
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 99
-  KEY 100
-    ClassVersion 17
+  END_KEY 101
+  KEY 102
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 115
+      Position 119
       CommandType 246
       CommandName tab
       Enabled 1
@@ -9912,13 +11017,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 247923
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 100
-  KEY 101
-    ClassVersion 17
+  END_KEY 102
+  KEY 103
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 116
+      Position 120
       CommandType 246
       CommandName IST-Delta
       Enabled 1
@@ -10029,13 +11159,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 983675
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 101
-  KEY 102
-    ClassVersion 17
+  END_KEY 103
+  KEY 104
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 117
+      Position 121
       CommandType 246
       CommandName tab
       Enabled 1
@@ -10146,13 +11301,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 33975
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 102
-  KEY 103
-    ClassVersion 17
+  END_KEY 104
+  KEY 105
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 118
+      Position 122
       CommandType 246
       CommandName tab
       Enabled 1
@@ -10263,13 +11443,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 719736
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 103
-  KEY 104
-    ClassVersion 17
+  END_KEY 105
+  KEY 106
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 119
+      Position 123
       CommandType 246
       CommandName tab
       Enabled 0
@@ -10380,13 +11585,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 198655
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 104
-  KEY 105
-    ClassVersion 17
+  END_KEY 106
+  KEY 107
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 120
+      Position 124
       CommandType 246
       CommandName UpperLimit
       Enabled 1
@@ -10497,13 +11727,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 377031
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 105
-  KEY 106
-    ClassVersion 17
+  END_KEY 107
+  KEY 108
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 121
+      Position 125
       CommandType 246
       CommandName tab
       Enabled 1
@@ -10614,13 +11869,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 305084
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 106
-  KEY 107
-    ClassVersion 17
+  END_KEY 108
+  KEY 109
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 122
+      Position 126
       CommandType 246
       CommandName LowerLimit
       Enabled 1
@@ -10731,13 +12011,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 666864
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 107
-  KEY 108
-    ClassVersion 17
+  END_KEY 109
+  KEY 110
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 123
+      Position 127
       CommandType 246
       CommandName tab
       Enabled 1
@@ -10848,13 +12153,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 433342
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 108
-  KEY 109
-    ClassVersion 17
+  END_KEY 110
+  KEY 111
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 124
+      Position 128
       CommandType 246
       CommandName ProductionID
       Enabled 3
@@ -10965,13 +12295,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 892675
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 109
-  KEY 110
-    ClassVersion 17
+  END_KEY 111
+  KEY 112
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 125
+      Position 129
       CommandType 246
       CommandName ProductionID
       Enabled 2
@@ -11082,13 +12437,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 611391
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 110
-  KEY 111
-    ClassVersion 17
+  END_KEY 112
+  KEY 113
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 126
+      Position 130
       CommandType 246
       CommandName NewLine
       Enabled 1
@@ -11199,13 +12579,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 357609
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 111
-  KEY 112
-    ClassVersion 17
+  END_KEY 113
+  KEY 114
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 127
+      Position 131
       CommandType 246
       CommandName File
       Enabled 1
@@ -11258,7 +12663,7 @@ START_PARM_LIST
     SeparationIndex 0
     SendType 1
     TextToDisplay Height:
-    Filename ./2022_03_30-logFile.txt
+    Filename ./2022_05_02-logFile.txt
     AddIntegerOnly 1
     SeperatorAtStartOfString 1
     PortNumber 0
@@ -11316,13 +12721,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 815035
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 112
-  KEY 113
-    ClassVersion 17
+  END_KEY 114
+  KEY 115
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 128
+      Position 132
       CommandType 246
       CommandName Reset
       Enabled 1
@@ -11433,13 +12863,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 684628
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 113
-  KEY 114
+  END_KEY 115
+  KEY 116
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 130
+      Position 134
       CommandType 2
       CommandName Continue Mark
       Enabled 1
@@ -11497,12 +12952,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 114
-  KEY 115
-    ClassVersion 5
+  END_KEY 116
+  KEY 117
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 131
+      Position 135
       CommandType 122
       CommandName set ErrorBuffer to 0
       Enabled 1
@@ -11570,7 +13025,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -11608,13 +13063,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 115
-  KEY 116
+  END_KEY 117
+  KEY 118
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 133
+      Position 137
       CommandType 2
       CommandName --- Jump to Loop ---
       Enabled 1
@@ -11672,12 +13134,12 @@ START_PARM_LIST
       PickupListIndex 957555
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 116
-  KEY 117
+  END_KEY 118
+  KEY 119
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 134
+      Position 138
       CommandType 2
       CommandName --- End Loop ---
       Enabled 1
@@ -11735,12 +13197,12 @@ START_PARM_LIST
       PickupListIndex 957555
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 117
-  KEY 118
+  END_KEY 119
+  KEY 120
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 136
+      Position 140
       CommandType 1004
       CommandName Profile Inspection Done
       Enabled 1
@@ -11756,12 +13218,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 118
-  KEY 119
+  END_KEY 120
+  KEY 121
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 137
+      Position 141
       CommandType 1040
       CommandName ChangeCurrentPercentage
       Enabled 1
@@ -11817,12 +13279,12 @@ START_PARM_LIST
       PickupListIndex 284638
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 119
-  KEY 120
-    ClassVersion 5
+  END_KEY 121
+  KEY 122
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 138
+      Position 142
       CommandType 122
       CommandName errorCounter / Total Profile
       Enabled 1
@@ -11928,13 +13390,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 120
-  KEY 121
-    ClassVersion 5
+  END_KEY 122
+  KEY 123
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 139
+      Position 143
       CommandType 122
       CommandName *100 %
       Enabled 1
@@ -12000,9 +13469,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName sectionCounter
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 0
+    ArithmeticElementType1 2
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 100,0
     ArithmeticManualElementY 0,0
@@ -12040,13 +13509,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 121
-  KEY 122
-    ClassVersion 7
+  END_KEY 123
+  KEY 124
+    ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 140
+      Position 144
       CommandType 124
       CommandName Show Percentages
       Enabled 1
@@ -12165,13 +13641,39 @@ START_PARM_LIST
     Severity 4
     ModuleName User
     Text2 
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString Prozent NOK
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 122
-  KEY 123
+  END_KEY 124
+  KEY 125
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 142
+      Position 146
       CommandType 1040
       CommandName Assign FinalResults
       Enabled 1
@@ -12227,12 +13729,12 @@ START_PARM_LIST
       PickupListIndex 949025
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 123
-  KEY 124
-    ClassVersion 5
+  END_KEY 125
+  KEY 126
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 143
+      Position 147
       CommandType 122
       CommandName errorCounter = 0
       Enabled 1
@@ -12300,7 +13802,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 0
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 100,0
     ArithmeticManualElementY 0,0
@@ -12338,13 +13840,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 124
-  KEY 125
-    ClassVersion 5
+  END_KEY 126
+  KEY 127
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 144
+      Position 148
       CommandType 122
       CommandName errorBuffer = 0
       Enabled 1
@@ -12412,7 +13921,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 0
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 100,0
     ArithmeticManualElementY 0,0
@@ -12450,13 +13959,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 125
-  KEY 126
-    ClassVersion 5
+  END_KEY 127
+  KEY 128
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 145
+      Position 149
       CommandType 122
       CommandName profCounter = 0
       Enabled 1
@@ -12524,7 +14040,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 0
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 100,0
     ArithmeticManualElementY 0,0
@@ -12562,13 +14078,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 126
-  KEY 127
+  END_KEY 128
+  KEY 129
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 147
+      Position 151
       CommandType 2
       CommandName Jump to Step By Step
       Enabled 1
@@ -12626,12 +14149,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 127
-  KEY 128
+  END_KEY 129
+  KEY 130
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 149
+      Position 153
       CommandType 2
       CommandName End
       Enabled 1
@@ -12689,12 +14212,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 128
-  KEY 129
-    ClassVersion 5
+  END_KEY 130
+  KEY 131
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 151
+      Position 155
       CommandType 122
       CommandName errorCounter = 0
       Enabled 1
@@ -12762,7 +14285,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 0
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 100,0
     ArithmeticManualElementY 0,0
@@ -12800,13 +14323,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 129
-  KEY 130
-    ClassVersion 5
+  END_KEY 131
+  KEY 132
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 152
+      Position 156
       CommandType 122
       CommandName errorBuffer = 0
       Enabled 1
@@ -12874,7 +14404,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 0
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 100,0
     ArithmeticManualElementY 0,0
@@ -12912,13 +14442,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 130
-  KEY 131
-    ClassVersion 5
+  END_KEY 132
+  KEY 133
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 153
+      Position 157
       CommandType 122
       CommandName sectionCounter = 0
       Enabled 1
@@ -12986,7 +14523,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 0
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 100,0
     ArithmeticManualElementY 0,0
@@ -13024,13 +14561,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 131
-  KEY 132
-    ClassVersion 5
+  END_KEY 133
+  KEY 134
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 154
+      Position 158
       CommandType 122
       CommandName profCounter = 0
       Enabled 1
@@ -13098,7 +14642,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 0
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 100,0
     ArithmeticManualElementY 0,0
@@ -13136,13 +14680,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 132
-  KEY 133
+  END_KEY 134
+  KEY 135
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 155
+      Position 159
       CommandType 1004
       CommandName --------------------------------2.Step By Step Investigate--------------------------------
       Enabled 1
@@ -13158,12 +14709,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 133
-  KEY 134
+  END_KEY 135
+  KEY 136
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 156
+      Position 160
       CommandType 19980118
       CommandName 3D RectProbe
       Enabled 1
@@ -13262,12 +14813,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 134
-  KEY 135
+  END_KEY 136
+  KEY 137
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 157
+      Position 161
       CommandType 19980118
       CommandName 3D RectProbe
       Enabled 1
@@ -13366,12 +14917,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 135
-  KEY 136
+  END_KEY 137
+  KEY 138
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 158
+      Position 162
       CommandType 19980132
       CommandName 3D Distance
       Enabled 1
@@ -13515,12 +15066,12 @@ START_PARM_LIST
     PKResult 1
     3DRegVector 0
     TeachInCounter 0
-  END_KEY 136
-  KEY 137
-    ClassVersion 5
+  END_KEY 138
+  KEY 139
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 159
+      Position 163
       CommandType 122
       CommandName /8
       Enabled 1
@@ -13586,9 +15137,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName 
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 0
+    ArithmeticElementType1 2
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 8,0
     ArithmeticManualElementY 0,0
@@ -13626,13 +15177,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 137
-  KEY 138
+  END_KEY 139
+  KEY 140
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 160
+      Position 164
       CommandType 1040
       CommandName Assign Size
       Enabled 1
@@ -13688,12 +15246,12 @@ START_PARM_LIST
       PickupListIndex 521362
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 138
-  KEY 139
+  END_KEY 140
+  KEY 141
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 162
+      Position 166
       CommandType 19980118
       CommandName 3D RectProbe
       Enabled 1
@@ -13792,12 +15350,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 139
-  KEY 140
-    ClassVersion 9
+  END_KEY 141
+  KEY 142
+    ClassVersion 11
     CKGENERAL 
       ClassVersion 3
-      Position 163
+      Position 167
       CommandType 19980107
       CommandName Create a Box
       Enabled 1
@@ -13879,7 +15437,7 @@ START_PARM_LIST
         Name 
         Type 1
         Value0 400,0
-        Value1 73,7337481346
+        Value1 73,7337810644
         Value2 19,0
         Value3 100000000000,0
         Value4 100000000000,0
@@ -14036,13 +15594,17 @@ START_PARM_LIST
     EulerAngleConversionAxis2 2
     EulerAngleConversionDirection 0
     FormatType 0
+    CKMULTI_PICKUP_WRITE 
+      ClassVersion 1
+      NumberOfPickups 0
+    END_CKMULTI_PICKUP_WRITE 
     TeachInCounter 0
-  END_KEY 140
-  KEY 141
-    ClassVersion 9
+  END_KEY 142
+  KEY 143
+    ClassVersion 11
     CKGENERAL 
       ClassVersion 3
-      Position 164
+      Position 168
       CommandType 19980107
       CommandName Translate Box
       Enabled 1
@@ -14124,7 +15686,7 @@ START_PARM_LIST
         Name 
         Type 1
         Value0 0,0
-        Value1 73,7337481346
+        Value1 73,7337810644
         Value2 0,0
         Value3 100000000000,0
         Value4 73,0
@@ -14281,13 +15843,17 @@ START_PARM_LIST
     EulerAngleConversionAxis2 2
     EulerAngleConversionDirection 0
     FormatType 0
+    CKMULTI_PICKUP_WRITE 
+      ClassVersion 1
+      NumberOfPickups 0
+    END_CKMULTI_PICKUP_WRITE 
     TeachInCounter 0
-  END_KEY 141
-  KEY 142
-    ClassVersion 5
+  END_KEY 143
+  KEY 144
+    ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 165
+      Position 169
       CommandType 19980108
       CommandName 3D Overlay
       Enabled 1
@@ -14425,13 +15991,15 @@ START_PARM_LIST
     AppendToPrevious 0
     TextAfter 
     GlobalStringInText 0
+    NumberFormatPrecision 1631799662
+    NumberFormatUnit 
     TeachInCounter 0
-  END_KEY 142
-  KEY 143
-    ClassVersion 3
+  END_KEY 144
+  KEY 145
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 166
+      Position 170
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -14532,12 +16100,12 @@ START_PARM_LIST
       PickupListIndex 188708
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 143
-  KEY 144
-    ClassVersion 3
+  END_KEY 145
+  KEY 146
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 167
+      Position 171
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -14638,12 +16206,12 @@ START_PARM_LIST
       PickupListIndex 262660
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 144
-  KEY 145
+  END_KEY 146
+  KEY 147
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 168
+      Position 172
       CommandType 1040
       CommandName Set Real Translation Value
       Enabled 1
@@ -14699,12 +16267,12 @@ START_PARM_LIST
       PickupListIndex 288030
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 145
-  KEY 146
+  END_KEY 147
+  KEY 148
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 170
+      Position 174
       CommandType 2
       CommandName Step By Step
       Enabled 1
@@ -14762,12 +16330,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 146
-  KEY 147
-    ClassVersion 5
+  END_KEY 148
+  KEY 149
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 172
+      Position 176
       CommandType 122
       CommandName sectionCounter+1
       Enabled 1
@@ -14835,7 +16403,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -14873,13 +16441,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 147
-  KEY 148
-    ClassVersion 9
+  END_KEY 149
+  KEY 150
+    ClassVersion 11
     CKGENERAL 
       ClassVersion 3
-      Position 173
+      Position 177
       CommandType 19980107
       CommandName Translate Box
       Enabled 1
@@ -14961,7 +16536,7 @@ START_PARM_LIST
         Name 
         Type 1
         Value0 0,0
-        Value1 73,7337481346
+        Value1 73,7337810644
         Value2 0,0
         Value3 100000000000,0
         Value4 73,0
@@ -15118,13 +16693,17 @@ START_PARM_LIST
     EulerAngleConversionAxis2 2
     EulerAngleConversionDirection 0
     FormatType 0
+    CKMULTI_PICKUP_WRITE 
+      ClassVersion 1
+      NumberOfPickups 0
+    END_CKMULTI_PICKUP_WRITE 
     TeachInCounter 0
-  END_KEY 148
-  KEY 149
-    ClassVersion 5
+  END_KEY 150
+  KEY 151
+    ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 174
+      Position 178
       CommandType 19980108
       CommandName 3D Overlay
       Enabled 1
@@ -15262,13 +16841,15 @@ START_PARM_LIST
     AppendToPrevious 0
     TextAfter 
     GlobalStringInText 0
+    NumberFormatPrecision 1631799662
+    NumberFormatUnit 
     TeachInCounter 0
-  END_KEY 149
-  KEY 150
+  END_KEY 151
+  KEY 152
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 175
+      Position 179
       CommandType 19980118
       CommandName Check If Empty
       Enabled 1
@@ -15367,12 +16948,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 150
-  KEY 151
+  END_KEY 152
+  KEY 153
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 176
+      Position 180
       CommandType 2
       CommandName Jump to End2
       Enabled 1
@@ -15430,12 +17011,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 151
-  KEY 152
+  END_KEY 153
+  KEY 154
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 177
+      Position 181
       CommandType 19980121
       CommandName 3D Cut Filter
       Enabled 1
@@ -15536,12 +17117,12 @@ START_PARM_LIST
       END_CKSOURCEVALUE 
     ShrinkOrderedToFit 1
     TeachInCounter 0
-  END_KEY 152
-  KEY 153
+  END_KEY 154
+  KEY 155
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 178
+      Position 182
       CommandType 2
       CommandName Update Display
       Enabled 1
@@ -15599,12 +17180,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 153
-  KEY 154
+  END_KEY 155
+  KEY 156
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 180
+      Position 184
       CommandType 1004
       CommandName Profile Based Inspection
       Enabled 1
@@ -15620,12 +17201,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 154
-  KEY 155
+  END_KEY 156
+  KEY 157
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 181
+      Position 185
       CommandType 1040
       CommandName ProfileStep Reset
       Enabled 1
@@ -15681,12 +17262,12 @@ START_PARM_LIST
       PickupListIndex 352093
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 155
-  KEY 156
+  END_KEY 157
+  KEY 158
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 182
+      Position 186
       CommandType 1004
       CommandName LOOP over PROFILES
       Enabled 1
@@ -15702,12 +17283,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 156
-  KEY 157
+  END_KEY 158
+  KEY 159
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 183
+      Position 187
       CommandType 2
       CommandName --- Loop Mark ---
       Enabled 1
@@ -15765,12 +17346,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 157
-  KEY 158
+  END_KEY 159
+  KEY 160
     ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 185
+      Position 189
       CommandType 19980141
       CommandName Profile Capture
       Enabled 1
@@ -15848,12 +17429,12 @@ START_PARM_LIST
     ExtractionMode 1
     CurrentCloudPosition 0,0
     TeachInCounter 0
-  END_KEY 158
-  KEY 159
+  END_KEY 160
+  KEY 161
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 186
+      Position 190
       CommandType 2
       CommandName Jump to End Loop2
       Enabled 1
@@ -15911,12 +17492,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 159
-  KEY 160
+  END_KEY 161
+  KEY 162
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 187
+      Position 191
       CommandType 2
       CommandName Clear Graphics
       Enabled 1
@@ -15974,12 +17555,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 160
-  KEY 161
-    ClassVersion 5
+  END_KEY 162
+  KEY 163
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 188
+      Position 192
       CommandType 122
       CommandName profCounter + 1
       Enabled 1
@@ -16047,7 +17628,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -16085,13 +17666,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 161
-  KEY 162
+  END_KEY 163
+  KEY 164
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 190
+      Position 194
       CommandType 1004
       CommandName Find Defect
       Enabled 1
@@ -16107,12 +17695,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 162
-  KEY 163
+  END_KEY 164
+  KEY 165
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 191
+      Position 195
       CommandType 19980142
       CommandName ProbeDown
       Enabled 1
@@ -16192,12 +17780,12 @@ START_PARM_LIST
     UseCurve 1
     ProfileConeAngle 45
     TeachInCounter 0
-  END_KEY 163
-  KEY 164
+  END_KEY 165
+  KEY 166
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 192
+      Position 196
       CommandType 19980142
       CommandName ProbeUp
       Enabled 1
@@ -16277,12 +17865,12 @@ START_PARM_LIST
     UseCurve 1
     ProfileConeAngle 45
     TeachInCounter 0
-  END_KEY 164
-  KEY 165
+  END_KEY 166
+  KEY 167
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 193
+      Position 197
       CommandType 108
       CommandName Distance
       Enabled 1
@@ -16307,7 +17895,7 @@ START_PARM_LIST
         GlobalToleranceIndex -1
         UseWarningTolerances 0
         NominalValue 0,0
-        PlusTolerance 2,0
+        PlusTolerance 0,1
         MinusTolerance 0,0
         WarnPlusTolerance 0,0
         WarnMinusTolerance 0,0
@@ -16383,12 +17971,12 @@ START_PARM_LIST
     DisplayDistance 0
     FontSize 24
     TeachInCounter 0
-  END_KEY 165
-  KEY 166
+  END_KEY 167
+  KEY 168
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 194
+      Position 198
       CommandType 2
       CommandName Jump to Continue2 if above function return True
       Enabled 1
@@ -16446,12 +18034,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 166
-  KEY 167
+  END_KEY 168
+  KEY 169
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 196
+      Position 200
       CommandType 2
       CommandName Mark Error
       Enabled 1
@@ -16509,12 +18097,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 167
-  KEY 168
-    ClassVersion 5
+  END_KEY 169
+  KEY 170
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 197
+      Position 201
       CommandType 122
       CommandName increment ErrorsBuffer
       Enabled 1
@@ -16582,7 +18170,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -16620,13 +18208,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 168
-  KEY 169
+  END_KEY 170
+  KEY 171
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 198
+      Position 202
       CommandType 1040
       CommandName Jump to loop2 if errorBuffer < 4
       Enabled 1
@@ -16682,12 +18277,12 @@ START_PARM_LIST
       PickupListIndex 119881
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 169
-  KEY 170
+  END_KEY 171
+  KEY 172
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 200
+      Position 204
       CommandType 1004
       CommandName If Decided to be an Error
       Enabled 1
@@ -16703,12 +18298,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 170
-  KEY 171
-    ClassVersion 7
+  END_KEY 172
+  KEY 173
+    ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 201
+      Position 205
       CommandType 124
       CommandName Fehler Größe
       Enabled 0
@@ -16827,13 +18422,39 @@ START_PARM_LIST
     Severity 4
     ModuleName User
     Text2 mm
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString Fehler Größe:
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString mm
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 171
-  KEY 172
-    ClassVersion 5
+  END_KEY 173
+  KEY 174
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 204
+      Position 208
       CommandType 122
       CommandName set ErrorBuffer to 0
       Enabled 1
@@ -16901,7 +18522,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -16939,13 +18560,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 172
-  KEY 173
-    ClassVersion 5
+  END_KEY 174
+  KEY 175
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 205
+      Position 209
       CommandType 122
       CommandName errorFlag+4
       Enabled 1
@@ -17013,7 +18641,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 4,0
     ArithmeticManualElementY 0,0
@@ -17051,13 +18679,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 173
-  KEY 174
+  END_KEY 175
+  KEY 176
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 207
+      Position 211
       CommandType 1004
       CommandName Log File Creation
       Enabled 1
@@ -17073,12 +18708,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 174
-  KEY 175
-    ClassVersion 17
+  END_KEY 176
+  KEY 177
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 208
+      Position 212
       CommandType 246
       CommandName Time
       Enabled 1
@@ -17189,13 +18824,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 1
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 859735
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 175
-  KEY 176
-    ClassVersion 17
+  END_KEY 177
+  KEY 178
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 209
+      Position 213
       CommandType 246
       CommandName tab
       Enabled 1
@@ -17306,13 +18966,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 461391
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 176
-  KEY 177
-    ClassVersion 17
+  END_KEY 178
+  KEY 179
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 210
+      Position 214
       CommandType 246
       CommandName tab
       Enabled 1
@@ -17423,13 +19108,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 970531
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 177
-  KEY 178
-    ClassVersion 17
+  END_KEY 179
+  KEY 180
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 211
+      Position 215
       CommandType 246
       CommandName Station
       Enabled 1
@@ -17540,13 +19250,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 422225
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 178
-  KEY 179
-    ClassVersion 17
+  END_KEY 180
+  KEY 181
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 212
+      Position 216
       CommandType 246
       CommandName tab
       Enabled 1
@@ -17657,13 +19392,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 133576
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 179
-  KEY 180
-    ClassVersion 17
+  END_KEY 181
+  KEY 182
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 213
+      Position 217
       CommandType 246
       CommandName Task
       Enabled 1
@@ -17774,13 +19534,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 504161
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 180
-  KEY 181
-    ClassVersion 17
+  END_KEY 182
+  KEY 183
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 214
+      Position 218
       CommandType 246
       CommandName tab
       Enabled 1
@@ -17891,13 +19676,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 837305
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 181
-  KEY 182
-    ClassVersion 17
+  END_KEY 183
+  KEY 184
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 215
+      Position 219
       CommandType 246
       CommandName tab
       Enabled 1
@@ -18008,13 +19818,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 737599
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 182
-  KEY 183
-    ClassVersion 17
+  END_KEY 184
+  KEY 185
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 216
+      Position 220
       CommandType 246
       CommandName SectionID
       Enabled 1
@@ -18125,13 +19960,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 839337
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 183
-  KEY 184
-    ClassVersion 17
+  END_KEY 185
+  KEY 186
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 217
+      Position 221
       CommandType 246
       CommandName tab
       Enabled 1
@@ -18242,13 +20102,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 739083
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 184
-  KEY 185
-    ClassVersion 17
+  END_KEY 186
+  KEY 187
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 218
+      Position 222
       CommandType 246
       CommandName Ylocation
       Enabled 1
@@ -18359,13 +20244,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 715169
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 185
-  KEY 186
-    ClassVersion 17
+  END_KEY 187
+  KEY 188
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 219
+      Position 223
       CommandType 246
       CommandName tab
       Enabled 1
@@ -18476,13 +20386,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 571879
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 186
-  KEY 187
-    ClassVersion 17
+  END_KEY 188
+  KEY 189
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 220
+      Position 224
       CommandType 246
       CommandName tab
       Enabled 1
@@ -18593,13 +20528,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 822586
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 187
-  KEY 188
-    ClassVersion 17
+  END_KEY 189
+  KEY 190
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 221
+      Position 225
       CommandType 246
       CommandName IST-Delta
       Enabled 1
@@ -18710,13 +20670,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 238749
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 188
-  KEY 189
-    ClassVersion 17
+  END_KEY 190
+  KEY 191
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 222
+      Position 226
       CommandType 246
       CommandName tab
       Enabled 1
@@ -18827,13 +20812,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 226514
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 189
-  KEY 190
-    ClassVersion 17
+  END_KEY 191
+  KEY 192
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 223
+      Position 227
       CommandType 246
       CommandName tab
       Enabled 1
@@ -18944,13 +20954,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 737619
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 190
-  KEY 191
-    ClassVersion 17
+  END_KEY 192
+  KEY 193
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 224
+      Position 228
       CommandType 246
       CommandName tab
       Enabled 0
@@ -19061,13 +21096,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 467499
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 191
-  KEY 192
-    ClassVersion 17
+  END_KEY 193
+  KEY 194
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 225
+      Position 229
       CommandType 246
       CommandName UpperLimit
       Enabled 1
@@ -19178,13 +21238,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 463127
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 192
-  KEY 193
-    ClassVersion 17
+  END_KEY 194
+  KEY 195
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 226
+      Position 230
       CommandType 246
       CommandName tab
       Enabled 1
@@ -19295,13 +21380,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 342831
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 193
-  KEY 194
-    ClassVersion 17
+  END_KEY 195
+  KEY 196
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 227
+      Position 231
       CommandType 246
       CommandName LowerLimit
       Enabled 1
@@ -19412,13 +21522,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 798975
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 194
-  KEY 195
-    ClassVersion 17
+  END_KEY 196
+  KEY 197
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 228
+      Position 232
       CommandType 246
       CommandName tab
       Enabled 1
@@ -19529,13 +21664,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 822717
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 195
-  KEY 196
-    ClassVersion 17
+  END_KEY 197
+  KEY 198
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 229
+      Position 233
       CommandType 246
       CommandName ProductionID
       Enabled 3
@@ -19646,13 +21806,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 298354
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 196
-  KEY 197
-    ClassVersion 17
+  END_KEY 198
+  KEY 199
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 230
+      Position 234
       CommandType 246
       CommandName ProductionID
       Enabled 2
@@ -19763,13 +21948,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 211981
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 197
-  KEY 198
-    ClassVersion 17
+  END_KEY 199
+  KEY 200
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 231
+      Position 235
       CommandType 246
       CommandName NewLine
       Enabled 1
@@ -19880,13 +22090,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 465299
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 198
-  KEY 199
-    ClassVersion 17
+  END_KEY 200
+  KEY 201
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 232
+      Position 236
       CommandType 246
       CommandName File
       Enabled 1
@@ -19939,7 +22174,7 @@ START_PARM_LIST
     SeparationIndex 0
     SendType 1
     TextToDisplay Height:
-    Filename ./2022_03_30-logFile.txt
+    Filename ./2022_05_02-logFile.txt
     AddIntegerOnly 1
     SeperatorAtStartOfString 1
     PortNumber 0
@@ -19997,13 +22232,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 374020
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 199
-  KEY 200
-    ClassVersion 17
+  END_KEY 201
+  KEY 202
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 233
+      Position 237
       CommandType 246
       CommandName Reset
       Enabled 1
@@ -20114,13 +22374,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 351652
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 200
-  KEY 201
+  END_KEY 202
+  KEY 203
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 235
+      Position 239
       CommandType 2
       CommandName Continue Mark
       Enabled 1
@@ -20178,12 +22463,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 201
-  KEY 202
-    ClassVersion 5
+  END_KEY 203
+  KEY 204
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 236
+      Position 240
       CommandType 122
       CommandName set ErrorBuffer to 0
       Enabled 1
@@ -20251,7 +22536,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -20289,13 +22574,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 202
-  KEY 203
+  END_KEY 204
+  KEY 205
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 238
+      Position 242
       CommandType 2
       CommandName --- Jump to Loop ---
       Enabled 1
@@ -20353,12 +22645,12 @@ START_PARM_LIST
       PickupListIndex 957555
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 203
-  KEY 204
+  END_KEY 205
+  KEY 206
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 239
+      Position 243
       CommandType 2
       CommandName --- End Loop ---
       Enabled 1
@@ -20416,12 +22708,12 @@ START_PARM_LIST
       PickupListIndex 957555
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 204
-  KEY 205
+  END_KEY 206
+  KEY 207
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 241
+      Position 245
       CommandType 1004
       CommandName Profile Inspection Done
       Enabled 1
@@ -20437,12 +22729,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 205
-  KEY 206
+  END_KEY 207
+  KEY 208
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 242
+      Position 246
       CommandType 1040
       CommandName ChangeCurrentPercentage
       Enabled 1
@@ -20498,12 +22790,12 @@ START_PARM_LIST
       PickupListIndex 878594
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 206
-  KEY 207
-    ClassVersion 5
+  END_KEY 208
+  KEY 209
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 243
+      Position 247
       CommandType 122
       CommandName errorCounter / Total Profile
       Enabled 1
@@ -20609,13 +22901,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 207
-  KEY 208
-    ClassVersion 5
+  END_KEY 209
+  KEY 210
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 244
+      Position 248
       CommandType 122
       CommandName *100 %
       Enabled 1
@@ -20681,9 +22980,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName sectionCounter
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 0
+    ArithmeticElementType1 2
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 100,0
     ArithmeticManualElementY 0,0
@@ -20721,13 +23020,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 208
-  KEY 209
-    ClassVersion 7
+  END_KEY 210
+  KEY 211
+    ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 245
+      Position 249
       CommandType 124
       CommandName Show Percentages
       Enabled 1
@@ -20846,13 +23152,39 @@ START_PARM_LIST
     Severity 4
     ModuleName User
     Text2 
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString Prozent NOK
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 209
-  KEY 210
+  END_KEY 211
+  KEY 212
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 247
+      Position 251
       CommandType 1040
       CommandName Assign FinalResults
       Enabled 1
@@ -20908,12 +23240,12 @@ START_PARM_LIST
       PickupListIndex 536192
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 210
-  KEY 211
-    ClassVersion 5
+  END_KEY 212
+  KEY 213
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 248
+      Position 252
       CommandType 122
       CommandName errorCounter = 0
       Enabled 1
@@ -20981,7 +23313,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 0
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 100,0
     ArithmeticManualElementY 0,0
@@ -21019,13 +23351,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 211
-  KEY 212
-    ClassVersion 5
+  END_KEY 213
+  KEY 214
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 249
+      Position 253
       CommandType 122
       CommandName errorBuffer = 0
       Enabled 1
@@ -21093,7 +23432,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 0
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 100,0
     ArithmeticManualElementY 0,0
@@ -21131,13 +23470,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 212
-  KEY 213
-    ClassVersion 5
+  END_KEY 214
+  KEY 215
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 250
+      Position 254
       CommandType 122
       CommandName profCounter = 0
       Enabled 1
@@ -21205,7 +23551,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 0
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 100,0
     ArithmeticManualElementY 0,0
@@ -21243,13 +23589,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 213
-  KEY 214
+  END_KEY 215
+  KEY 216
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 252
+      Position 256
       CommandType 2
       CommandName Jump to Step By Step2
       Enabled 1
@@ -21307,12 +23660,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 214
-  KEY 215
+  END_KEY 216
+  KEY 217
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 254
+      Position 258
       CommandType 2
       CommandName End2
       Enabled 1
@@ -21370,12 +23723,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 215
-  KEY 216
+  END_KEY 217
+  KEY 218
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 255
+      Position 259
       CommandType 1004
       CommandName --------------------------------
       Enabled 1
@@ -21391,12 +23744,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 216
-  KEY 217
+  END_KEY 218
+  KEY 219
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 256
+      Position 260
       CommandType 1004
       CommandName Final Results
       Enabled 1
@@ -21412,12 +23765,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 217
-  KEY 218
-    ClassVersion 7
+  END_KEY 219
+  KEY 220
+    ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 257
+      Position 261
       CommandType 124
       CommandName Text
       Enabled 1
@@ -21536,13 +23889,39 @@ START_PARM_LIST
     Severity 4
     ModuleName User
     Text2 
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString Ende der Inspektion
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 218
-  KEY 219
+  END_KEY 220
+  KEY 221
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 258
+      Position 262
       CommandType 2
       CommandName Update Display 0
       Enabled 1
@@ -21600,12 +23979,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 219
-  KEY 220
+  END_KEY 221
+  KEY 222
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 259
+      Position 263
       CommandType 1004
       CommandName COMMUNICATION 2: REPLY
       Enabled 1
@@ -21621,12 +24000,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 220
-  KEY 221
-    ClassVersion 17
+  END_KEY 222
+  KEY 223
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 260
+      Position 264
       CommandType 246
       CommandName reset
       Enabled 2
@@ -21737,13 +24116,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 538517
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 221
-  KEY 222
-    ClassVersion 4
+  END_KEY 223
+  KEY 224
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 261
+      Position 265
       CommandType 19980602
       CommandName reset
       Enabled 2
@@ -21833,13 +24237,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString Data
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 222
-  KEY 223
-    ClassVersion 4
+  END_KEY 224
+  KEY 225
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 262
+      Position 266
       CommandType 19980602
       CommandName open surface
       Enabled 2
@@ -21929,13 +24346,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString Data
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 223
-  KEY 224
-    ClassVersion 5
+  END_KEY 225
+  KEY 226
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 263
+      Position 267
       CommandType 122
       CommandName ErrorFlag/numProfiles
       Enabled 2
@@ -22003,7 +24433,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 0
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1000,0
     ArithmeticManualElementY 0,0
@@ -22041,13 +24471,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 224
-  KEY 225
-    ClassVersion 4
+  END_KEY 226
+  KEY 227
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 264
+      Position 268
       CommandType 19980602
       CommandName 11
       Enabled 2
@@ -22103,7 +24540,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 14,0350877193
+      ManualValue 0,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22137,13 +24574,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 225
-  KEY 226
-    ClassVersion 4
+  END_KEY 227
+  KEY 228
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 265
+      Position 269
       CommandType 19980602
       CommandName 21
       Enabled 2
@@ -22199,7 +24649,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 7,0175438596
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22233,13 +24683,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 226
-  KEY 227
-    ClassVersion 4
+  END_KEY 228
+  KEY 229
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 266
+      Position 270
       CommandType 19980602
       CommandName 12
       Enabled 2
@@ -22295,7 +24758,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 10,5263157895
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22329,13 +24792,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 227
-  KEY 228
-    ClassVersion 4
+  END_KEY 229
+  KEY 230
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 267
+      Position 271
       CommandType 19980602
       CommandName 22
       Enabled 2
@@ -22391,7 +24867,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 18,9141856392
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22425,13 +24901,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 228
-  KEY 229
-    ClassVersion 4
+  END_KEY 230
+  KEY 231
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 268
+      Position 272
       CommandType 19980602
       CommandName 13
       Enabled 2
@@ -22487,7 +24976,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 17,5438596491
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22521,13 +25010,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 229
-  KEY 230
-    ClassVersion 4
+  END_KEY 231
+  KEY 232
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 269
+      Position 273
       CommandType 19980602
       CommandName 23
       Enabled 2
@@ -22583,7 +25085,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 14,0350877193
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22617,13 +25119,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 230
-  KEY 231
-    ClassVersion 4
+  END_KEY 232
+  KEY 233
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 270
+      Position 274
       CommandType 19980602
       CommandName 14
       Enabled 2
@@ -22679,7 +25194,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 4,2105263158
+      ManualValue 0,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22713,13 +25228,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 231
-  KEY 232
-    ClassVersion 4
+  END_KEY 233
+  KEY 234
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 271
+      Position 275
       CommandType 19980602
       CommandName 24
       Enabled 2
@@ -22775,7 +25303,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 2,8070175439
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22809,13 +25337,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 232
-  KEY 233
-    ClassVersion 4
+  END_KEY 234
+  KEY 235
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 272
+      Position 276
       CommandType 19980602
       CommandName 15
       Enabled 2
@@ -22871,7 +25412,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 0,701754386
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22905,13 +25446,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 233
-  KEY 234
-    ClassVersion 4
+  END_KEY 235
+  KEY 236
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 273
+      Position 277
       CommandType 19980602
       CommandName 25
       Enabled 2
@@ -22967,7 +25521,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 1,4035087719
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23001,13 +25555,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 234
-  KEY 235
-    ClassVersion 4
+  END_KEY 236
+  KEY 237
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 274
+      Position 278
       CommandType 19980602
       CommandName 16
       Enabled 2
@@ -23063,7 +25630,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 14,711033275
+      ManualValue 7,7192982456
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23097,13 +25664,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 235
-  KEY 236
-    ClassVersion 4
+  END_KEY 237
+  KEY 238
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 275
+      Position 279
       CommandType 19980602
       CommandName 26
       Enabled 2
@@ -23159,7 +25739,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 10,5263157895
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23193,13 +25773,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 236
-  KEY 237
-    ClassVersion 4
+  END_KEY 238
+  KEY 239
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 276
+      Position 280
       CommandType 19980602
       CommandName 17
       Enabled 2
@@ -23255,7 +25848,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 17,5438596491
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23289,13 +25882,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 237
-  KEY 238
-    ClassVersion 4
+  END_KEY 239
+  KEY 240
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 277
+      Position 281
       CommandType 19980602
       CommandName 27
       Enabled 2
@@ -23351,7 +25957,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 8,4210526316
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23385,13 +25991,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 238
-  KEY 239
-    ClassVersion 4
+  END_KEY 240
+  KEY 241
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 278
+      Position 282
       CommandType 19980602
       CommandName 18
       Enabled 2
@@ -23447,7 +26066,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 3,5087719298
+      ManualValue 2,8070175439
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23481,13 +26100,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 239
-  KEY 240
-    ClassVersion 4
+  END_KEY 241
+  KEY 242
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 279
+      Position 283
       CommandType 19980602
       CommandName 28
       Enabled 2
@@ -23543,7 +26175,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 2,1015761821
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23577,13 +26209,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString na
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 240
-  KEY 241
-    ClassVersion 4
+  END_KEY 242
+  KEY 243
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 280
+      Position 284
       CommandType 19980602
       CommandName close
       Enabled 2
@@ -23673,13 +26318,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString Data
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 241
-  KEY 242
-    ClassVersion 17
+  END_KEY 243
+  KEY 244
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 281
+      Position 285
       CommandType 246
       CommandName Send Data
       Enabled 2
@@ -23790,13 +26448,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 433892
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 242
-  KEY 243
-    ClassVersion 17
+  END_KEY 244
+  KEY 245
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 282
+      Position 286
       CommandType 246
       CommandName reset
       Enabled 2
@@ -23907,13 +26590,38 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 533040
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 243
-  KEY 244
-    ClassVersion 4
+  END_KEY 245
+  KEY 246
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 283
+      Position 287
       CommandType 19980602
       CommandName reset
       Enabled 2
@@ -24003,13 +26711,26 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString Data
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 244
-  KEY 245
+  END_KEY 246
+  KEY 247
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 284
+      Position 288
       CommandType 2
       CommandName End Program
       Enabled 1
@@ -24067,7 +26788,7 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 245
+  END_KEY 247
 END_PARM_LIST 
 CKPARAMETERS 
   ClassVersion 1

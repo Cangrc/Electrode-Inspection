@@ -1,9 +1,9 @@
 EVT 
-EYEVISION_VERSION 4.01.003
-FILE_VERSION 827
+EYEVISION_VERSION 4.00.013
+FILE_VERSION 713
 CREATED 22.04.2021 09:40:22
 CREATED_BY Admin
-LAST_MODIFIED 22.04.2022 13:37:33
+LAST_MODIFIED 30.03.2022 17:39:35
 LAST_MODIFIED_BY Admin
 START_PARM_LIST 
   KEY 1
@@ -89,7 +89,7 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 2
   KEY 3
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 2
@@ -101,7 +101,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -203,35 +203,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 1
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 477178
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 3
   KEY 4
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 3
@@ -243,7 +218,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -345,35 +320,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 299686
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 4
   KEY 5
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 4
@@ -385,7 +335,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -487,35 +437,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 716523
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 5
   KEY 6
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 5
@@ -527,7 +452,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -629,35 +554,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 429623
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 6
   KEY 7
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 6
@@ -669,7 +569,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -771,35 +671,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 940031
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 7
   KEY 8
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 7
@@ -811,7 +686,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -913,35 +788,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 370324
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 8
   KEY 9
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 8
@@ -953,7 +803,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -1055,35 +905,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 404227
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 9
   KEY 10
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 9
@@ -1095,7 +920,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -1197,35 +1022,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 175641
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 10
   KEY 11
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 10
@@ -1237,7 +1037,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -1339,35 +1139,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 786147
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 11
   KEY 12
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 11
@@ -1379,7 +1154,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -1481,35 +1256,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 744418
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 12
   KEY 13
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 12
@@ -1521,7 +1271,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -1623,35 +1373,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 659449
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 13
   KEY 14
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 13
@@ -1663,7 +1388,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -1765,35 +1490,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 84486
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 14
   KEY 15
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 14
@@ -1805,7 +1505,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -1907,35 +1607,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 840378
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 15
   KEY 16
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 15
@@ -1947,7 +1622,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -2049,35 +1724,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 415179
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 16
   KEY 17
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 16
@@ -2089,7 +1739,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -2191,35 +1841,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 482900
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 17
   KEY 18
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 17
@@ -2231,7 +1856,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -2333,35 +1958,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 540252
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 18
   KEY 19
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 18
@@ -2373,7 +1973,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -2417,7 +2017,7 @@ START_PARM_LIST
     SeparationIndex 0
     SendType 1
     TextToDisplay Height:
-    Filename ./2022_04_22-logFile.txt
+    Filename ./2022_03_30-logFile.txt
     AddIntegerOnly 1
     SeperatorAtStartOfString 1
     PortNumber 0
@@ -2475,35 +2075,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 940576
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 19
   KEY 20
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 19
@@ -2515,7 +2090,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -2617,31 +2192,6 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 493381
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 20
   KEY 21
@@ -2666,7 +2216,7 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 21
   KEY 22
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 22
@@ -2678,7 +2228,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -2780,35 +2330,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 285548
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 22
   KEY 23
-    ClassVersion 7
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
       Position 23
@@ -2820,7 +2345,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -2917,17 +2442,10 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
-    ConstantString 
-    InitializationString 
-    ArithmeticManualString 
-    ArithmeticManualFirstString 
-    StringArithmeticElementType1 1
-    StringArithmeticElementType2 1
-    MakeConstant 0
     TeachInCounter 0
   END_KEY 23
   KEY 24
-    ClassVersion 7
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
       Position 24
@@ -2939,7 +2457,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -3036,13 +2554,6 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
-    ConstantString 
-    InitializationString 
-    ArithmeticManualString 
-    ArithmeticManualFirstString 
-    StringArithmeticElementType1 1
-    StringArithmeticElementType2 1
-    MakeConstant 0
     TeachInCounter 0
   END_KEY 24
   KEY 25
@@ -3107,7 +2618,7 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 25
   KEY 26
-    ClassVersion 7
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
       Position 26
@@ -3119,7 +2630,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 1
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -3216,17 +2727,10 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
-    ConstantString 
-    InitializationString 
-    ArithmeticManualString 
-    ArithmeticManualFirstString 
-    StringArithmeticElementType1 1
-    StringArithmeticElementType2 1
-    MakeConstant 0
     TeachInCounter 0
   END_KEY 26
   KEY 27
-    ClassVersion 7
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
       Position 27
@@ -3238,7 +2742,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 1
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -3335,13 +2839,6 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
-    ConstantString 
-    InitializationString 
-    ArithmeticManualString 
-    ArithmeticManualFirstString 
-    StringArithmeticElementType1 1
-    StringArithmeticElementType2 1
-    MakeConstant 0
     TeachInCounter 0
   END_KEY 27
   KEY 28
@@ -3408,7 +2905,7 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 28
   KEY 29
-    ClassVersion 18
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
       Position 29
@@ -3420,7 +2917,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -3522,35 +3019,10 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 129479
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 29
   KEY 30
-    ClassVersion 8
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 30
@@ -3562,7 +3034,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -3672,32 +3144,6 @@ START_PARM_LIST
     Severity 4
     ModuleName User
     Text2 
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
   END_KEY 30
   KEY 31
@@ -3707,9 +3153,9 @@ START_PARM_LIST
       Position 32
       CommandType 1
       CommandName Capture image
-      Enabled 1
+      Enabled 3
       Hidden 0
-      GraficMode 3
+      GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
@@ -3760,7 +3206,7 @@ START_PARM_LIST
     TriggerTimeout 0
     TriggerInputLine 0
     MinimumSignalDuration 0
-    FileName ./IM0-recent.e3c
+    FileName ./IM0 2022_03_08_10_26_42_187 FinalEnc 3 StartEnc -23226.e3c
     AVIframes 1
     AVImode 0
     HWTriggeredCapture 1
@@ -3805,7 +3251,7 @@ START_PARM_LIST
       Position 33
       CommandType 1
       CommandName Capture image
-      Enabled 1
+      Enabled 3
       Hidden 0
       GraficMode 2
       TextMode 2
@@ -3858,7 +3304,7 @@ START_PARM_LIST
     TriggerTimeout 0
     TriggerInputLine 0
     MinimumSignalDuration 0
-    FileName ./IM1-recent.e3c
+    FileName ./IM1 2022_03_08_10_26_42_822 FinalEnc 3 StartEnc -23226.e3c
     AVIframes 1
     AVImode 0
     HWTriggeredCapture 1
@@ -4093,112 +3539,10 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 34
   KEY 35
-    ClassVersion 1
-    CKGENERAL 
-      ClassVersion 3
-      Position 36
-      CommandType 19980127
-      CommandName 3D Hole Filling Filter
-      Enabled 1
-      Hidden 0
-      GraficMode 2
-      TextMode 2
-      ImageMemory 0
-      InvertResult 0
-      Memo 
-      IgnoreResult 0
-      OverlayImageMemory 1
-      DisplayOverlayInDifferentIM 0
-    END_CKGENERAL 
-    CKRESULT 
-      ClassVersion 1
-      Name 
-      EnterResultToRTDisplay 0
-      RTDisplayIndex 0
-      RTWidthOfToleranceRegion 80
-      CKEVALUATION 
-        ClassVersion 3
-        GlobalToleranceIndex -1
-        UseWarningTolerances 0
-        NominalValue 0,0
-        PlusTolerance 10000,0
-        MinusTolerance 0,0
-        WarnPlusTolerance 0,0
-        WarnMinusTolerance 0,0
-        DynamicEvaluation 0
-        FileName ./
-        Section 
-        CorrectionActive 0
-        CorrectionType 0
-        EnableAutoTeachIn 1
-        NumberOfUsedCorrections 0
-      END_CKEVALUATION 
-      CKSTATISTIC 
-        ClassVersion 1
-        EnterToStatistic 0
-        Index -1
-      END_CKSTATISTIC 
-    END_CKRESULT 
-    TargetIM 0
-    SearchRadius 3
-    TeachInCounter 0
-  END_KEY 35
-  KEY 36
-    ClassVersion 1
-    CKGENERAL 
-      ClassVersion 3
-      Position 37
-      CommandType 19980127
-      CommandName 3D Hole Filling Filter
-      Enabled 1
-      Hidden 0
-      GraficMode 2
-      TextMode 2
-      ImageMemory 1
-      InvertResult 0
-      Memo 
-      IgnoreResult 0
-      OverlayImageMemory 1
-      DisplayOverlayInDifferentIM 0
-    END_CKGENERAL 
-    CKRESULT 
-      ClassVersion 1
-      Name 
-      EnterResultToRTDisplay 0
-      RTDisplayIndex 0
-      RTWidthOfToleranceRegion 80
-      CKEVALUATION 
-        ClassVersion 3
-        GlobalToleranceIndex -1
-        UseWarningTolerances 0
-        NominalValue 0,0
-        PlusTolerance 10000,0
-        MinusTolerance 0,0
-        WarnPlusTolerance 0,0
-        WarnMinusTolerance 0,0
-        DynamicEvaluation 0
-        FileName ./
-        Section 
-        CorrectionActive 0
-        CorrectionType 0
-        EnableAutoTeachIn 1
-        NumberOfUsedCorrections 0
-      END_CKEVALUATION 
-      CKSTATISTIC 
-        ClassVersion 1
-        EnterToStatistic 0
-        Index -1
-      END_CKSTATISTIC 
-    END_CKRESULT 
-    TargetIM 1
-    SearchRadius 3
-    TeachInCounter 0
-  END_KEY 36
-  KEY 37
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 39
+      Position 37
       CommandType 1000
       CommandName Crop Same Size
       Enabled 0
@@ -4252,12 +3596,12 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_READ 
     CloseProgramOnTermination 0
     TeachInCounter 0
-  END_KEY 37
-  KEY 38
+  END_KEY 35
+  KEY 36
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 41
+      Position 39
       CommandType 1004
       CommandName ---Two Layer Solution---
       Enabled 1
@@ -4273,12 +3617,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 38
-  KEY 39
+  END_KEY 36
+  KEY 37
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 42
+      Position 40
       CommandType 19980122
       CommandName Scale Down
       Enabled 1
@@ -4340,7 +3684,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,02
+      ManualValue 0,0005
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -4370,12 +3714,12 @@ START_PARM_LIST
     MirrorY 0
     MirrorZ 1
     TeachInCounter 0
-  END_KEY 39
-  KEY 40
+  END_KEY 37
+  KEY 38
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 43
+      Position 41
       CommandType 19980122
       CommandName Scale Down
       Enabled 1
@@ -4437,7 +3781,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,02
+      ManualValue 0,0005
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -4467,12 +3811,373 @@ START_PARM_LIST
     MirrorY 0
     MirrorZ 1
     TeachInCounter 0
-  END_KEY 40
-  KEY 41
+  END_KEY 38
+  KEY 39
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
+      Position 43
+      CommandType 1004
+      CommandName UpperOfOneLowerOfAnother
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    OldCMDType 0
+    TeachInCounter 0
+  END_KEY 39
+  KEY 40
+    ClassVersion 3
+    CKGENERAL 
+      ClassVersion 3
+      Position 44
+      CommandType 19980122
+      CommandName MirrorZ
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    Transformation 4
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    TargetIM 0
+    InvertParams 0
+    ShearAxis 1
+    ShearUnit 1
+    UseOutputIM 0
+    MirrorX 0
+    MirrorY 0
+    MirrorZ 1
+    TeachInCounter 0
+  END_KEY 40
+  KEY 41
+    ClassVersion 6
+    CKGENERAL 
+      ClassVersion 3
       Position 45
+      CommandType 19980126
+      CommandName 3D Filter Resampling
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    OutputIM 0
+    Resolution 0,01
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 676836
+    END_CKPICKUP_TYPE_WRITE 
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 0
+      PickupListIndex 203233
+    END_CKPICKUP_TYPE_WRITE 
+    OrderedPointcloud 1
+    Method 3
+    DownsamplingY 3
+    UseSettingYforX 1
+    DownsamplingX 3
+    SubMethod 2
+    NoiseCutoff 0,1
+    FillSingleGaps 0
+    CloudWidth 0
+    CloudHeight 0
+    TeachInCounter 0
+  END_KEY 41
+  KEY 42
+    ClassVersion 6
+    CKGENERAL 
+      ClassVersion 3
+      Position 46
+      CommandType 19980126
+      CommandName 3D Filter Resampling
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 1
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    OutputIM 1
+    Resolution 0,01
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 716274
+    END_CKPICKUP_TYPE_WRITE 
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 0
+      PickupListIndex 530726
+    END_CKPICKUP_TYPE_WRITE 
+    OrderedPointcloud 1
+    Method 3
+    DownsamplingY 3
+    UseSettingYforX 1
+    DownsamplingX 3
+    SubMethod 2
+    NoiseCutoff 0,1
+    FillSingleGaps 0
+    CloudWidth 0
+    CloudHeight 0
+    TeachInCounter 0
+  END_KEY 42
+  KEY 43
+    ClassVersion 3
+    CKGENERAL 
+      ClassVersion 3
+      Position 47
+      CommandType 19980122
+      CommandName MirrorZ
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    Transformation 4
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    TargetIM 0
+    InvertParams 0
+    ShearAxis 1
+    ShearUnit 1
+    UseOutputIM 0
+    MirrorX 0
+    MirrorY 0
+    MirrorZ 1
+    TeachInCounter 0
+  END_KEY 43
+  KEY 44
+    ClassVersion 1
+    CKGENERAL 
+      ClassVersion 3
+      Position 49
       CommandType 1004
       CommandName Detrend
       Enabled 1
@@ -4488,12 +4193,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 41
-  KEY 42
+  END_KEY 44
+  KEY 45
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 46
+      Position 50
       CommandType 19980105
       CommandName Plane Estimate
       Enabled 0
@@ -4578,12 +4283,12 @@ START_PARM_LIST
       PickupListIndex 254933
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 42
-  KEY 43
+  END_KEY 45
+  KEY 46
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 47
+      Position 51
       CommandType 19980111
       CommandName adjust plane (restricted)
       Enabled 0
@@ -4851,12 +4556,12 @@ START_PARM_LIST
       END_CKSOURCEVALUE 
     SaveRestoreMode 0
     TeachInCounter 0
-  END_KEY 43
-  KEY 44
+  END_KEY 46
+  KEY 47
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 48
+      Position 52
       CommandType 19980105
       CommandName Plane Estimate
       Enabled 0
@@ -4941,12 +4646,12 @@ START_PARM_LIST
       PickupListIndex 287479
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 44
-  KEY 45
+  END_KEY 47
+  KEY 48
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 49
+      Position 53
       CommandType 19980111
       CommandName adjust plane (restricted)
       Enabled 0
@@ -5214,12 +4919,12 @@ START_PARM_LIST
       END_CKSOURCEVALUE 
     SaveRestoreMode 0
     TeachInCounter 0
-  END_KEY 45
-  KEY 46
+  END_KEY 48
+  KEY 49
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 51
+      Position 55
       CommandType 1004
       CommandName --- Differential Cloud Calculation ---
       Enabled 1
@@ -5235,12 +4940,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 46
-  KEY 47
+  END_KEY 49
+  KEY 50
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 52
+      Position 56
       CommandType 19980122
       CommandName MirrorZ
       Enabled 1
@@ -5332,12 +5037,12 @@ START_PARM_LIST
     MirrorY 0
     MirrorZ 1
     TeachInCounter 0
-  END_KEY 47
-  KEY 48
+  END_KEY 50
+  KEY 51
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 53
+      Position 57
       CommandType 19980122
       CommandName MirrorX
       Enabled 1
@@ -5429,12 +5134,12 @@ START_PARM_LIST
     MirrorY 0
     MirrorZ 0
     TeachInCounter 0
-  END_KEY 48
-  KEY 49
-    ClassVersion 7
+  END_KEY 51
+  KEY 52
+    ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 55
+      Position 59
       CommandType 19980126
       CommandName 3D Filter Resampling
       Enabled 1
@@ -5498,17 +5203,16 @@ START_PARM_LIST
     DownsamplingX 3
     SubMethod 2
     NoiseCutoff 0,1
-    FillSingleGaps 1
+    FillSingleGaps 0
     CloudWidth 0
     CloudHeight 0
-    TrueGrid 0
     TeachInCounter 0
-  END_KEY 49
-  KEY 50
-    ClassVersion 7
+  END_KEY 52
+  KEY 53
+    ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 56
+      Position 60
       CommandType 19980126
       CommandName 3D Filter Resampling
       Enabled 1
@@ -5572,17 +5276,16 @@ START_PARM_LIST
     DownsamplingX 3
     SubMethod 2
     NoiseCutoff 0,1
-    FillSingleGaps 1
+    FillSingleGaps 0
     CloudWidth 0
     CloudHeight 0
-    TrueGrid 0
     TeachInCounter 0
-  END_KEY 50
-  KEY 51
-    ClassVersion 7
+  END_KEY 53
+  KEY 54
+    ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 58
+      Position 62
       CommandType 19980126
       CommandName 3D Filter Resampling
       Enabled 1
@@ -5647,16 +5350,15 @@ START_PARM_LIST
     SubMethod 2
     NoiseCutoff 0,1
     FillSingleGaps 0
-    CloudWidth 1091
-    CloudHeight 5316
-    TrueGrid 0
+    CloudWidth 500
+    CloudHeight 2000
     TeachInCounter 0
-  END_KEY 51
-  KEY 52
-    ClassVersion 7
+  END_KEY 54
+  KEY 55
+    ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 59
+      Position 63
       CommandType 19980126
       CommandName 3D Filter Resampling
       Enabled 1
@@ -5721,16 +5423,15 @@ START_PARM_LIST
     SubMethod 2
     NoiseCutoff 0,1
     FillSingleGaps 0
-    CloudWidth 1091
-    CloudHeight 5316
-    TrueGrid 0
+    CloudWidth 500
+    CloudHeight 2000
     TeachInCounter 0
-  END_KEY 52
-  KEY 53
+  END_KEY 55
+  KEY 56
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 61
+      Position 65
       CommandType 19980137
       CommandName 3D Cloud Compare
       Enabled 1
@@ -5786,12 +5487,12 @@ START_PARM_LIST
     TemplateIM 1
     DistanceMode 1
     TeachInCounter 0
-  END_KEY 53
-  KEY 54
+  END_KEY 56
+  KEY 57
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 62
+      Position 66
       CommandType 19980122
       CommandName MirrorZ (Q5 special)
       Enabled 1
@@ -5883,12 +5584,12 @@ START_PARM_LIST
     MirrorY 0
     MirrorZ 1
     TeachInCounter 0
-  END_KEY 54
-  KEY 55
+  END_KEY 57
+  KEY 58
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 64
+      Position 68
       CommandType 19980127
       CommandName 3D Hole Filling Filter
       Enabled 1
@@ -5934,15 +5635,15 @@ START_PARM_LIST
     TargetIM 3
     SearchRadius 3
     TeachInCounter 0
-  END_KEY 55
-  KEY 56
-    ClassVersion 5
+  END_KEY 58
+  KEY 59
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 66
+      Position 70
       CommandType 19980125
       CommandName 3D Ordered Filter
-      Enabled 0
+      Enabled 1
       Hidden 0
       GraficMode 2
       TextMode 2
@@ -5989,15 +5690,13 @@ START_PARM_LIST
     FilterParam2 5,0
     FilterOptionBool 1
     FilterSizeMedian 9
-    SameFilterXY 1
-    FilterParam3 1,2
     TeachInCounter 0
-  END_KEY 56
-  KEY 57
+  END_KEY 59
+  KEY 60
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 67
+      Position 71
       CommandType 19980122
       CommandName +offset
       Enabled 1
@@ -6089,12 +5788,12 @@ START_PARM_LIST
     MirrorY 0
     MirrorZ 1
     TeachInCounter 0
-  END_KEY 57
-  KEY 58
+  END_KEY 60
+  KEY 61
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 69
+      Position 73
       CommandType 2
       CommandName Interpreter control
       Enabled 1
@@ -6152,12 +5851,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 58
-  KEY 59
+  END_KEY 61
+  KEY 62
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 70
+      Position 74
       CommandType 19980105
       CommandName Plane Estimate
       Enabled 1
@@ -6242,12 +5941,12 @@ START_PARM_LIST
       PickupListIndex 428021
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 59
-  KEY 60
+  END_KEY 62
+  KEY 63
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 71
+      Position 75
       CommandType 19980111
       CommandName adjust plane (restricted)
       Enabled 1
@@ -6515,12 +6214,12 @@ START_PARM_LIST
       END_CKSOURCEVALUE 
     SaveRestoreMode 0
     TeachInCounter 0
-  END_KEY 60
-  KEY 61
+  END_KEY 63
+  KEY 64
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 73
+      Position 77
       CommandType 19980122
       CommandName Scale Up
       Enabled 1
@@ -6582,7 +6281,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 4,0
+      ManualValue 10,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -6612,12 +6311,12 @@ START_PARM_LIST
     MirrorY 0
     MirrorZ 1
     TeachInCounter 0
-  END_KEY 61
-  KEY 62
+  END_KEY 64
+  KEY 65
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 75
+      Position 79
       CommandType 1004
       CommandName ---1.Step By Step Investigate---
       Enabled 1
@@ -6633,12 +6332,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 62
-  KEY 63
+  END_KEY 65
+  KEY 66
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 76
+      Position 80
       CommandType 19980118
       CommandName 3D RectProbe
       Enabled 1
@@ -6737,12 +6436,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 63
-  KEY 64
+  END_KEY 66
+  KEY 67
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 77
+      Position 81
       CommandType 19980118
       CommandName 3D RectProbe
       Enabled 1
@@ -6841,12 +6540,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 64
-  KEY 65
+  END_KEY 67
+  KEY 68
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 78
+      Position 82
       CommandType 19980132
       CommandName 3D Distance
       Enabled 1
@@ -6990,12 +6689,12 @@ START_PARM_LIST
     PKResult 1
     3DRegVector 0
     TeachInCounter 0
-  END_KEY 65
-  KEY 66
-    ClassVersion 7
+  END_KEY 68
+  KEY 69
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 79
+      Position 83
       CommandType 122
       CommandName /8
       Enabled 1
@@ -7061,9 +6760,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName 
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 2
+    ArithmeticElementType1 0
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 3
+    ArithmeticElementType2 2
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 8,0
     ArithmeticManualElementY 0,0
@@ -7089,32 +6788,25 @@ START_PARM_LIST
       ClassVersion 1
       Name 
       PickupObjectType 0
-      PickupListIndex 821078
+      PickupListIndex 148861
     END_CKPICKUP_TYPE_WRITE 
     Static 0
     CKPICKUP_TYPE_WRITE 
       ClassVersion 1
       Name 
       PickupObjectType 0
-      PickupListIndex 778885
+      PickupListIndex 184099
     END_CKPICKUP_TYPE_WRITE 
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
-    ConstantString 
-    InitializationString 
-    ArithmeticManualString 
-    ArithmeticManualFirstString 
-    StringArithmeticElementType1 1
-    StringArithmeticElementType2 1
-    MakeConstant 0
     TeachInCounter 0
-  END_KEY 66
-  KEY 67
+  END_KEY 69
+  KEY 70
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 80
+      Position 84
       CommandType 1040
       CommandName Assign Size
       Enabled 1
@@ -7170,12 +6862,12 @@ START_PARM_LIST
       PickupListIndex 220523
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 67
-  KEY 68
+  END_KEY 70
+  KEY 71
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 82
+      Position 86
       CommandType 1004
       CommandName Log File Creation
       Enabled 1
@@ -7191,12 +6883,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 68
-  KEY 69
+  END_KEY 71
+  KEY 72
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 83
+      Position 87
       CommandType 1040
       CommandName Create File
       Enabled 1
@@ -7252,12 +6944,12 @@ START_PARM_LIST
       PickupListIndex 352719
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 69
-  KEY 70
+  END_KEY 72
+  KEY 73
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 84
+      Position 88
       CommandType 1004
       CommandName LINE1
       Enabled 1
@@ -7273,12 +6965,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 70
-  KEY 71
+  END_KEY 73
+  KEY 74
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 85
+      Position 89
       CommandType 19980118
       CommandName 3D RectProbe
       Enabled 1
@@ -7377,12 +7069,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 71
-  KEY 72
-    ClassVersion 11
+  END_KEY 74
+  KEY 75
+    ClassVersion 9
     CKGENERAL 
       ClassVersion 3
-      Position 86
+      Position 90
       CommandType 19980107
       CommandName Create a Box
       Enabled 1
@@ -7391,7 +7083,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 3
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -7464,7 +7156,7 @@ START_PARM_LIST
         Name 
         Type 1
         Value0 4,0
-        Value1 26,5302030351
+        Value1 5,8667356692
         Value2 9,0
         Value3 100000000000,0
         Value4 100000000000,0
@@ -7621,17 +7313,13 @@ START_PARM_LIST
     EulerAngleConversionAxis2 2
     EulerAngleConversionDirection 0
     FormatType 0
-    CKMULTI_PICKUP_WRITE 
-      ClassVersion 1
-      NumberOfPickups 0
-    END_CKMULTI_PICKUP_WRITE 
     TeachInCounter 0
-  END_KEY 72
-  KEY 73
-    ClassVersion 6
+  END_KEY 75
+  KEY 76
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 87
+      Position 91
       CommandType 19980108
       CommandName 3D Overlay
       Enabled 1
@@ -7640,7 +7328,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 3
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -7769,15 +7457,13 @@ START_PARM_LIST
     AppendToPrevious 0
     TextAfter 
     GlobalStringInText 0
-    NumberFormatPrecision 1185989776
-    NumberFormatUnit 
     TeachInCounter 0
-  END_KEY 73
-  KEY 74
-    ClassVersion 4
+  END_KEY 76
+  KEY 77
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 88
+      Position 92
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -7878,12 +7564,12 @@ START_PARM_LIST
       PickupListIndex 517927
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 74
-  KEY 75
-    ClassVersion 4
+  END_KEY 77
+  KEY 78
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 89
+      Position 93
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -7984,12 +7670,12 @@ START_PARM_LIST
       PickupListIndex 458611
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 75
-  KEY 76
-    ClassVersion 4
+  END_KEY 78
+  KEY 79
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 90
+      Position 94
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -8090,12 +7776,12 @@ START_PARM_LIST
       PickupListIndex 546314
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 76
-  KEY 77
-    ClassVersion 4
+  END_KEY 79
+  KEY 80
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 91
+      Position 95
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -8196,12 +7882,12 @@ START_PARM_LIST
       PickupListIndex 596367
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 77
-  KEY 78
-    ClassVersion 4
+  END_KEY 80
+  KEY 81
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 92
+      Position 96
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -8302,12 +7988,12 @@ START_PARM_LIST
       PickupListIndex 619180
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 78
-  KEY 79
-    ClassVersion 4
+  END_KEY 81
+  KEY 82
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 93
+      Position 97
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -8408,12 +8094,12 @@ START_PARM_LIST
       PickupListIndex 402227
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 79
-  KEY 80
-    ClassVersion 4
+  END_KEY 82
+  KEY 83
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 94
+      Position 98
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -8514,12 +8200,12 @@ START_PARM_LIST
       PickupListIndex 178495
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 80
-  KEY 81
+  END_KEY 83
+  KEY 84
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 96
+      Position 100
       CommandType 2
       CommandName Step By Step
       Enabled 1
@@ -8577,12 +8263,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 81
-  KEY 82
-    ClassVersion 7
+  END_KEY 84
+  KEY 85
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 98
+      Position 102
       CommandType 122
       CommandName counter+1
       Enabled 1
@@ -8591,7 +8277,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 1
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -8650,7 +8336,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 3
+    ArithmeticElementType2 2
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -8688,20 +8374,13 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
-    ConstantString 
-    InitializationString 
-    ArithmeticManualString 
-    ArithmeticManualFirstString 
-    StringArithmeticElementType1 1
-    StringArithmeticElementType2 1
-    MakeConstant 0
     TeachInCounter 0
-  END_KEY 82
-  KEY 83
-    ClassVersion 11
+  END_KEY 85
+  KEY 86
+    ClassVersion 9
     CKGENERAL 
       ClassVersion 3
-      Position 99
+      Position 103
       CommandType 19980107
       CommandName Translate Box
       Enabled 1
@@ -8710,7 +8389,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 3
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -8783,7 +8462,7 @@ START_PARM_LIST
         Name 
         Type 1
         Value0 0,0
-        Value1 26,5287761521
+        Value1 5,8683078814
         Value2 0,0
         Value3 100000000000,0
         Value4 100000000000,0
@@ -8940,17 +8619,13 @@ START_PARM_LIST
     EulerAngleConversionAxis2 2
     EulerAngleConversionDirection 0
     FormatType 0
-    CKMULTI_PICKUP_WRITE 
-      ClassVersion 1
-      NumberOfPickups 0
-    END_CKMULTI_PICKUP_WRITE 
     TeachInCounter 0
-  END_KEY 83
-  KEY 84
+  END_KEY 86
+  KEY 87
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 100
+      Position 104
       CommandType 1040
       CommandName Real translate Param
       Enabled 1
@@ -8993,7 +8668,7 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    Program Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element ''~'Read result and value from Pickuplist~Dim dtrasnlate As Double~Dim ltrasnlate As Long~Dim ltrasnlateUpdateMode As Long~Dim strasnlateName As String~lResult = CKTRANSGetResultFromPickupList(778885 , ltrasnlate, dtrasnlate, strasnlateName, ltrasnlateUpdateMode)~~'This parameter is /8 result so get it from /8~Print(dtrasnlate)~~Dim sError As String~Dim dValue As Double: dValue = dtrasnlate~If CKI_SetParameterDouble("Translate Box.Input2.Geo3D.Value1", dValue,sError) <> 1 Then~  Print (sError)~End If
+    Program Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element ''~'Read result and value from Pickuplist~Dim dtranslate As Double~Dim ltranslate As Long~Dim ltranslateUpdateMode As Long~Dim stranslateName As String~lResult = CKTRANSGetResultFromPickupList(184099 , ltranslate, dtranslate, stranslateName, ltranslateUpdateMode)~~Dim sError As String~Dim dValue As Double: dValue = dtranslate~If CKI_SetParameterDouble("Translate Box.Input2.Geo3D.Value1", dValue,sError) <> 1 Then~  Print (sError)~End If
     EncodedBinary 
     ExternProgramFileName 
     UseExternProgram 0
@@ -9006,12 +8681,12 @@ START_PARM_LIST
       PickupListIndex 632061
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 84
-  KEY 85
-    ClassVersion 6
+  END_KEY 87
+  KEY 88
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 101
+      Position 105
       CommandType 19980108
       CommandName 3D Overlay
       Enabled 1
@@ -9020,7 +8695,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 3
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -9149,15 +8824,13 @@ START_PARM_LIST
     AppendToPrevious 0
     TextAfter 
     GlobalStringInText 0
-    NumberFormatPrecision 777859163
-    NumberFormatUnit 
     TeachInCounter 0
-  END_KEY 85
-  KEY 86
+  END_KEY 88
+  KEY 89
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 102
+      Position 106
       CommandType 19980118
       CommandName Check If Empty
       Enabled 1
@@ -9256,12 +8929,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 86
-  KEY 87
+  END_KEY 89
+  KEY 90
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 103
+      Position 107
       CommandType 2
       CommandName Jump to Positive End
       Enabled 1
@@ -9319,12 +8992,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 87
-  KEY 88
-    ClassVersion 4
+  END_KEY 90
+  KEY 91
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 104
+      Position 108
       CommandType 19980101
       CommandName 3D Height-avg
       Enabled 1
@@ -9425,12 +9098,12 @@ START_PARM_LIST
       PickupListIndex 830752
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 88
-  KEY 89
-    ClassVersion 4
+  END_KEY 91
+  KEY 92
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 105
+      Position 109
       CommandType 19980101
       CommandName 3D Height-median
       Enabled 1
@@ -9531,12 +9204,12 @@ START_PARM_LIST
       PickupListIndex 643404
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 89
-  KEY 90
-    ClassVersion 4
+  END_KEY 92
+  KEY 93
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 106
+      Position 110
       CommandType 19980101
       CommandName 3D Height-max
       Enabled 1
@@ -9637,12 +9310,12 @@ START_PARM_LIST
       PickupListIndex 999979
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 90
-  KEY 91
-    ClassVersion 4
+  END_KEY 93
+  KEY 94
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 107
+      Position 111
       CommandType 19980101
       CommandName 3D Height-min
       Enabled 1
@@ -9743,12 +9416,12 @@ START_PARM_LIST
       PickupListIndex 507744
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 91
-  KEY 92
+  END_KEY 94
+  KEY 95
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 108
+      Position 112
       CommandType 1040
       CommandName Assign Final Results
       Enabled 1
@@ -9804,12 +9477,12 @@ START_PARM_LIST
       PickupListIndex 258825
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 92
-  KEY 93
+  END_KEY 95
+  KEY 96
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 109
+      Position 113
       CommandType 1004
       CommandName ---logfile---
       Enabled 1
@@ -9825,12 +9498,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 93
-  KEY 94
-    ClassVersion 18
+  END_KEY 96
+  KEY 97
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 110
+      Position 114
       CommandType 246
       CommandName Time
       Enabled 1
@@ -9839,7 +9512,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -9941,38 +9614,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 1
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 630947
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 94
-  KEY 95
-    ClassVersion 18
+  END_KEY 97
+  KEY 98
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 111
+      Position 115
       CommandType 246
       CommandName tab
       Enabled 1
@@ -9981,7 +9629,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -10083,38 +9731,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 672796
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 95
-  KEY 96
-    ClassVersion 18
+  END_KEY 98
+  KEY 99
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 112
+      Position 116
       CommandType 246
       CommandName tab
       Enabled 1
@@ -10123,7 +9746,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -10225,38 +9848,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 817253
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 96
-  KEY 97
-    ClassVersion 18
+  END_KEY 99
+  KEY 100
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 113
+      Position 117
       CommandType 246
       CommandName tab
       Enabled 0
@@ -10265,7 +9863,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -10367,38 +9965,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 90385
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 97
-  KEY 98
-    ClassVersion 18
+  END_KEY 100
+  KEY 101
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 114
+      Position 118
       CommandType 246
       CommandName Station
       Enabled 1
@@ -10407,7 +9980,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -10509,38 +10082,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 127207
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 98
-  KEY 99
-    ClassVersion 18
+  END_KEY 101
+  KEY 102
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 115
+      Position 119
       CommandType 246
       CommandName tab
       Enabled 1
@@ -10549,7 +10097,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -10651,38 +10199,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 349063
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 99
-  KEY 100
-    ClassVersion 18
+  END_KEY 102
+  KEY 103
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 116
+      Position 120
       CommandType 246
       CommandName Task
       Enabled 1
@@ -10691,7 +10214,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -10793,38 +10316,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 316033
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 100
-  KEY 101
-    ClassVersion 18
+  END_KEY 103
+  KEY 104
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 117
+      Position 121
       CommandType 246
       CommandName tab
       Enabled 1
@@ -10833,7 +10331,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -10935,38 +10433,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 232632
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 101
-  KEY 102
-    ClassVersion 18
+  END_KEY 104
+  KEY 105
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 118
+      Position 122
       CommandType 246
       CommandName SectionID
       Enabled 1
@@ -10975,7 +10448,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -11077,38 +10550,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 968067
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 102
-  KEY 103
-    ClassVersion 18
+  END_KEY 105
+  KEY 106
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 119
+      Position 123
       CommandType 246
       CommandName tab
       Enabled 1
@@ -11117,7 +10565,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -11219,38 +10667,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 111526
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 103
-  KEY 104
-    ClassVersion 18
+  END_KEY 106
+  KEY 107
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 120
+      Position 124
       CommandType 246
       CommandName avg-dicke
       Enabled 1
@@ -11259,7 +10682,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -11361,38 +10784,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 320715
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 104
-  KEY 105
-    ClassVersion 18
+  END_KEY 107
+  KEY 108
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 121
+      Position 125
       CommandType 246
       CommandName tab
       Enabled 1
@@ -11401,7 +10799,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -11503,38 +10901,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 785776
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 105
-  KEY 106
-    ClassVersion 18
+  END_KEY 108
+  KEY 109
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 122
+      Position 126
       CommandType 246
       CommandName med-dicke
       Enabled 1
@@ -11543,7 +10916,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -11645,38 +11018,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 419626
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 106
-  KEY 107
-    ClassVersion 18
+  END_KEY 109
+  KEY 110
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 123
+      Position 127
       CommandType 246
       CommandName tab
       Enabled 1
@@ -11685,7 +11033,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -11787,38 +11135,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 157684
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 107
-  KEY 108
-    ClassVersion 18
+  END_KEY 110
+  KEY 111
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 124
+      Position 128
       CommandType 246
       CommandName min-dicke
       Enabled 1
@@ -11827,7 +11150,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -11929,38 +11252,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 34415
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 108
-  KEY 109
-    ClassVersion 18
+  END_KEY 111
+  KEY 112
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 125
+      Position 129
       CommandType 246
       CommandName tab
       Enabled 1
@@ -11969,7 +11267,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -12071,38 +11369,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 787994
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 109
-  KEY 110
-    ClassVersion 18
+  END_KEY 112
+  KEY 113
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 126
+      Position 130
       CommandType 246
       CommandName max-dicke
       Enabled 1
@@ -12111,7 +11384,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -12213,38 +11486,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 985033
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 110
-  KEY 111
-    ClassVersion 18
+  END_KEY 113
+  KEY 114
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 127
+      Position 131
       CommandType 246
       CommandName tab
       Enabled 1
@@ -12253,7 +11501,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -12355,38 +11603,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 849960
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 111
-  KEY 112
-    ClassVersion 18
+  END_KEY 114
+  KEY 115
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 128
+      Position 132
       CommandType 246
       CommandName UpperLimit
       Enabled 1
@@ -12395,7 +11618,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 5
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -12497,38 +11720,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 15668
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 112
-  KEY 113
-    ClassVersion 18
+  END_KEY 115
+  KEY 116
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 129
+      Position 133
       CommandType 246
       CommandName tab
       Enabled 1
@@ -12537,7 +11735,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 5
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -12639,38 +11837,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 71867
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 113
-  KEY 114
-    ClassVersion 18
+  END_KEY 116
+  KEY 117
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 130
+      Position 134
       CommandType 246
       CommandName LowerLimit
       Enabled 1
@@ -12679,7 +11852,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 5
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -12781,38 +11954,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 976767
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 114
-  KEY 115
-    ClassVersion 18
+  END_KEY 117
+  KEY 118
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 131
+      Position 135
       CommandType 246
       CommandName tab
       Enabled 1
@@ -12821,7 +11969,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 5
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -12923,38 +12071,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 833856
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 115
-  KEY 116
-    ClassVersion 18
+  END_KEY 118
+  KEY 119
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 132
+      Position 136
       CommandType 246
       CommandName ProductionID
       Enabled 3
@@ -12963,7 +12086,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -13065,38 +12188,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 892899
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 116
-  KEY 117
-    ClassVersion 18
+  END_KEY 119
+  KEY 120
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 133
+      Position 137
       CommandType 246
       CommandName ProductionID
       Enabled 2
@@ -13105,7 +12203,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -13207,38 +12305,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 706689
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 117
-  KEY 118
-    ClassVersion 18
+  END_KEY 120
+  KEY 121
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 134
+      Position 138
       CommandType 246
       CommandName NewLine
       Enabled 1
@@ -13247,7 +12320,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -13349,38 +12422,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 858975
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 118
-  KEY 119
-    ClassVersion 18
+  END_KEY 121
+  KEY 122
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 135
+      Position 139
       CommandType 246
       CommandName File
       Enabled 1
@@ -13389,7 +12437,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -13433,7 +12481,7 @@ START_PARM_LIST
     SeparationIndex 0
     SendType 1
     TextToDisplay Height:
-    Filename ./2022_04_22-logFile.txt
+    Filename ./2022_03_30-logFile.txt
     AddIntegerOnly 1
     SeperatorAtStartOfString 1
     PortNumber 0
@@ -13491,38 +12539,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 708321
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 119
-  KEY 120
-    ClassVersion 18
+  END_KEY 122
+  KEY 123
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 136
+      Position 140
       CommandType 246
       CommandName Reset
       Enabled 1
@@ -13531,7 +12554,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -13633,38 +12656,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 478449
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 120
-  KEY 121
+  END_KEY 123
+  KEY 124
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 137
+      Position 141
       CommandType 1004
       CommandName ---logfile---
       Enabled 1
@@ -13680,12 +12678,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 121
-  KEY 122
-    ClassVersion 11
+  END_KEY 124
+  KEY 125
+    ClassVersion 9
     CKGENERAL 
       ClassVersion 3
-      Position 138
+      Position 142
       CommandType 19980107
       CommandName Translate Point
       Enabled 1
@@ -13694,7 +12692,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 3
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -13766,7 +12764,7 @@ START_PARM_LIST
         ClassVersion 2
         Name 
         Type 1
-        Value0 -30,0
+        Value0 -20,0
         Value1 0,0
         Value2 0,0
         Value3 100000000000,0
@@ -13924,17 +12922,13 @@ START_PARM_LIST
     EulerAngleConversionAxis2 2
     EulerAngleConversionDirection 0
     FormatType 0
-    CKMULTI_PICKUP_WRITE 
-      ClassVersion 1
-      NumberOfPickups 0
-    END_CKMULTI_PICKUP_WRITE 
     TeachInCounter 0
-  END_KEY 122
-  KEY 123
-    ClassVersion 6
+  END_KEY 125
+  KEY 126
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 139
+      Position 143
       CommandType 19980108
       CommandName 3D Overlay
       Enabled 1
@@ -13943,7 +12937,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 3
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -14072,15 +13066,13 @@ START_PARM_LIST
     AppendToPrevious 0
     TextAfter 
     GlobalStringInText 0
-    NumberFormatPrecision 3
-    NumberFormatUnit mm
     TeachInCounter 0
-  END_KEY 123
-  KEY 124
+  END_KEY 126
+  KEY 127
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 141
+      Position 145
       CommandType 2
       CommandName Jump to Step By Step
       Enabled 1
@@ -14138,12 +13130,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 124
-  KEY 125
+  END_KEY 127
+  KEY 128
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 143
+      Position 147
       CommandType 2
       CommandName Positive End 1
       Enabled 1
@@ -14201,12 +13193,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 125
-  KEY 126
+  END_KEY 128
+  KEY 129
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 145
+      Position 149
       CommandType 1004
       CommandName LINE2
       Enabled 1
@@ -14222,12 +13214,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 126
-  KEY 127
-    ClassVersion 7
+  END_KEY 129
+  KEY 130
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 146
+      Position 150
       CommandType 122
       CommandName counter=0
       Enabled 1
@@ -14236,7 +13228,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 1
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -14295,7 +13287,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 3
+    ArithmeticElementType2 2
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -14333,20 +13325,13 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
-    ConstantString 
-    InitializationString 
-    ArithmeticManualString 
-    ArithmeticManualFirstString 
-    StringArithmeticElementType1 1
-    StringArithmeticElementType2 1
-    MakeConstant 0
     TeachInCounter 0
-  END_KEY 127
-  KEY 128
+  END_KEY 130
+  KEY 131
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 147
+      Position 151
       CommandType 1004
       CommandName 2. Step By Step Investigate
       Enabled 1
@@ -14362,12 +13347,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 128
-  KEY 129
+  END_KEY 131
+  KEY 132
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 148
+      Position 152
       CommandType 19980118
       CommandName 3D RectProbe
       Enabled 1
@@ -14466,12 +13451,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 129
-  KEY 130
+  END_KEY 132
+  KEY 133
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 149
+      Position 153
       CommandType 19980118
       CommandName 3D RectProbe
       Enabled 1
@@ -14570,12 +13555,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 130
-  KEY 131
+  END_KEY 133
+  KEY 134
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 150
+      Position 154
       CommandType 19980132
       CommandName 3D Distance
       Enabled 1
@@ -14719,12 +13704,12 @@ START_PARM_LIST
     PKResult 1
     3DRegVector 0
     TeachInCounter 0
-  END_KEY 131
-  KEY 132
-    ClassVersion 7
+  END_KEY 134
+  KEY 135
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 151
+      Position 155
       CommandType 122
       CommandName /8
       Enabled 1
@@ -14790,9 +13775,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName 
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 2
+    ArithmeticElementType1 0
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 3
+    ArithmeticElementType2 2
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 8,0
     ArithmeticManualElementY 0,0
@@ -14818,32 +13803,25 @@ START_PARM_LIST
       ClassVersion 1
       Name 
       PickupObjectType 0
-      PickupListIndex 279380
+      PickupListIndex 421963
     END_CKPICKUP_TYPE_WRITE 
     Static 0
     CKPICKUP_TYPE_WRITE 
       ClassVersion 1
       Name 
       PickupObjectType 0
-      PickupListIndex 485953
+      PickupListIndex 690433
     END_CKPICKUP_TYPE_WRITE 
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
-    ConstantString 
-    InitializationString 
-    ArithmeticManualString 
-    ArithmeticManualFirstString 
-    StringArithmeticElementType1 1
-    StringArithmeticElementType2 1
-    MakeConstant 0
     TeachInCounter 0
-  END_KEY 132
-  KEY 133
+  END_KEY 135
+  KEY 136
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 152
+      Position 156
       CommandType 1040
       CommandName Assign Size
       Enabled 1
@@ -14899,12 +13877,12 @@ START_PARM_LIST
       PickupListIndex 771160
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 133
-  KEY 134
+  END_KEY 136
+  KEY 137
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 154
+      Position 158
       CommandType 19980118
       CommandName 3D RectProbe
       Enabled 1
@@ -15003,12 +13981,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 134
-  KEY 135
-    ClassVersion 11
+  END_KEY 137
+  KEY 138
+    ClassVersion 9
     CKGENERAL 
       ClassVersion 3
-      Position 155
+      Position 159
       CommandType 19980107
       CommandName Create a Box
       Enabled 1
@@ -15017,7 +13995,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 3
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -15090,7 +14068,7 @@ START_PARM_LIST
         Name 
         Type 1
         Value0 4,0
-        Value1 26,5302030351
+        Value1 5,8667356692
         Value2 9,0
         Value3 100000000000,0
         Value4 100000000000,0
@@ -15247,17 +14225,13 @@ START_PARM_LIST
     EulerAngleConversionAxis2 2
     EulerAngleConversionDirection 0
     FormatType 0
-    CKMULTI_PICKUP_WRITE 
-      ClassVersion 1
-      NumberOfPickups 0
-    END_CKMULTI_PICKUP_WRITE 
     TeachInCounter 0
-  END_KEY 135
-  KEY 136
-    ClassVersion 6
+  END_KEY 138
+  KEY 139
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 156
+      Position 160
       CommandType 19980108
       CommandName 3D Overlay
       Enabled 1
@@ -15266,7 +14240,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 3
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -15395,15 +14369,13 @@ START_PARM_LIST
     AppendToPrevious 0
     TextAfter 
     GlobalStringInText 0
-    NumberFormatPrecision 1383363173
-    NumberFormatUnit 
     TeachInCounter 0
-  END_KEY 136
-  KEY 137
-    ClassVersion 4
+  END_KEY 139
+  KEY 140
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 157
+      Position 161
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -15504,12 +14476,12 @@ START_PARM_LIST
       PickupListIndex 474586
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 137
-  KEY 138
-    ClassVersion 4
+  END_KEY 140
+  KEY 141
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 158
+      Position 162
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -15610,12 +14582,12 @@ START_PARM_LIST
       PickupListIndex 247968
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 138
-  KEY 139
-    ClassVersion 4
+  END_KEY 141
+  KEY 142
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 159
+      Position 163
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -15716,12 +14688,12 @@ START_PARM_LIST
       PickupListIndex 868864
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 139
-  KEY 140
-    ClassVersion 4
+  END_KEY 142
+  KEY 143
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 160
+      Position 164
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -15822,12 +14794,12 @@ START_PARM_LIST
       PickupListIndex 766749
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 140
-  KEY 141
-    ClassVersion 4
+  END_KEY 143
+  KEY 144
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 161
+      Position 165
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -15928,12 +14900,12 @@ START_PARM_LIST
       PickupListIndex 981612
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 141
-  KEY 142
-    ClassVersion 4
+  END_KEY 144
+  KEY 145
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 162
+      Position 166
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -16034,12 +15006,12 @@ START_PARM_LIST
       PickupListIndex 800948
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 142
-  KEY 143
-    ClassVersion 4
+  END_KEY 145
+  KEY 146
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 163
+      Position 167
       CommandType 19980101
       CommandName Filler
       Enabled 1
@@ -16140,12 +15112,12 @@ START_PARM_LIST
       PickupListIndex 877042
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 143
-  KEY 144
+  END_KEY 146
+  KEY 147
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 165
+      Position 169
       CommandType 2
       CommandName Step By Step 2
       Enabled 1
@@ -16203,12 +15175,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 144
-  KEY 145
-    ClassVersion 7
+  END_KEY 147
+  KEY 148
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 167
+      Position 171
       CommandType 122
       CommandName counter+1
       Enabled 1
@@ -16217,7 +15189,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 1
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -16276,7 +15248,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 3
+    ArithmeticElementType2 2
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -16314,20 +15286,13 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 0,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
-    ConstantString 
-    InitializationString 
-    ArithmeticManualString 
-    ArithmeticManualFirstString 
-    StringArithmeticElementType1 1
-    StringArithmeticElementType2 1
-    MakeConstant 0
     TeachInCounter 0
-  END_KEY 145
-  KEY 146
-    ClassVersion 11
+  END_KEY 148
+  KEY 149
+    ClassVersion 9
     CKGENERAL 
       ClassVersion 3
-      Position 168
+      Position 172
       CommandType 19980107
       CommandName Translate Box
       Enabled 1
@@ -16336,7 +15301,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 3
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -16409,7 +15374,7 @@ START_PARM_LIST
         Name 
         Type 1
         Value0 0,0
-        Value1 26,5287761521
+        Value1 5,8683078814
         Value2 0,0
         Value3 100000000000,0
         Value4 100000000000,0
@@ -16566,17 +15531,13 @@ START_PARM_LIST
     EulerAngleConversionAxis2 2
     EulerAngleConversionDirection 0
     FormatType 0
-    CKMULTI_PICKUP_WRITE 
-      ClassVersion 1
-      NumberOfPickups 0
-    END_CKMULTI_PICKUP_WRITE 
     TeachInCounter 0
-  END_KEY 146
-  KEY 147
+  END_KEY 149
+  KEY 150
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 169
+      Position 173
       CommandType 1040
       CommandName Real translate Param
       Enabled 1
@@ -16619,7 +15580,7 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    Program Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element ''~'Read result and value from Pickuplist~Dim dtrasnlate As Double~Dim ltrasnlate As Long~Dim ltrasnlateUpdateMode As Long~Dim strasnlateName As String~lResult = CKTRANSGetResultFromPickupList(778885 , ltrasnlate, dtrasnlate, strasnlateName, ltrasnlateUpdateMode)~~'this parameter comes from /8~~Dim sError As String~Dim dValue As Double: dValue = dtrasnlate~If CKI_SetParameterDouble("Translate Box.Input2.Geo3D.Value1", dValue,sError) <> 1 Then~  Print (sError)~End If
+    Program Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element ''~'Read result and value from Pickuplist~Dim dtranslate As Double~Dim ltranslate As Long~Dim ltranslateUpdateMode As Long~Dim stranslateName As String~lResult = CKTRANSGetResultFromPickupList(184099 , ltranslate, dtranslate, stranslateName, ltranslateUpdateMode)~~Dim sError As String~Dim dValue As Double: dValue = dtranslate~If CKI_SetParameterDouble("Translate Box.Input2.Geo3D.Value1", dValue,sError) <> 1 Then~  Print (sError)~End If
     EncodedBinary 
     ExternProgramFileName 
     UseExternProgram 0
@@ -16632,12 +15593,12 @@ START_PARM_LIST
       PickupListIndex 69649
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 147
-  KEY 148
-    ClassVersion 6
+  END_KEY 150
+  KEY 151
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 170
+      Position 174
       CommandType 19980108
       CommandName 3D Overlay
       Enabled 1
@@ -16646,7 +15607,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 3
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -16775,15 +15736,13 @@ START_PARM_LIST
     AppendToPrevious 0
     TextAfter 
     GlobalStringInText 0
-    NumberFormatPrecision 1051033240
-    NumberFormatUnit 
     TeachInCounter 0
-  END_KEY 148
-  KEY 149
+  END_KEY 151
+  KEY 152
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 171
+      Position 175
       CommandType 19980118
       CommandName Check If Empty
       Enabled 1
@@ -16882,12 +15841,12 @@ START_PARM_LIST
     RansacPercentage 55,0
     RansacIterations 100
     TeachInCounter 0
-  END_KEY 149
-  KEY 150
+  END_KEY 152
+  KEY 153
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 172
+      Position 176
       CommandType 2
       CommandName Jump to Positive End 2
       Enabled 1
@@ -16945,12 +15904,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 150
-  KEY 151
-    ClassVersion 4
+  END_KEY 153
+  KEY 154
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 173
+      Position 177
       CommandType 19980101
       CommandName 3D Height-avg
       Enabled 1
@@ -17051,12 +16010,12 @@ START_PARM_LIST
       PickupListIndex 386546
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 151
-  KEY 152
-    ClassVersion 4
+  END_KEY 154
+  KEY 155
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 174
+      Position 178
       CommandType 19980101
       CommandName 3D Height-median
       Enabled 1
@@ -17157,12 +16116,12 @@ START_PARM_LIST
       PickupListIndex 348689
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 152
-  KEY 153
-    ClassVersion 4
+  END_KEY 155
+  KEY 156
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 175
+      Position 179
       CommandType 19980101
       CommandName 3D Height-max
       Enabled 1
@@ -17263,12 +16222,12 @@ START_PARM_LIST
       PickupListIndex 737906
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 153
-  KEY 154
-    ClassVersion 4
+  END_KEY 156
+  KEY 157
+    ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 176
+      Position 180
       CommandType 19980101
       CommandName 3D Height-min
       Enabled 1
@@ -17369,12 +16328,12 @@ START_PARM_LIST
       PickupListIndex 392429
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 154
-  KEY 155
+  END_KEY 157
+  KEY 158
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 177
+      Position 181
       CommandType 1040
       CommandName Assign Final Results
       Enabled 1
@@ -17430,12 +16389,12 @@ START_PARM_LIST
       PickupListIndex 193395
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 155
-  KEY 156
+  END_KEY 158
+  KEY 159
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 178
+      Position 182
       CommandType 1004
       CommandName ---logfile---
       Enabled 1
@@ -17451,12 +16410,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 156
-  KEY 157
-    ClassVersion 18
+  END_KEY 159
+  KEY 160
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 179
+      Position 183
       CommandType 246
       CommandName Time
       Enabled 1
@@ -17465,7 +16424,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -17567,38 +16526,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 1
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 423930
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 157
-  KEY 158
-    ClassVersion 18
+  END_KEY 160
+  KEY 161
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 180
+      Position 184
       CommandType 246
       CommandName tab
       Enabled 1
@@ -17607,7 +16541,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -17709,38 +16643,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 370675
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 158
-  KEY 159
-    ClassVersion 18
+  END_KEY 161
+  KEY 162
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 181
+      Position 185
       CommandType 246
       CommandName tab
       Enabled 1
@@ -17749,7 +16658,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -17851,38 +16760,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 786442
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 159
-  KEY 160
-    ClassVersion 18
+  END_KEY 162
+  KEY 163
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 182
+      Position 186
       CommandType 246
       CommandName tab
       Enabled 0
@@ -17891,7 +16775,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -17993,38 +16877,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 492566
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 160
-  KEY 161
-    ClassVersion 18
+  END_KEY 163
+  KEY 164
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 183
+      Position 187
       CommandType 246
       CommandName Station
       Enabled 1
@@ -18033,7 +16892,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -18135,38 +16994,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 249350
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 161
-  KEY 162
-    ClassVersion 18
+  END_KEY 164
+  KEY 165
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 184
+      Position 188
       CommandType 246
       CommandName tab
       Enabled 1
@@ -18175,7 +17009,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -18277,38 +17111,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 774942
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 162
-  KEY 163
-    ClassVersion 18
+  END_KEY 165
+  KEY 166
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 185
+      Position 189
       CommandType 246
       CommandName Task
       Enabled 1
@@ -18317,7 +17126,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -18419,38 +17228,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 252571
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 163
-  KEY 164
-    ClassVersion 18
+  END_KEY 166
+  KEY 167
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 186
+      Position 190
       CommandType 246
       CommandName tab
       Enabled 1
@@ -18459,7 +17243,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -18561,38 +17345,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 831099
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 164
-  KEY 165
-    ClassVersion 18
+  END_KEY 167
+  KEY 168
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 187
+      Position 191
       CommandType 246
       CommandName SectionID
       Enabled 1
@@ -18601,7 +17360,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -18703,38 +17462,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 31354
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 165
-  KEY 166
-    ClassVersion 18
+  END_KEY 168
+  KEY 169
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 188
+      Position 192
       CommandType 246
       CommandName tab
       Enabled 1
@@ -18743,7 +17477,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -18845,38 +17579,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 108075
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 166
-  KEY 167
-    ClassVersion 18
+  END_KEY 169
+  KEY 170
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 189
+      Position 193
       CommandType 246
       CommandName avg-dicke
       Enabled 1
@@ -18885,7 +17594,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -18987,38 +17696,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 492211
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 167
-  KEY 168
-    ClassVersion 18
+  END_KEY 170
+  KEY 171
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 190
+      Position 194
       CommandType 246
       CommandName tab
       Enabled 1
@@ -19027,7 +17711,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -19129,38 +17813,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 641226
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 168
-  KEY 169
-    ClassVersion 18
+  END_KEY 171
+  KEY 172
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 191
+      Position 195
       CommandType 246
       CommandName med-dicke
       Enabled 1
@@ -19169,7 +17828,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -19271,38 +17930,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 731956
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 169
-  KEY 170
-    ClassVersion 18
+  END_KEY 172
+  KEY 173
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 192
+      Position 196
       CommandType 246
       CommandName tab
       Enabled 1
@@ -19311,7 +17945,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -19413,38 +18047,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 899577
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 170
-  KEY 171
-    ClassVersion 18
+  END_KEY 173
+  KEY 174
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 193
+      Position 197
       CommandType 246
       CommandName min-dicke
       Enabled 1
@@ -19453,7 +18062,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -19555,38 +18164,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 382729
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 171
-  KEY 172
-    ClassVersion 18
+  END_KEY 174
+  KEY 175
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 194
+      Position 198
       CommandType 246
       CommandName tab
       Enabled 1
@@ -19595,7 +18179,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -19697,38 +18281,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 268771
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 172
-  KEY 173
-    ClassVersion 18
+  END_KEY 175
+  KEY 176
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 195
+      Position 199
       CommandType 246
       CommandName max-dicke
       Enabled 1
@@ -19737,7 +18296,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -19839,38 +18398,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 575505
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 173
-  KEY 174
-    ClassVersion 18
+  END_KEY 176
+  KEY 177
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 196
+      Position 200
       CommandType 246
       CommandName tab
       Enabled 1
@@ -19879,7 +18413,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -19981,38 +18515,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 694286
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 174
-  KEY 175
-    ClassVersion 18
+  END_KEY 177
+  KEY 178
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 197
+      Position 201
       CommandType 246
       CommandName UpperLimit
       Enabled 1
@@ -20021,7 +18530,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 5
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -20123,38 +18632,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 253307
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 175
-  KEY 176
-    ClassVersion 18
+  END_KEY 178
+  KEY 179
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 198
+      Position 202
       CommandType 246
       CommandName tab
       Enabled 1
@@ -20163,7 +18647,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 5
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -20265,38 +18749,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 593548
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 176
-  KEY 177
-    ClassVersion 18
+  END_KEY 179
+  KEY 180
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 199
+      Position 203
       CommandType 246
       CommandName LowerLimit
       Enabled 1
@@ -20305,7 +18764,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 5
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -20407,38 +18866,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 767707
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 177
-  KEY 178
-    ClassVersion 18
+  END_KEY 180
+  KEY 181
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 200
+      Position 204
       CommandType 246
       CommandName tab
       Enabled 1
@@ -20447,7 +18881,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 5
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -20549,38 +18983,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 440631
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 178
-  KEY 179
-    ClassVersion 18
+  END_KEY 181
+  KEY 182
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 201
+      Position 205
       CommandType 246
       CommandName ProductionID
       Enabled 3
@@ -20589,7 +18998,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -20691,38 +19100,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 123319
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 179
-  KEY 180
-    ClassVersion 18
+  END_KEY 182
+  KEY 183
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 202
+      Position 206
       CommandType 246
       CommandName ProductionID
       Enabled 2
@@ -20731,7 +19115,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -20833,38 +19217,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 723428
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 180
-  KEY 181
-    ClassVersion 18
+  END_KEY 183
+  KEY 184
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 203
+      Position 207
       CommandType 246
       CommandName NewLine
       Enabled 1
@@ -20873,7 +19232,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -20975,38 +19334,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 631802
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 181
-  KEY 182
-    ClassVersion 18
+  END_KEY 184
+  KEY 185
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 204
+      Position 208
       CommandType 246
       CommandName File
       Enabled 1
@@ -21015,7 +19349,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -21059,7 +19393,7 @@ START_PARM_LIST
     SeparationIndex 0
     SendType 1
     TextToDisplay Height:
-    Filename ./2022_04_22-logFile.txt
+    Filename ./2022_03_30-logFile.txt
     AddIntegerOnly 1
     SeperatorAtStartOfString 1
     PortNumber 0
@@ -21117,38 +19451,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 595899
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 182
-  KEY 183
-    ClassVersion 18
+  END_KEY 185
+  KEY 186
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 205
+      Position 209
       CommandType 246
       CommandName Reset
       Enabled 1
@@ -21157,7 +19466,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 4
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -21259,38 +19568,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 459907
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 183
-  KEY 184
+  END_KEY 186
+  KEY 187
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 206
+      Position 210
       CommandType 1004
       CommandName ---logfile---
       Enabled 1
@@ -21306,12 +19590,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 184
-  KEY 185
-    ClassVersion 11
+  END_KEY 187
+  KEY 188
+    ClassVersion 9
     CKGENERAL 
       ClassVersion 3
-      Position 207
+      Position 211
       CommandType 19980107
       CommandName Translate Point
       Enabled 1
@@ -21320,7 +19604,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 3
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -21392,7 +19676,7 @@ START_PARM_LIST
         ClassVersion 2
         Name 
         Type 1
-        Value0 10,0
+        Value0 5,0
         Value1 0,0
         Value2 0,0
         Value3 100000000000,0
@@ -21550,17 +19834,13 @@ START_PARM_LIST
     EulerAngleConversionAxis2 2
     EulerAngleConversionDirection 0
     FormatType 0
-    CKMULTI_PICKUP_WRITE 
-      ClassVersion 1
-      NumberOfPickups 0
-    END_CKMULTI_PICKUP_WRITE 
     TeachInCounter 0
-  END_KEY 185
-  KEY 186
-    ClassVersion 6
+  END_KEY 188
+  KEY 189
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 208
+      Position 212
       CommandType 19980108
       CommandName 3D Overlay
       Enabled 1
@@ -21569,7 +19849,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 3
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -21698,15 +19978,13 @@ START_PARM_LIST
     AppendToPrevious 0
     TextAfter 
     GlobalStringInText 0
-    NumberFormatPrecision 3
-    NumberFormatUnit mm
     TeachInCounter 0
-  END_KEY 186
-  KEY 187
+  END_KEY 189
+  KEY 190
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 210
+      Position 214
       CommandType 2
       CommandName Jump to Step By Step
       Enabled 1
@@ -21764,12 +20042,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 187
-  KEY 188
+  END_KEY 190
+  KEY 191
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 212
+      Position 216
       CommandType 2
       CommandName Positive End 2
       Enabled 1
@@ -21827,12 +20105,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 188
-  KEY 189
+  END_KEY 191
+  KEY 192
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 214
+      Position 218
       CommandType 2
       CommandName Clear Graphics
       Enabled 1
@@ -21890,12 +20168,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 189
-  KEY 190
-    ClassVersion 18
+  END_KEY 192
+  KEY 193
+    ClassVersion 17
     CKGENERAL 
       ClassVersion 3
-      Position 216
+      Position 220
       CommandType 246
       CommandName reset
       Enabled 1
@@ -21904,7 +20182,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -22006,38 +20284,13 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 1
-      ManualString 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
-    CKDESTINATIONSTRING 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      ManualVal 
-      CKPICKUP_TYPE_WRITE 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex 623570
-      END_CKPICKUP_TYPE_WRITE 
-    END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 190
-  KEY 191
-    ClassVersion 5
+  END_KEY 193
+  KEY 194
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 218
+      Position 222
       CommandType 19980602
       CommandName reset
       Enabled 1
@@ -22046,7 +20299,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -22127,26 +20380,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString Data
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 191
-  KEY 192
-    ClassVersion 5
+  END_KEY 194
+  KEY 195
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 219
+      Position 223
       CommandType 19980602
       CommandName open thickness
       Enabled 1
@@ -22155,7 +20395,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -22236,26 +20476,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString Data
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 192
-  KEY 193
-    ClassVersion 5
+  END_KEY 195
+  KEY 196
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 220
+      Position 224
       CommandType 19980602
       CommandName 11
       Enabled 1
@@ -22264,7 +20491,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -22311,7 +20538,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,3715599477
+      ManualValue 0,0579550415
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22345,26 +20572,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 193
-  KEY 194
-    ClassVersion 5
+  END_KEY 196
+  KEY 197
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 221
+      Position 225
       CommandType 19980602
       CommandName 21
       Enabled 1
@@ -22373,7 +20587,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -22420,7 +20634,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,3783664107
+      ManualValue 0,0515835024
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22454,26 +20668,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 194
-  KEY 195
-    ClassVersion 5
+  END_KEY 197
+  KEY 198
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 222
+      Position 226
       CommandType 19980602
       CommandName 12
       Enabled 1
@@ -22482,7 +20683,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -22529,7 +20730,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,3751552403
+      ManualValue 0,1493150443
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22563,26 +20764,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 195
-  KEY 196
-    ClassVersion 5
+  END_KEY 198
+  KEY 199
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 223
+      Position 227
       CommandType 19980602
       CommandName 22
       Enabled 1
@@ -22591,7 +20779,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -22638,7 +20826,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,3838736117
+      ManualValue 0,0947905481
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22672,26 +20860,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 196
-  KEY 197
-    ClassVersion 5
+  END_KEY 199
+  KEY 200
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 224
+      Position 228
       CommandType 19980602
       CommandName 13
       Enabled 1
@@ -22700,7 +20875,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -22747,7 +20922,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,3961759806
+      ManualValue 0,1500737667
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22781,26 +20956,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 197
-  KEY 198
-    ClassVersion 5
+  END_KEY 200
+  KEY 201
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 225
+      Position 229
       CommandType 19980602
       CommandName 23
       Enabled 1
@@ -22809,7 +20971,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -22856,7 +21018,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,3764816225
+      ManualValue 0,1366370618
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22890,26 +21052,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 198
-  KEY 199
-    ClassVersion 5
+  END_KEY 201
+  KEY 202
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 226
+      Position 230
       CommandType 19980602
       CommandName 14
       Enabled 1
@@ -22918,7 +21067,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -22965,7 +21114,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,3481691778
+      ManualValue 0,1215146109
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -22999,26 +21148,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 199
-  KEY 200
-    ClassVersion 5
+  END_KEY 202
+  KEY 203
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 227
+      Position 231
       CommandType 19980602
       CommandName 24
       Enabled 1
@@ -23027,7 +21163,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -23074,7 +21210,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,3462190032
+      ManualValue 0,108470954
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23108,26 +21244,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 200
-  KEY 201
-    ClassVersion 5
+  END_KEY 203
+  KEY 204
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 228
+      Position 232
       CommandType 19980602
       CommandName 15
       Enabled 1
@@ -23136,7 +21259,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -23183,7 +21306,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,3143154681
+      ManualValue 0,1160162091
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23217,26 +21340,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 201
-  KEY 202
-    ClassVersion 5
+  END_KEY 204
+  KEY 205
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 229
+      Position 233
       CommandType 19980602
       CommandName 25
       Enabled 1
@@ -23245,7 +21355,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -23292,7 +21402,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,312716037
+      ManualValue 0,0995930508
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23326,26 +21436,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 202
-  KEY 203
-    ClassVersion 5
+  END_KEY 205
+  KEY 206
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 230
+      Position 234
       CommandType 19980602
       CommandName 16
       Enabled 1
@@ -23354,7 +21451,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -23401,7 +21498,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,3726631403
+      ManualValue 0,1021493897
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23435,26 +21532,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 203
-  KEY 204
-    ClassVersion 5
+  END_KEY 206
+  KEY 207
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 231
+      Position 235
       CommandType 19980602
       CommandName 26
       Enabled 1
@@ -23463,7 +21547,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -23510,7 +21594,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,3716672361
+      ManualValue 0,0913071334
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23544,26 +21628,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 204
-  KEY 205
-    ClassVersion 5
+  END_KEY 207
+  KEY 208
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 232
+      Position 236
       CommandType 19980602
       CommandName 17
       Enabled 1
@@ -23572,7 +21643,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -23619,7 +21690,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,4021419287
+      ManualValue 0,0734104663
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23653,26 +21724,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 205
-  KEY 206
-    ClassVersion 5
+  END_KEY 208
+  KEY 209
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 233
+      Position 237
       CommandType 19980602
       CommandName 27
       Enabled 1
@@ -23681,7 +21739,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -23728,7 +21786,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,4127699435
+      ManualValue 0,0685273334
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23762,26 +21820,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 206
-  KEY 207
-    ClassVersion 5
+  END_KEY 209
+  KEY 210
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 234
+      Position 238
       CommandType 19980602
       CommandName 18
       Enabled 1
@@ -23790,7 +21835,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -23837,7 +21882,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,4299832284
+      ManualValue 0,0765341744
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23871,26 +21916,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 207
-  KEY 208
-    ClassVersion 5
+  END_KEY 210
+  KEY 211
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 235
+      Position 239
       CommandType 19980602
       CommandName 28
       Enabled 1
@@ -23899,7 +21931,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -23946,7 +21978,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,4070362449
+      ManualValue 0,0697155595
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -23980,26 +22012,13 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString na
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 208
-  KEY 209
-    ClassVersion 5
+  END_KEY 211
+  KEY 212
+    ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 236
+      Position 240
       CommandType 19980602
       CommandName close
       Enabled 1
@@ -24008,7 +22027,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo Could not load command ( file format error). Command must be reconfigured.
+      Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -24089,21 +22108,8 @@ START_PARM_LIST
     EscapeChar 0
     FloatingPointMode 0
     FloatingPointPrecision 3
-    CKSOURCESTRING 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      ManualString Data
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 6
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      RegisterIndex 0
-    END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 209
+  END_KEY 212
 END_PARM_LIST 
 CKPARAMETERS 
   ClassVersion 1

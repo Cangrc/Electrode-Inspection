@@ -1,9 +1,9 @@
 EVT 
-EYEVISION_VERSION 4.00.013
-FILE_VERSION 95
+EYEVISION_VERSION 4.01.003
+FILE_VERSION 99
 CREATED 07.08.2019 15:17:56
 CREATED_BY Admin
-LAST_MODIFIED 22.02.2022 16:21:11
+LAST_MODIFIED 02.05.2022 15:04:46
 LAST_MODIFIED_BY Admin
 START_PARM_LIST 
   KEY 1
@@ -28,7 +28,7 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 1
   KEY 2
-    ClassVersion 17
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
       Position 1
@@ -142,10 +142,35 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 82344
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 2
   KEY 3
-    ClassVersion 5
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 2
@@ -214,9 +239,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName ProfileNum
     ArithmeticResultToPickup 1
-    ArithmeticElementType1 2
+    ArithmeticElementType1 3
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 20,0
     ArithmeticManualElementY 0,0
@@ -254,10 +279,17 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 100,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
   END_KEY 3
   KEY 4
-    ClassVersion 5
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 3
@@ -326,9 +358,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName Duration
     ArithmeticResultToPickup 1
-    ArithmeticElementType1 2
+    ArithmeticElementType1 3
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 20,0
     ArithmeticManualElementY 0,0
@@ -366,10 +398,17 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 100,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
   END_KEY 4
   KEY 5
-    ClassVersion 5
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 4
@@ -438,9 +477,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName Yres
     ArithmeticResultToPickup 1
-    ArithmeticElementType1 2
+    ArithmeticElementType1 3
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 20,0
     ArithmeticManualElementY 0,0
@@ -478,10 +517,17 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 100,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
   END_KEY 5
   KEY 6
-    ClassVersion 5
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 5
@@ -550,9 +596,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName EncoderPerMM
     ArithmeticResultToPickup 1
-    ArithmeticElementType1 2
+    ArithmeticElementType1 3
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 20,0
     ArithmeticManualElementY 0,0
@@ -590,6 +636,13 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 100,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
   END_KEY 6
   KEY 7
@@ -941,7 +994,7 @@ START_PARM_LIST
       Position 16
       CommandType 19980504
       CommandName Set TriggerMode: RS422
-      Enabled 0
+      Enabled 1
       Hidden 0
       GraficMode 2
       TextMode 2
@@ -986,7 +1039,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 3,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -1177,7 +1230,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 2,0
+      ManualValue 0,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -2120,7 +2173,7 @@ START_PARM_LIST
       Position 36
       CommandType 19980504
       CommandName Set TriggerMode: RS422
-      Enabled 0
+      Enabled 1
       Hidden 0
       GraficMode 2
       TextMode 2
@@ -2165,7 +2218,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 3,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -2295,7 +2348,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 2,0
+      ManualValue 0,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -3326,7 +3379,7 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 55
   KEY 56
-    ClassVersion 5
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 57
@@ -3395,9 +3448,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName 
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 2
+    ArithmeticElementType1 3
     ArithmeticElementRegisterIndex1 1
-    ArithmeticElementType2 0
+    ArithmeticElementType2 2
     ArithmeticElementRegisterIndex2 0
     ArithmeticManualElementX 20,0
     ArithmeticManualElementY 0,0
@@ -3435,6 +3488,13 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 16,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
   END_KEY 56
   KEY 57
@@ -3568,7 +3628,7 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 58
   KEY 59
-    ClassVersion 5
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 60
@@ -3637,9 +3697,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName 
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 2
+    ArithmeticElementType1 3
     ArithmeticElementRegisterIndex1 1
-    ArithmeticElementType2 0
+    ArithmeticElementType2 2
     ArithmeticElementRegisterIndex2 0
     ArithmeticManualElementX 20,0
     ArithmeticManualElementY 0,0
@@ -3677,6 +3737,13 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 590,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
   END_KEY 59
   KEY 60
@@ -3810,7 +3877,7 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 61
   KEY 62
-    ClassVersion 7
+    ClassVersion 8
     CKGENERAL 
       ClassVersion 3
       Position 63
@@ -3932,6 +3999,32 @@ START_PARM_LIST
     Severity 4
     ModuleName User
     Text2 
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
     TeachInCounter 0
   END_KEY 62
   KEY 63
@@ -3956,7 +4049,7 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 63
   KEY 64
-    ClassVersion 5
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 66
@@ -4025,9 +4118,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName ProfileNum
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 2
+    ArithmeticElementType1 3
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 0
     ArithmeticManualElementX 590,0
     ArithmeticManualElementY 0,0
@@ -4065,10 +4158,17 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 327,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
   END_KEY 64
   KEY 65
-    ClassVersion 5
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 67
@@ -4137,7 +4237,7 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName ProfileNum
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 0
+    ArithmeticElementType1 2
     ArithmeticElementRegisterIndex1 0
     ArithmeticElementType2 1
     ArithmeticElementRegisterIndex2 1
@@ -4177,6 +4277,13 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 4000,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
   END_KEY 65
   KEY 66
@@ -4373,7 +4480,7 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 70
   KEY 71
-    ClassVersion 5
+    ClassVersion 6
     CKGENERAL 
       ClassVersion 3
       Position 73
@@ -4514,6 +4621,8 @@ START_PARM_LIST
     AppendToPrevious 0
     TextAfter 
     GlobalStringInText 0
+    NumberFormatPrecision 1631799662
+    NumberFormatUnit 
     TeachInCounter 0
   END_KEY 71
   KEY 72

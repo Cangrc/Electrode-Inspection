@@ -1,9 +1,9 @@
 EVT 
-EYEVISION_VERSION 4.00.013
-FILE_VERSION 120
+EYEVISION_VERSION 4.01.003-6-gdbf0df62cb
+FILE_VERSION 129
 CREATED 22.04.2021 09:40:22
 CREATED_BY Admin
-LAST_MODIFIED 08.03.2022 16:20:16
+LAST_MODIFIED 05.04.2022 15:04:11
 LAST_MODIFIED_BY Admin
 START_PARM_LIST 
   KEY 1
@@ -49,7 +49,7 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 2
   KEY 3
-    ClassVersion 17
+    ClassVersion 18
     CKGENERAL 
       ClassVersion 3
       Position 2
@@ -163,10 +163,35 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     FileAccessMode 1
     ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 214629
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
     TeachInCounter 0
   END_KEY 3
   KEY 4
-    ClassVersion 5
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 3
@@ -235,9 +260,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName Length
     ArithmeticResultToPickup 1
-    ArithmeticElementType1 2
+    ArithmeticElementType1 3
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 20,0
     ArithmeticManualElementY 0,0
@@ -275,10 +300,17 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 100,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
   END_KEY 4
   KEY 5
-    ClassVersion 5
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 4
@@ -347,9 +379,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName Speed
     ArithmeticResultToPickup 1
-    ArithmeticElementType1 2
+    ArithmeticElementType1 3
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 20,0
     ArithmeticManualElementY 0,0
@@ -387,10 +419,17 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 100,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
   END_KEY 5
   KEY 6
-    ClassVersion 5
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 5
@@ -459,9 +498,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName ProfileNum
     ArithmeticResultToPickup 1
-    ArithmeticElementType1 2
+    ArithmeticElementType1 3
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 20,0
     ArithmeticManualElementY 0,0
@@ -499,10 +538,17 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 100,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
   END_KEY 6
   KEY 7
-    ClassVersion 5
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 6
@@ -571,9 +617,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName Duration
     ArithmeticResultToPickup 1
-    ArithmeticElementType1 2
+    ArithmeticElementType1 3
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 20,0
     ArithmeticManualElementY 0,0
@@ -611,10 +657,17 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 100,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
   END_KEY 7
   KEY 8
-    ClassVersion 5
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 7
@@ -683,9 +736,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName Yres
     ArithmeticResultToPickup 1
-    ArithmeticElementType1 2
+    ArithmeticElementType1 3
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 20,0
     ArithmeticManualElementY 0,0
@@ -723,10 +776,17 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 100,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
   END_KEY 8
   KEY 9
-    ClassVersion 5
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 8
@@ -795,9 +855,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName EncoderPerMM
     ArithmeticResultToPickup 1
-    ArithmeticElementType1 2
+    ArithmeticElementType1 3
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 20,0
     ArithmeticManualElementY 0,0
@@ -835,6 +895,13 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 100,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
   END_KEY 9
   KEY 10
@@ -1162,7 +1229,7 @@ START_PARM_LIST
       ClassVersion 3
       Position 17
       CommandType 19980504
-      CommandName EncoderMode: No Boundary
+      CommandName EncoderMode: BoundaryMax
       Enabled 1
       Hidden 0
       GraficMode 2
@@ -1208,7 +1275,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 2,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -1355,7 +1422,267 @@ START_PARM_LIST
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
+      Position 20
+      CommandType 19980504
+      CommandName BoundaryMax:50
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 50,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControlAdvanced/BoundaryMax
+    VICIndex 0
+    Determination 0
+    TeachInCounter 0
+  END_KEY 20
+  KEY 21
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
       Position 21
+      CommandType 19980504
+      CommandName Trigger Sequencer: Enable
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 3,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dTriggerSequencer/TriggerSequencerType
+    VICIndex 0
+    Determination 0
+    TeachInCounter 0
+  END_KEY 21
+  KEY 22
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 22
+      CommandType 19980504
+      CommandName Trigger Sequencer Signal: High
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dTriggerSequencer/TriggerSequencerSignal
+    VICIndex 0
+    Determination 0
+    TeachInCounter 0
+  END_KEY 22
+  KEY 23
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 23
+      CommandType 19980504
+      CommandName Trigger Source: Line0
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/AcquisitionControl/TriggerSource
+    VICIndex 0
+    Determination 0
+    TeachInCounter 0
+  END_KEY 23
+  KEY 24
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 25
       CommandType 19980504
       CommandName COG Algorithm
       Enabled 1
@@ -1415,12 +1742,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 20
-  KEY 21
+  END_KEY 24
+  KEY 25
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 22
+      Position 26
       CommandType 19980504
       CommandName Filter: Neutral
       Enabled 1
@@ -1480,12 +1807,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 21
-  KEY 22
+  END_KEY 25
+  KEY 26
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 23
+      Position 27
       CommandType 19980504
       CommandName Threshold
       Enabled 1
@@ -1545,12 +1872,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 22
-  KEY 23
+  END_KEY 26
+  KEY 27
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 24
+      Position 28
       CommandType 19980504
       CommandName Selection Mode: Avg Brightness
       Enabled 1
@@ -1610,12 +1937,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 23
-  KEY 24
+  END_KEY 27
+  KEY 28
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 25
+      Position 29
       CommandType 19980504
       CommandName Set Exposure Time
       Enabled 1
@@ -1675,12 +2002,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 24
-  KEY 25
+  END_KEY 28
+  KEY 29
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 26
+      Position 30
       CommandType 19980504
       CommandName Set AOI Height
       Enabled 1
@@ -1740,12 +2067,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 25
-  KEY 26
+  END_KEY 29
+  KEY 30
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 27
+      Position 31
       CommandType 19980504
       CommandName Set AOI Height
       Enabled 0
@@ -1805,12 +2132,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 26
-  KEY 27
+  END_KEY 30
+  KEY 31
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 28
+      Position 32
       CommandType 19980504
       CommandName Set AOI Width
       Enabled 1
@@ -1870,12 +2197,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 27
-  KEY 28
+  END_KEY 31
+  KEY 32
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 29
+      Position 33
       CommandType 19980504
       CommandName Set AOI OffsetX
       Enabled 1
@@ -1935,12 +2262,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 28
-  KEY 29
+  END_KEY 32
+  KEY 33
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 30
+      Position 34
       CommandType 19980504
       CommandName Set AOI OffsetY
       Enabled 0
@@ -2000,12 +2327,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 29
-  KEY 30
+  END_KEY 33
+  KEY 34
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 31
+      Position 35
       CommandType 19980504
       CommandName Set AOI OffsetY
       Enabled 1
@@ -2065,12 +2392,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 30
-  KEY 31
+  END_KEY 34
+  KEY 35
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 32
+      Position 36
       CommandType 19980504
       CommandName LaserOn/Off
       Enabled 1
@@ -2130,12 +2457,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 31
-  KEY 32
+  END_KEY 35
+  KEY 36
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 33
+      Position 37
       CommandType 19980504
       CommandName FrameRate Max the Faster
       Enabled 1
@@ -2195,12 +2522,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 32
-  KEY 33
+  END_KEY 36
+  KEY 37
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 34
+      Position 38
       CommandType 19980504
       CommandName FrameRate Max the Faster
       Enabled 0
@@ -2260,12 +2587,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 33
-  KEY 34
+  END_KEY 37
+  KEY 38
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 35
+      Position 39
       CommandType 19980504
       CommandName Enable Continous Mode
       Enabled 1
@@ -2325,12 +2652,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 34
-  KEY 35
+  END_KEY 38
+  KEY 39
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 36
+      Position 40
       CommandType 114
       CommandName Stop watch
       Enabled 1
@@ -2382,12 +2709,12 @@ START_PARM_LIST
       PickupListIndex 20525
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 35
-  KEY 36
+  END_KEY 39
+  KEY 40
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 38
+      Position 42
       CommandType 1004
       CommandName --- SCANNER 2 ---
       Enabled 1
@@ -2403,12 +2730,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 36
-  KEY 37
+  END_KEY 40
+  KEY 41
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 39
+      Position 43
       CommandType 19980504
       CommandName CaptureMode: PointCloud
       Enabled 1
@@ -2468,12 +2795,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 37
-  KEY 38
+  END_KEY 41
+  KEY 42
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 40
+      Position 44
       CommandType 19980504
       CommandName Scan Mode: Area
       Enabled 1
@@ -2533,12 +2860,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 38
-  KEY 39
+  END_KEY 42
+  KEY 43
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 41
+      Position 45
       CommandType 19980504
       CommandName Quadrature Encoder
       Enabled 1
@@ -2598,14 +2925,14 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 39
-  KEY 40
+  END_KEY 43
+  KEY 44
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 42
+      Position 46
       CommandType 19980504
-      CommandName EncoderMode: No Boundary
+      CommandName EncoderMode: BoundaryMax
       Enabled 1
       Hidden 0
       GraficMode 2
@@ -2651,7 +2978,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,0
+      ManualValue 2,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -2663,12 +2990,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 40
-  KEY 41
+  END_KEY 44
+  KEY 45
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 43
+      Position 47
       CommandType 19980504
       CommandName EncoderReset
       Enabled 1
@@ -2728,12 +3055,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 41
-  KEY 42
+  END_KEY 45
+  KEY 46
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 44
+      Position 48
       CommandType 19980504
       CommandName Set Encoder Type: RS422 or Input0/Input1
       Enabled 1
@@ -2793,12 +3120,272 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 42
-  KEY 43
+  END_KEY 46
+  KEY 47
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 46
+      Position 49
+      CommandType 19980504
+      CommandName BoundaryMax:50
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 50,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControlAdvanced/BoundaryMax
+    VICIndex 1
+    Determination 0
+    TeachInCounter 0
+  END_KEY 47
+  KEY 48
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 50
+      CommandType 19980504
+      CommandName Trigger Sequencer: Enable
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 3,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dTriggerSequencer/TriggerSequencerType
+    VICIndex 1
+    Determination 0
+    TeachInCounter 0
+  END_KEY 48
+  KEY 49
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 51
+      CommandType 19980504
+      CommandName Trigger Sequencer Signal: High
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dTriggerSequencer/TriggerSequencerSignal
+    VICIndex 1
+    Determination 0
+    TeachInCounter 0
+  END_KEY 49
+  KEY 50
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 52
+      CommandType 19980504
+      CommandName Trigger Source: Line0
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/AcquisitionControl/TriggerSource
+    VICIndex 1
+    Determination 0
+    TeachInCounter 0
+  END_KEY 50
+  KEY 51
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 54
       CommandType 19980504
       CommandName COG Algorithm
       Enabled 1
@@ -2858,12 +3445,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 43
-  KEY 44
+  END_KEY 51
+  KEY 52
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 47
+      Position 55
       CommandType 19980504
       CommandName Filter: Neutral
       Enabled 1
@@ -2923,12 +3510,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 44
-  KEY 45
+  END_KEY 52
+  KEY 53
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 48
+      Position 56
       CommandType 19980504
       CommandName Threshold
       Enabled 1
@@ -2988,12 +3575,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 45
-  KEY 46
+  END_KEY 53
+  KEY 54
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 49
+      Position 57
       CommandType 19980504
       CommandName Selection Mode: Avg Brightness
       Enabled 1
@@ -3053,12 +3640,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 46
-  KEY 47
+  END_KEY 54
+  KEY 55
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 50
+      Position 58
       CommandType 19980504
       CommandName Set Exposure Time
       Enabled 1
@@ -3118,12 +3705,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 47
-  KEY 48
+  END_KEY 55
+  KEY 56
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 51
+      Position 59
       CommandType 19980504
       CommandName Set AOI Height
       Enabled 1
@@ -3183,12 +3770,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 48
-  KEY 49
+  END_KEY 56
+  KEY 57
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 52
+      Position 60
       CommandType 19980504
       CommandName Set AOI Height
       Enabled 0
@@ -3248,12 +3835,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 49
-  KEY 50
+  END_KEY 57
+  KEY 58
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 53
+      Position 61
       CommandType 19980504
       CommandName Set AOI Width
       Enabled 1
@@ -3313,12 +3900,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 50
-  KEY 51
+  END_KEY 58
+  KEY 59
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 54
+      Position 62
       CommandType 19980504
       CommandName Set AOI OffsetX
       Enabled 1
@@ -3378,12 +3965,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 51
-  KEY 52
+  END_KEY 59
+  KEY 60
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 55
+      Position 63
       CommandType 19980504
       CommandName Set AOI OffsetY
       Enabled 0
@@ -3443,12 +4030,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 52
-  KEY 53
+  END_KEY 60
+  KEY 61
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 56
+      Position 64
       CommandType 19980504
       CommandName Set AOI OffsetY
       Enabled 1
@@ -3508,12 +4095,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 53
-  KEY 54
+  END_KEY 61
+  KEY 62
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 57
+      Position 65
       CommandType 19980504
       CommandName LaserOn/Off
       Enabled 1
@@ -3573,12 +4160,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 54
-  KEY 55
+  END_KEY 62
+  KEY 63
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 58
+      Position 66
       CommandType 19980504
       CommandName FrameRate Max the Faster
       Enabled 1
@@ -3638,12 +4225,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 55
-  KEY 56
+  END_KEY 63
+  KEY 64
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 59
+      Position 67
       CommandType 19980504
       CommandName FrameRate Max the Faster
       Enabled 0
@@ -3703,12 +4290,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 56
-  KEY 57
+  END_KEY 64
+  KEY 65
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 60
+      Position 68
       CommandType 19980504
       CommandName Enable Continous Mode
       Enabled 1
@@ -3768,12 +4355,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 57
-  KEY 58
+  END_KEY 65
+  KEY 66
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 62
+      Position 70
       CommandType 1004
       CommandName ###############
       Enabled 1
@@ -3789,12 +4376,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 58
-  KEY 59
+  END_KEY 66
+  KEY 67
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 63
+      Position 71
       CommandType 1004
       CommandName + C. Do Calculations
       Enabled 1
@@ -3810,12 +4397,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 59
-  KEY 60
-    ClassVersion 5
+  END_KEY 67
+  KEY 68
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 64
+      Position 72
       CommandType 122
       CommandName Length / Speed = Duration
       Enabled 1
@@ -3921,13 +4508,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 100,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 60
-  KEY 61
+  END_KEY 68
+  KEY 69
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 65
+      Position 73
       CommandType 19980504
       CommandName Read Frequency of Sensor
       Enabled 1
@@ -3987,12 +4581,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 1
     TeachInCounter 0
-  END_KEY 61
-  KEY 62
-    ClassVersion 5
+  END_KEY 69
+  KEY 70
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 66
+      Position 74
       CommandType 122
       CommandName Duration * Frequency = Number of Profiles
       Enabled 1
@@ -4058,9 +4652,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName 
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 0
+    ArithmeticElementType1 2
     ArithmeticElementRegisterIndex1 1
-    ArithmeticElementType2 0
+    ArithmeticElementType2 2
     ArithmeticElementRegisterIndex2 0
     ArithmeticManualElementX 20,0
     ArithmeticManualElementY 0,0
@@ -4098,13 +4692,20 @@ START_PARM_LIST
     ArithmeticFirstManualElementX 100,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
+    ConstantString 
+    InitializationString 
+    ArithmeticManualString 
+    ArithmeticManualFirstString 
+    StringArithmeticElementType1 1
+    StringArithmeticElementType2 1
+    MakeConstant 0
     TeachInCounter 0
-  END_KEY 62
-  KEY 63
+  END_KEY 70
+  KEY 71
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 68
+      Position 76
       CommandType 19980504
       CommandName Set Number of Profiles - Scanner 0
       Enabled 1
@@ -4164,12 +4765,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 63
-  KEY 64
+  END_KEY 71
+  KEY 72
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 69
+      Position 77
       CommandType 19980504
       CommandName Set Number of Profiles - Scanner 1
       Enabled 1
@@ -4229,12 +4830,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 64
-  KEY 65
+  END_KEY 72
+  KEY 73
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 71
+      Position 79
       CommandType 19980504
       CommandName Set Yres - Scanner 0
       Enabled 1
@@ -4294,12 +4895,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 65
-  KEY 66
+  END_KEY 73
+  KEY 74
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 72
+      Position 80
       CommandType 19980504
       CommandName Set Yres - Scanner 1
       Enabled 1
@@ -4359,12 +4960,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 66
-  KEY 67
+  END_KEY 74
+  KEY 75
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 74
+      Position 82
       CommandType 19980504
       CommandName Absolute Y Position
       Enabled 1
@@ -4424,12 +5025,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 67
-  KEY 68
+  END_KEY 75
+  KEY 76
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 75
+      Position 83
       CommandType 19980504
       CommandName Absolute Y Position
       Enabled 1
@@ -4489,12 +5090,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 68
-  KEY 69
+  END_KEY 76
+  KEY 77
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 77
+      Position 85
       CommandType 19980504
       CommandName Trigger Divider
       Enabled 1
@@ -4542,7 +5143,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 10,0
+      ManualValue 100,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -4554,12 +5155,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 69
-  KEY 70
+  END_KEY 77
+  KEY 78
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 78
+      Position 86
       CommandType 19980504
       CommandName Trigger Divider
       Enabled 1
@@ -4607,7 +5208,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 10,0
+      ManualValue 100,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -4619,12 +5220,12 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 70
-  KEY 71
+  END_KEY 78
+  KEY 79
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 79
+      Position 87
       CommandType 1004
       CommandName ###############
       Enabled 1
@@ -4640,12 +5241,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 71
-  KEY 72
+  END_KEY 79
+  KEY 80
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 80
+      Position 88
       CommandType 1004
       CommandName + D. Scan and Save Point Cloud
       Enabled 1
@@ -4661,12 +5262,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 72
-  KEY 73
+  END_KEY 80
+  KEY 81
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 81
+      Position 89
       CommandType 2
       CommandName Delete Graphics
       Enabled 1
@@ -4724,12 +5325,12 @@ START_PARM_LIST
       PickupListIndex 606664
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 73
-  KEY 74
+  END_KEY 81
+  KEY 82
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 82
+      Position 90
       CommandType 1040
       CommandName Delete Prev Profiles
       Enabled 1
@@ -4785,7 +5386,7 @@ START_PARM_LIST
       PickupListIndex 286538
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 74
+  END_KEY 82
 END_PARM_LIST 
 CKPARAMETERS 
   ClassVersion 1

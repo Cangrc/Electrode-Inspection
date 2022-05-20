@@ -3,7 +3,7 @@ EYEVISION_VERSION 4.01.003-69-g311e1ffc5e
 FILE_VERSION 289
 CREATED 22.04.2021 09:40:22
 CREATED_BY Admin
-LAST_MODIFIED 20.05.2022 14:47:50
+LAST_MODIFIED 20.05.2022 14:46:16
 LAST_MODIFIED_BY Admin
 START_PARM_LIST 
   KEY 1
@@ -12,7 +12,7 @@ START_PARM_LIST
       ClassVersion 3
       Position 0
       CommandType 1004
-      CommandName T-5
+      CommandName T-4
       Enabled 1
       Hidden 0
       GraficMode 2
@@ -972,7 +972,7 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    Program ~Dim Speed As Double~Speed = configDouble("application.speedVar")~Print(Speed)~~Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element 'Speed'~'Write result and value to Pickuplist~Dim dSpeedVar As Double~Dim lSpeedVar As Long~Dim lSpeedVarUpdateMode As Long~Dim sSpeedVarName As String~dSpeedVar = Speed 'Please insert Value here~lSpeedVar = 0 'Default Result~lSpeedVarUpdateMode = 14 'Default UpdateMode~sSpeedVarName = "SpeedVar"~lResult = CKTRANSEnterResultToPickupList(989603 , lSpeedVar, dSpeedVar, sSpeedVarName, lSpeedVarUpdateMode)~~~Dim Length As Double~Length = configDouble("application.lengthVar")~Print(Length)~~Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element 'Length'~'Write result and value to Pickuplist~Dim dLengthVar As Double~Dim lLengthVar As Long~Dim lLengthVarUpdateMode As Long~Dim sLengthVarName As String~dLengthVar = Length~lLengthVar = 0 'Default Result~lLengthVarUpdateMode = 14 'Default UpdateMode~sLengthVarName = "LengthVar"~lResult = CKTRANSEnterResultToPickupList(27643 , lLengthVar, dLengthVar, sLengthVarName, lLengthVarUpdateMode)~~'Additional Settings~~'Executing the camera command: Encoder Reset(/CameraSettings/EncoderControl/EncoderReset)~EVHDCCTLSetParameterLongByName(0, "/CameraSettings/EncoderControl/EncoderReset", 1)~'Executing the camera command: Encoder Reset(/CameraSettings/EncoderControl/EncoderReset)~EVHDCCTLSetParameterLongByName(1, "/CameraSettings/EncoderControl/EncoderReset", 1)~~Dim sValue As String: sValue = "TOFS_Low"~EVHDCCTLSetParameterStringByName(0, "/CameraSettings/Scan3dOutput/OutputFunction", sValue)~Dim sValue As String: sValue = "TOFS_Low"~EVHDCCTLSetParameterStringByName(1, "/CameraSettings/Scan3dOutput/OutputFunction", sValue)~
+    Program ~Dim Speed As Double~Speed = configDouble("application.speedVar")~Print(Speed)~~Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element 'Speed'~'Write result and value to Pickuplist~Dim dSpeedVar As Double~Dim lSpeedVar As Long~Dim lSpeedVarUpdateMode As Long~Dim sSpeedVarName As String~dSpeedVar = Speed 'Please insert Value here~lSpeedVar = 0 'Default Result~lSpeedVarUpdateMode = 14 'Default UpdateMode~sSpeedVarName = "SpeedVar"~lResult = CKTRANSEnterResultToPickupList(989603 , lSpeedVar, dSpeedVar, sSpeedVarName, lSpeedVarUpdateMode)~~~Dim Length As Double~Length = configDouble("application.lengthVar")~Print(Length)~~Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element 'Length'~'Write result and value to Pickuplist~Dim dLengthVar As Double~Dim lLengthVar As Long~Dim lLengthVarUpdateMode As Long~Dim sLengthVarName As String~dLengthVar = Length~lLengthVar = 0 'Default Result~lLengthVarUpdateMode = 14 'Default UpdateMode~sLengthVarName = "LengthVar"~lResult = CKTRANSEnterResultToPickupList(27643 , lLengthVar, dLengthVar, sLengthVarName, lLengthVarUpdateMode)~~'Additional Settings~~'Executing the camera command: Encoder Reset(/CameraSettings/EncoderControl/EncoderReset)~EVHDCCTLSetParameterLongByName(0, "/CameraSettings/EncoderControl/EncoderReset", 1)~~Dim sValue As String: sValue = "TOFS_Low"~EVHDCCTLSetParameterStringByName(0, "/CameraSettings/Scan3dOutput/OutputFunction", sValue)~~
     EncodedBinary 
     ExternProgramFileName 
     UseExternProgram 0
@@ -1445,7 +1445,7 @@ START_PARM_LIST
       ClassVersion 3
       Position 21
       CommandType 19980504
-      CommandName BoundaryMax:107
+      CommandName BoundaryMax:207
       Enabled 1
       Hidden 0
       GraficMode 2
@@ -1491,7 +1491,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 107,0
+      ManualValue 207,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -1510,7 +1510,7 @@ START_PARM_LIST
       ClassVersion 3
       Position 22
       CommandType 19980504
-      CommandName BoundaryMin:-107
+      CommandName BoundaryMin:-207
       Enabled 1
       Hidden 0
       GraficMode 2
@@ -1556,7 +1556,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue -107,0
+      ManualValue -207,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -2271,7 +2271,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 1,0
+      ManualValue 0,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -3051,7 +3051,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 1,0
+      ManualValue 2,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -3798,7 +3798,7 @@ START_PARM_LIST
       ClassVersion 3
       Position 60
       CommandType 19980504
-      CommandName EncoderMode: BoundaryMax
+      CommandName EncoderMode: BoundaryZero
       Enabled 1
       Hidden 0
       GraficMode 2
@@ -3993,7 +3993,7 @@ START_PARM_LIST
       ClassVersion 3
       Position 63
       CommandType 19980504
-      CommandName BoundaryMax:107
+      CommandName BoundaryMax:207
       Enabled 1
       Hidden 0
       GraficMode 2
@@ -4039,7 +4039,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 107,0
+      ManualValue 207,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -4058,7 +4058,7 @@ START_PARM_LIST
       ClassVersion 3
       Position 64
       CommandType 19980504
-      CommandName BoundaryMin:-107
+      CommandName BoundaryMin:-207
       Enabled 1
       Hidden 0
       GraficMode 2
@@ -4104,7 +4104,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue -107,0
+      ManualValue -207,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -4819,7 +4819,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 1,0
+      ManualValue 0,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -5599,7 +5599,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 7,0
+      ManualValue 2,0
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -6071,21 +6071,57 @@ START_PARM_LIST
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 97
-      CommandType 1004
-      CommandName ###############
+      Position 96
+      CommandType 114
+      CommandName Stop watch
       Enabled 1
       Hidden 0
       GraficMode 2
       TextMode 2
-      ImageMemory 0
+      ImageMemory 4
       InvertResult 0
       Memo 
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
     END_CKGENERAL 
-    OldCMDType 0
+    CKRESULT 
+      ClassVersion 1
+      Name Stop watch
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    DeterminationType 1
+    ActTime 100
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 971827
+    END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
   END_KEY 93
   KEY 94
@@ -6094,7 +6130,7 @@ START_PARM_LIST
       ClassVersion 3
       Position 98
       CommandType 1004
-      CommandName + C. Do Calculations
+      CommandName --- SCANNER 3 ---
       Enabled 1
       Hidden 0
       GraficMode 2
@@ -6110,10 +6146,2579 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 94
   KEY 95
-    ClassVersion 7
+    ClassVersion 2
     CKGENERAL 
       ClassVersion 3
       Position 99
+      CommandType 19980504
+      CommandName CaptureMode: PointCloud
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 3,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 604029
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CaptureMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 95
+  KEY 96
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 100
+      CommandType 19980504
+      CommandName Scan Mode: Continous
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 604029
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dTransformControl/EncoderUseCase
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 96
+  KEY 97
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 101
+      CommandType 19980504
+      CommandName Quadrature Encoder
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControlAdvanced/EncoderMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 97
+  KEY 98
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 102
+      CommandType 19980504
+      CommandName EncoderMode: BoundaryZero
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 2,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControlAdvanced/EncoderCompareMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 98
+  KEY 99
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 103
+      CommandType 19980504
+      CommandName EncoderReset
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControl/EncoderReset
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 99
+  KEY 100
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 104
+      CommandType 19980504
+      CommandName Set Encoder Type: RS422 or Input0/Input1
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dInput/InputType
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 100
+  KEY 101
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 105
+      CommandType 19980504
+      CommandName BoundaryMax:207
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 207,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControlAdvanced/BoundaryMax
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 101
+  KEY 102
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 106
+      CommandType 19980504
+      CommandName BoundaryMin:-207
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue -207,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControlAdvanced/BoundaryMin
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 102
+  KEY 103
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 107
+      CommandType 19980504
+      CommandName Trigger Mode: On ***
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/AcquisitionControl/TriggerMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 103
+  KEY 104
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 108
+      CommandType 19980504
+      CommandName Trigger Sequencer: Enable
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 3,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dTriggerSequencer/TriggerSequencerType
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 104
+  KEY 105
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 109
+      CommandType 19980504
+      CommandName Trigger Sequencer Signal: High
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dTriggerSequencer/TriggerSequencerSignal
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 105
+  KEY 106
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 110
+      CommandType 19980504
+      CommandName Trigger Sequencer: Source
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 2,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dTriggerSequencer/TriggerSequencerType
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 106
+  KEY 107
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 111
+      CommandType 19980504
+      CommandName Trigger Sequencer Signal: EncInterrupt
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 5,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dTriggerSequencer/TriggerSequencerSignal
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 107
+  KEY 108
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 112
+      CommandType 19980504
+      CommandName Trigger Sequencer: Start
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dTriggerSequencer/TriggerSequencerType
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 108
+  KEY 109
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 113
+      CommandType 19980504
+      CommandName Trigger Sequencer Signal: Low
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dTriggerSequencer/TriggerSequencerSignal
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 109
+  KEY 110
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 114
+      CommandType 19980504
+      CommandName Trigger Sequencer: Stop
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dTriggerSequencer/TriggerSequencerType
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 110
+  KEY 111
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 115
+      CommandType 19980504
+      CommandName Trigger Sequencer Signal: Low
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dTriggerSequencer/TriggerSequencerSignal
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 111
+  KEY 112
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 116
+      CommandType 19980504
+      CommandName Trigger Source: Line0
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/AcquisitionControl/TriggerSource
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 112
+  KEY 113
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 117
+      CommandType 19980504
+      CommandName Boundary Max Trigger = 0
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControlAdvanced/TriggerOnBoundaryMax
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 113
+  KEY 114
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 118
+      CommandType 19980504
+      CommandName Boundary Min Trigger = 1
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControlAdvanced/TriggerOnBoundaryMin
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 114
+  KEY 115
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 119
+      CommandType 19980504
+      CommandName EncoderMode: Free
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControlAdvanced/EncoderCompareMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 115
+  KEY 116
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 120
+      CommandType 19980504
+      CommandName EncoderMode: BoundaryZero
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 2,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControlAdvanced/EncoderCompareMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 116
+  KEY 117
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 121
+      CommandType 19980504
+      CommandName EncoderMode: Free
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControlAdvanced/EncoderCompareMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 117
+  KEY 118
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 122
+      CommandType 19980504
+      CommandName EncoderMode: BoundaryZero
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 2,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControlAdvanced/EncoderCompareMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 118
+  KEY 119
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 123
+      CommandType 19980504
+      CommandName EncoderMode: Free
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControlAdvanced/EncoderCompareMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 119
+  KEY 120
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 124
+      CommandType 19980504
+      CommandName EncoderMode: BoundaryZero
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 2,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControlAdvanced/EncoderCompareMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 120
+  KEY 121
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 126
+      CommandType 19980504
+      CommandName COG Algorithm
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 2,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/ScannerControl/TriscanDetectionMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 121
+  KEY 122
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 127
+      CommandType 19980504
+      CommandName Filter: Neutral
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 604029
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/ScannerControl/TriscanFilterMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 122
+  KEY 123
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 128
+      CommandType 19980504
+      CommandName Threshold
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 256,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 604029
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/ScannerControl/TriscanThreshold
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 123
+  KEY 124
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 129
+      CommandType 19980504
+      CommandName Selection Mode: Avg Brightness
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 3,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 604029
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/ScannerControl/TriscanSelectionMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 124
+  KEY 125
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 130
+      CommandType 19980504
+      CommandName Set Exposure Time
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 2,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/AcquisitionControl/ExposureTime
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 125
+  KEY 126
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 131
+      CommandType 19980504
+      CommandName Set AOI Height
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1080,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/ImageFormatControl/Height
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 126
+  KEY 127
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 132
+      CommandType 19980504
+      CommandName Set AOI Width
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 2048,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/ImageFormatControl/Width
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 127
+  KEY 128
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 133
+      CommandType 19980504
+      CommandName Set AOI OffsetX
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 604029
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/ImageFormatControl/OffsetX
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 128
+  KEY 129
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 134
+      CommandType 19980504
+      CommandName Set AOI OffsetY
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 604029
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/ImageFormatControl/OffsetY
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 129
+  KEY 130
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 135
+      CommandType 19980504
+      CommandName LaserOn/Off
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 604029
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/ScannerControl/TriscanLaserMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 130
+  KEY 131
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 136
+      CommandType 19980504
+      CommandName FrameRate Max the Faster
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 142,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 604029
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/AcquisitionControl/AcquisitionFrameRate
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 131
+  KEY 132
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 137
+      CommandType 19980504
+      CommandName Enable Continous Mode
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 604029
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath EnableContinuousMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 132
+  KEY 133
+    ClassVersion 1
+    CKGENERAL 
+      ClassVersion 3
+      Position 138
+      CommandType 114
+      CommandName Stop watch
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 4
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Stop watch
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    DeterminationType 1
+    ActTime 100
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 871106
+    END_CKPICKUP_TYPE_WRITE 
+    TeachInCounter 0
+  END_KEY 133
+  KEY 134
+    ClassVersion 1
+    CKGENERAL 
+      ClassVersion 3
+      Position 139
+      CommandType 1004
+      CommandName ###############
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    OldCMDType 0
+    TeachInCounter 0
+  END_KEY 134
+  KEY 135
+    ClassVersion 1
+    CKGENERAL 
+      ClassVersion 3
+      Position 140
+      CommandType 1004
+      CommandName + C. Do Calculations
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    OldCMDType 0
+    TeachInCounter 0
+  END_KEY 135
+  KEY 136
+    ClassVersion 7
+    CKGENERAL 
+      ClassVersion 3
+      Position 142
       CommandType 122
       CommandName Length / Speed = Duration
       Enabled 1
@@ -6227,15 +8832,15 @@ START_PARM_LIST
     StringArithmeticElementType2 1
     MakeConstant 0
     TeachInCounter 0
-  END_KEY 95
-  KEY 96
+  END_KEY 136
+  KEY 137
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 100
+      Position 143
       CommandType 19980504
       CommandName Read Frequency of Sensor
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
@@ -6289,15 +8894,15 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_READ 
       END_CKSOURCEVALUE 
     ParameterPath CameraSettings/AcquisitionControl/AcquisitionFrameRate
-    VICIndex 1
+    VICIndex 0
     Determination 1
     TeachInCounter 0
-  END_KEY 96
-  KEY 97
+  END_KEY 137
+  KEY 138
     ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 101
+      Position 144
       CommandType 122
       CommandName Duration * Frequency = Number of Profiles
       Enabled 1
@@ -6411,12 +9016,12 @@ START_PARM_LIST
     StringArithmeticElementType2 1
     MakeConstant 0
     TeachInCounter 0
-  END_KEY 97
-  KEY 98
+  END_KEY 138
+  KEY 139
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 103
+      Position 146
       CommandType 19980504
       CommandName Set Number of Profiles - Scanner 0
       Enabled 1
@@ -6476,12 +9081,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 98
-  KEY 99
+  END_KEY 139
+  KEY 140
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 104
+      Position 147
       CommandType 19980504
       CommandName Set Number of Profiles - Scanner 1
       Enabled 1
@@ -6541,12 +9146,77 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 99
-  KEY 100
+  END_KEY 140
+  KEY 141
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 106
+      Position 148
+      CommandType 19980504
+      CommandName Set Number of Profiles - Scanner 2
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 430,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 700841
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath ProfilesPerFrame
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 141
+  KEY 142
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 150
       CommandType 19980504
       CommandName Set Yres - Scanner 0
       Enabled 1
@@ -6606,12 +9276,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 100
-  KEY 101
+  END_KEY 142
+  KEY 143
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 107
+      Position 151
       CommandType 19980504
       CommandName Set Yres - Scanner 1
       Enabled 1
@@ -6671,12 +9341,77 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 101
-  KEY 102
+  END_KEY 143
+  KEY 144
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 109
+      Position 152
+      CommandType 19980504
+      CommandName Set Yres - Scanner 2
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,3
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 700841
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath ResolutionY
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 144
+  KEY 145
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 154
       CommandType 19980504
       CommandName Absolute Y Position
       Enabled 1
@@ -6736,12 +9471,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 102
-  KEY 103
+  END_KEY 145
+  KEY 146
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 110
+      Position 155
       CommandType 19980504
       CommandName Absolute Y Position
       Enabled 1
@@ -6801,12 +9536,77 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 103
-  KEY 104
+  END_KEY 146
+  KEY 147
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 112
+      Position 156
+      CommandType 19980504
+      CommandName Absolute Y Position
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 700841
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath AbsoluteYPosition
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 147
+  KEY 148
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 158
       CommandType 19980504
       CommandName Trigger Divider
       Enabled 1
@@ -6866,12 +9666,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 104
-  KEY 105
+  END_KEY 148
+  KEY 149
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 113
+      Position 159
       CommandType 19980504
       CommandName Trigger Divider
       Enabled 1
@@ -6931,12 +9731,77 @@ START_PARM_LIST
     VICIndex 1
     Determination 0
     TeachInCounter 0
-  END_KEY 105
-  KEY 106
+  END_KEY 149
+  KEY 150
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 160
+      CommandType 19980504
+      CommandName Trigger Divider
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 1,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 700841
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/Scan3dTriggerSequencer/TriggerSequencerDivider
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 150
+  KEY 151
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 114
+      Position 161
       CommandType 1004
       CommandName ###############
       Enabled 1
@@ -6952,12 +9817,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 106
-  KEY 107
+  END_KEY 151
+  KEY 152
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 115
+      Position 162
       CommandType 1004
       CommandName + D. Scan and Save Point Cloud
       Enabled 1
@@ -6973,12 +9838,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 107
-  KEY 108
+  END_KEY 152
+  KEY 153
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 116
+      Position 163
       CommandType 2
       CommandName Delete Graphics
       Enabled 1
@@ -7036,12 +9901,12 @@ START_PARM_LIST
       PickupListIndex 606664
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 108
-  KEY 109
+  END_KEY 153
+  KEY 154
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 117
+      Position 164
       CommandType 1040
       CommandName Delete Prev Profiles
       Enabled 1
@@ -7097,144 +9962,14 @@ START_PARM_LIST
       PickupListIndex 286538
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 109
-  KEY 110
+  END_KEY 154
+  KEY 155
     ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 119
+      Position 166
       CommandType 3
-      CommandName Asynchronous image capture timeout
-      Enabled 0
-      Hidden 0
-      GraficMode 2
-      TextMode 2
-      ImageMemory 0
-      InvertResult 0
-      Memo 
-      IgnoreResult 0
-      OverlayImageMemory 1
-      DisplayOverlayInDifferentIM 0
-    END_CKGENERAL 
-    CKRESULT 
-      ClassVersion 1
-      Name Asynchronous image capture
-      EnterResultToRTDisplay 0
-      RTDisplayIndex 0
-      RTWidthOfToleranceRegion 80
-      CKEVALUATION 
-        ClassVersion 3
-        GlobalToleranceIndex -1
-        UseWarningTolerances 0
-        NominalValue 0,0
-        PlusTolerance 10000,0
-        MinusTolerance 0,0
-        WarnPlusTolerance 0,0
-        WarnMinusTolerance 0,0
-        DynamicEvaluation 0
-        FileName ./
-        Section 
-        CorrectionActive 0
-        CorrectionType 0
-        EnableAutoTeachIn 1
-        NumberOfUsedCorrections 0
-      END_CKEVALUATION 
-      CKSTATISTIC 
-        ClassVersion 1
-        EnterToStatistic 0
-        Index -1
-      END_CKSTATISTIC 
-    END_CKRESULT 
-    Determination 0
-    TriggerMode 1
-    WaitUntilSnapComplete 1
-    VICCamera 0
-    ApplyTimeout 1
-    TriggerTimeout 50000
-    RestartCaptureAfterWait 1
-    CaptureWithFlash 0
-    CKPICKUP_TYPE_WRITE 
-      ClassVersion 1
-      Name 
-      PickupObjectType 5
-      PickupListIndex 953655
-    END_CKPICKUP_TYPE_WRITE 
-    RestartCaptureOnError 1
-    StartCaptureIfNotActive 1
-    TeachInCounter 0
-  END_KEY 110
-  KEY 111
-    ClassVersion 6
-    CKGENERAL 
-      ClassVersion 3
-      Position 120
-      CommandType 3
-      CommandName Asynchronous image capture timeout
-      Enabled 0
-      Hidden 0
-      GraficMode 2
-      TextMode 2
-      ImageMemory 1
-      InvertResult 0
-      Memo 
-      IgnoreResult 0
-      OverlayImageMemory 1
-      DisplayOverlayInDifferentIM 0
-    END_CKGENERAL 
-    CKRESULT 
-      ClassVersion 1
-      Name Asynchronous image capture
-      EnterResultToRTDisplay 0
-      RTDisplayIndex 0
-      RTWidthOfToleranceRegion 80
-      CKEVALUATION 
-        ClassVersion 3
-        GlobalToleranceIndex -1
-        UseWarningTolerances 0
-        NominalValue 0,0
-        PlusTolerance 10000,0
-        MinusTolerance 0,0
-        WarnPlusTolerance 0,0
-        WarnMinusTolerance 0,0
-        DynamicEvaluation 0
-        FileName ./
-        Section 
-        CorrectionActive 0
-        CorrectionType 0
-        EnableAutoTeachIn 1
-        NumberOfUsedCorrections 0
-      END_CKEVALUATION 
-      CKSTATISTIC 
-        ClassVersion 1
-        EnterToStatistic 0
-        Index -1
-      END_CKSTATISTIC 
-    END_CKRESULT 
-    Determination 0
-    TriggerMode 1
-    WaitUntilSnapComplete 1
-    VICCamera 1
-    ApplyTimeout 1
-    TriggerTimeout 5000
-    RestartCaptureAfterWait 1
-    CaptureWithFlash 0
-    CKPICKUP_TYPE_WRITE 
-      ClassVersion 1
-      Name 
-      PickupObjectType 5
-      PickupListIndex 258785
-    END_CKPICKUP_TYPE_WRITE 
-    RestartCaptureOnError 1
-    StartCaptureIfNotActive 1
-    TeachInCounter 0
-  END_KEY 111
-  KEY 112
-    ClassVersion 6
-    CKGENERAL 
-      ClassVersion 3
-      Position 121
-      CommandType 3
-      CommandName Asynchronous image capture timeout
+      CommandName Asynchronous image capture
       Enabled 0
       Hidden 0
       GraficMode 2
@@ -7276,7 +10011,7 @@ START_PARM_LIST
       END_CKSTATISTIC 
     END_CKRESULT 
     Determination 1
-    TriggerMode 1
+    TriggerMode 0
     WaitUntilSnapComplete 1
     VICCamera 0
     ApplyTimeout 0
@@ -7287,77 +10022,12 @@ START_PARM_LIST
       ClassVersion 1
       Name 
       PickupObjectType 5
-      PickupListIndex 125733
+      PickupListIndex 999920
     END_CKPICKUP_TYPE_WRITE 
-    RestartCaptureOnError 1
+    RestartCaptureOnError 0
     StartCaptureIfNotActive 1
     TeachInCounter 0
-  END_KEY 112
-  KEY 113
-    ClassVersion 6
-    CKGENERAL 
-      ClassVersion 3
-      Position 122
-      CommandType 3
-      CommandName Asynchronous image capture timeout
-      Enabled 0
-      Hidden 0
-      GraficMode 2
-      TextMode 2
-      ImageMemory 1
-      InvertResult 0
-      Memo 
-      IgnoreResult 0
-      OverlayImageMemory 1
-      DisplayOverlayInDifferentIM 0
-    END_CKGENERAL 
-    CKRESULT 
-      ClassVersion 1
-      Name Asynchronous image capture
-      EnterResultToRTDisplay 0
-      RTDisplayIndex 0
-      RTWidthOfToleranceRegion 80
-      CKEVALUATION 
-        ClassVersion 3
-        GlobalToleranceIndex -1
-        UseWarningTolerances 0
-        NominalValue 0,0
-        PlusTolerance 10000,0
-        MinusTolerance 0,0
-        WarnPlusTolerance 0,0
-        WarnMinusTolerance 0,0
-        DynamicEvaluation 0
-        FileName ./
-        Section 
-        CorrectionActive 0
-        CorrectionType 0
-        EnableAutoTeachIn 1
-        NumberOfUsedCorrections 0
-      END_CKEVALUATION 
-      CKSTATISTIC 
-        ClassVersion 1
-        EnterToStatistic 0
-        Index -1
-      END_CKSTATISTIC 
-    END_CKRESULT 
-    Determination 1
-    TriggerMode 1
-    WaitUntilSnapComplete 1
-    VICCamera 1
-    ApplyTimeout 0
-    TriggerTimeout 50000
-    RestartCaptureAfterWait 1
-    CaptureWithFlash 0
-    CKPICKUP_TYPE_WRITE 
-      ClassVersion 1
-      Name 
-      PickupObjectType 5
-      PickupListIndex 839525
-    END_CKPICKUP_TYPE_WRITE 
-    RestartCaptureOnError 1
-    StartCaptureIfNotActive 1
-    TeachInCounter 0
-  END_KEY 113
+  END_KEY 155
 END_PARM_LIST 
 CKPARAMETERS 
   ClassVersion 1

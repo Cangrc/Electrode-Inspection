@@ -1,9 +1,9 @@
 EVT 
 EYEVISION_VERSION 4.00.013
-FILE_VERSION 497
+FILE_VERSION 504
 CREATED 18.05.2021 10:01:24
 CREATED_BY Admin
-LAST_MODIFIED 16.03.2022 09:53:33
+LAST_MODIFIED 15.04.2022 00:15:12
 LAST_MODIFIED_BY Admin
 START_PARM_LIST 
   KEY 1
@@ -13,13 +13,13 @@ START_PARM_LIST
       Position 0
       CommandType 246
       CommandName Close Communication
-      Enabled 2
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -151,13 +151,13 @@ START_PARM_LIST
       Position 2
       CommandType 122
       CommandName UpperLimit
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 0
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -214,9 +214,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName upperLimit
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 0
+    ArithmeticElementType1 2
     ArithmeticElementRegisterIndex1 5
-    ArithmeticElementType2 0
+    ArithmeticElementType2 2
     ArithmeticElementRegisterIndex2 0
     ArithmeticManualElementX 0,0
     ArithmeticManualElementY 0,0
@@ -263,13 +263,13 @@ START_PARM_LIST
       Position 3
       CommandType 122
       CommandName LowerLimit
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 0
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -326,9 +326,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName lowerLimit
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 0
+    ArithmeticElementType1 2
     ArithmeticElementRegisterIndex1 5
-    ArithmeticElementType2 0
+    ArithmeticElementType2 2
     ArithmeticElementRegisterIndex2 0
     ArithmeticManualElementX 0,0
     ArithmeticManualElementY 0,0
@@ -375,13 +375,13 @@ START_PARM_LIST
       Position 4
       CommandType 122
       CommandName ID
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 0
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -438,9 +438,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName ID
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 0
+    ArithmeticElementType1 2
     ArithmeticElementRegisterIndex1 5
-    ArithmeticElementType2 0
+    ArithmeticElementType2 2
     ArithmeticElementRegisterIndex2 0
     ArithmeticManualElementX 0,0
     ArithmeticManualElementY 0,0
@@ -487,13 +487,13 @@ START_PARM_LIST
       Position 6
       CommandType 122
       CommandName Variable globalCount
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -599,13 +599,13 @@ START_PARM_LIST
       Position 8
       CommandType 246
       CommandName Reset
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -716,13 +716,13 @@ START_PARM_LIST
       Position 9
       CommandType 122
       CommandName timeStamp
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 0
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -973,13 +973,13 @@ START_PARM_LIST
       Position 14
       CommandType 124
       CommandName Clear
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -1098,13 +1098,13 @@ START_PARM_LIST
       Position 15
       CommandType 124
       CommandName Clear
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -1223,13 +1223,13 @@ START_PARM_LIST
       Position 16
       CommandType 124
       CommandName Clear
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -1348,13 +1348,13 @@ START_PARM_LIST
       Position 17
       CommandType 124
       CommandName Clear
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -1473,13 +1473,13 @@ START_PARM_LIST
       Position 18
       CommandType 124
       CommandName Clear
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -1598,13 +1598,13 @@ START_PARM_LIST
       Position 19
       CommandType 124
       CommandName Clear
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -1872,13 +1872,13 @@ START_PARM_LIST
       Position 25
       CommandType 122
       CommandName Access to variable
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 5
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -2182,13 +2182,13 @@ START_PARM_LIST
       Position 30
       CommandType 122
       CommandName Access to variable
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 5
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -2247,7 +2247,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -2420,13 +2420,13 @@ START_PARM_LIST
       Position 34
       CommandType 246
       CommandName Reset
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -2543,7 +2543,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -3021,7 +3021,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -3140,13 +3140,13 @@ START_PARM_LIST
       Position 46
       CommandType 246
       CommandName reset global string
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -3278,13 +3278,13 @@ START_PARM_LIST
       Position 49
       CommandType 246
       CommandName Receive Data
-      Enabled 2
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -3517,13 +3517,13 @@ START_PARM_LIST
       Position 53
       CommandType 246
       CommandName Send Data
-      Enabled 2
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -3634,13 +3634,13 @@ START_PARM_LIST
       Position 54
       CommandType 124
       CommandName Data Sent
-      Enabled 2
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -3759,13 +3759,13 @@ START_PARM_LIST
       Position 55
       CommandType 246
       CommandName Receive Data
-      Enabled 2
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -3939,13 +3939,13 @@ START_PARM_LIST
       Position 58
       CommandType 246
       CommandName Close Previous Communications
-      Enabled 2
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -4056,13 +4056,13 @@ START_PARM_LIST
       Position 59
       CommandType 246
       CommandName reset global string
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -4299,13 +4299,13 @@ START_PARM_LIST
       Position 63
       CommandType 122
       CommandName loopCounter
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -4364,7 +4364,7 @@ START_PARM_LIST
     ArithmeticResultToPickup 1
     ArithmeticElementType1 1
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 2
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
     ArithmeticManualElementX 1,0
     ArithmeticManualElementY 0,0
@@ -4411,13 +4411,13 @@ START_PARM_LIST
       Position 64
       CommandType 124
       CommandName Print Counter
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -4536,13 +4536,13 @@ START_PARM_LIST
       Position 65
       CommandType 124
       CommandName Text
-      Enabled 2
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 5
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -4753,13 +4753,13 @@ START_PARM_LIST
       Position 68
       CommandType 19980602
       CommandName reset
-      Enabled 2
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -4920,13 +4920,13 @@ START_PARM_LIST
       Position 70
       CommandType 122
       CommandName set UpperLimit
-      Enabled 2
+      Enabled 0
       Hidden 0
       GraficMode 0
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -4983,9 +4983,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName upperLimit
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 0
+    ArithmeticElementType1 2
     ArithmeticElementRegisterIndex1 5
-    ArithmeticElementType2 0
+    ArithmeticElementType2 2
     ArithmeticElementRegisterIndex2 0
     ArithmeticManualElementX 0,0
     ArithmeticManualElementY 0,0
@@ -5103,13 +5103,13 @@ START_PARM_LIST
       Position 72
       CommandType 122
       CommandName set LowerLimit
-      Enabled 2
+      Enabled 0
       Hidden 0
       GraficMode 0
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -5166,9 +5166,9 @@ START_PARM_LIST
     ConstantValue 0,0
     ObjectName upperLimit
     ArithmeticResultToPickup 0
-    ArithmeticElementType1 0
+    ArithmeticElementType1 2
     ArithmeticElementRegisterIndex1 5
-    ArithmeticElementType2 0
+    ArithmeticElementType2 2
     ArithmeticElementRegisterIndex2 0
     ArithmeticManualElementX 0,0
     ArithmeticManualElementY 0,0
@@ -5286,13 +5286,13 @@ START_PARM_LIST
       Position 74
       CommandType 246
       CommandName set ID
-      Enabled 2
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -6291,13 +6291,13 @@ START_PARM_LIST
       Position 94
       CommandType 246
       CommandName Filename1
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -6408,13 +6408,13 @@ START_PARM_LIST
       Position 95
       CommandType 246
       CommandName Filename2
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -6525,13 +6525,13 @@ START_PARM_LIST
       Position 96
       CommandType 246
       CommandName Filename3
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -6642,13 +6642,13 @@ START_PARM_LIST
       Position 97
       CommandType 246
       CommandName Filename4
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -6857,13 +6857,13 @@ START_PARM_LIST
       Position 99
       CommandType 246
       CommandName Filename1
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -6974,13 +6974,13 @@ START_PARM_LIST
       Position 100
       CommandType 246
       CommandName Filename2
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -7091,13 +7091,13 @@ START_PARM_LIST
       Position 101
       CommandType 246
       CommandName Filename3
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -7208,13 +7208,13 @@ START_PARM_LIST
       Position 102
       CommandType 246
       CommandName Filename4
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -7423,13 +7423,13 @@ START_PARM_LIST
       Position 104
       CommandType 246
       CommandName Filename1
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -7540,13 +7540,13 @@ START_PARM_LIST
       Position 105
       CommandType 246
       CommandName Filename2
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -7657,13 +7657,13 @@ START_PARM_LIST
       Position 106
       CommandType 246
       CommandName Filename3
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -7774,13 +7774,13 @@ START_PARM_LIST
       Position 107
       CommandType 246
       CommandName Filename4
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -7989,13 +7989,13 @@ START_PARM_LIST
       Position 109
       CommandType 124
       CommandName Data Saved
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -8177,13 +8177,13 @@ START_PARM_LIST
       Position 112
       CommandType 124
       CommandName Data Received
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -8730,13 +8730,13 @@ START_PARM_LIST
       Position 121
       CommandType 124
       CommandName Print Cycle Time
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -8981,13 +8981,13 @@ START_PARM_LIST
       Position 126
       CommandType 124
       CommandName Print No Data
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -9112,7 +9112,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -9229,7 +9229,7 @@ START_PARM_LIST
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -9273,7 +9273,7 @@ START_PARM_LIST
     SeparationIndex 0
     SendType 1
     TextToDisplay Height:
-    Filename ./2022_03_16_08_09_10_441_NoData_Report.txt
+    Filename ./2022_04_14_11_28_49_478_NoData_Report.txt
     AddIntegerOnly 1
     SeperatorAtStartOfString 1
     PortNumber 0
@@ -9340,13 +9340,13 @@ START_PARM_LIST
       Position 129
       CommandType 246
       CommandName Reset
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 0
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -9514,13 +9514,13 @@ START_PARM_LIST
       Position 131
       CommandType 124
       CommandName Print Cycle Time
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0
@@ -9765,13 +9765,13 @@ START_PARM_LIST
       Position 136
       CommandType 124
       CommandName Print No Scanner
-      Enabled 1
+      Enabled 0
       Hidden 0
       GraficMode 2
       TextMode 2
       ImageMemory 0
       InvertResult 0
-      Memo 
+      Memo Could not load command ( file format error). Command must be reconfigured.
       IgnoreResult 0
       OverlayImageMemory 1
       DisplayOverlayInDifferentIM 0

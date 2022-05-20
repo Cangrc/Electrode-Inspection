@@ -3,7 +3,6 @@
 	CompressionResolution = 0,000500000000	 ;Resolution to which coordinates get rounded when creating a .e3c file
 	DefaultViewerHeight = 0	 ;Default-Height for 3D viewer, used in case the application starts minimized. 0 to disable.
 	DefaultViewerWidth = 0	 ;Default-Width for 3D viewer, used in case the application starts minimized. 0 to disable.
-	NumberFormat = 5:0::1:	 ;Format for displaying values. MinTotalDigits:MinDecimalsAfterComma:UnitString:Multiplier:CommaMode
 	OctreeCalc = 1	 ;0: Never, 1: On Request, 2: Always. 
 	OrderedImportCloudWidth = 0	 ;Width to use when importing ordered Pointclouds, for example for .cs3d. Check if Surface Mode looks correct to verify.
 	TextPointcloudLoadingFormat = xyz
@@ -16,8 +15,12 @@
 [Display]
 
 [Display.Format]
-	DecimalMark = ,	 ;One of , and .
-	FloatingPrecision = 4	 ;Will be applied in most of the commands.
+	DecimalMark = ,	 ;One of ',', '.', or 'system'.
+	FloatingPrecision = 4	 ;Number of decimals shown (for some elements).
+
+[Display.Format3D]
+	FloatingPrecision = 0	 ;Number of decimals shown (for some 3D elements). Set -1 to reuse Display.Format.FloatingPrecision.
+	Unit = none (mm)	 ;Unit for displaying positions and lengths (for some 3D elements). Options: 'none (mm)', 'nm', 'µm', 'mm', 'cm', 'm', or 'in'.
 
 [EVHD]
 	HardwareConfiguration = 1	 ;0: Use external hardware configurator's settings(Application_config.ini), 1:Use custom configuration from project (project.ev4proj) 
@@ -29,6 +32,7 @@
 [EVHD.GOI]
 	ClearOnProgramStart = 1
 	MaxNoItems = 10000
+	ZoomLineWidth = 2	 ;0: same width regarding different scale factors, 1: scaled with the image, 2: adaptive
 
 [EVHD.GOI.Color]
 	Bad = 255,0,0	 ;comma separated RGB value for color Bad (example: 255,0,0)
@@ -64,6 +68,7 @@
 	GenerateErrorImage = 1	 ;enables/disables error image generation on capture errors
 	NumberOfVIC = 2
 	Plugin = QuellTech_Q5	 ;Comma separated list of VIC plugins (used if EVHD.HardwareConfiguration ist set to 1)
+	SaveConfigOnInit = 1	 ;0: disable auto saving camera config after initialization.
 	SaveSettingsOnDialogClose = 0	 ;enables/disables automatically saving of camera settings on settings dialog close
 	VIC0 = QuellTech_Q5_2144
 	VIC1 = QuellTech_Q5_2149
@@ -85,6 +90,9 @@
 	UseVerticalRuler = 0
 	VerticalRuler1 = 120
 	VerticalRuler2 = 400
+
+[GUI.ProcessControlButtons]
+	CornerRoundness = 11	 ;Radius of rounded corners in pixels
 
 [Interpreter]
 	StopCaptureAfterInterpreterStops = 1
@@ -167,6 +175,10 @@
 	SearchPort = 5952
 	SearchPortRange = 5
 
+[ScriptInterpreter]
+
+[ScriptInterpreter.Modules]
+
 [StartupPrograms]
 	DebugMode = 0	 ;0: Normal mode 1: Debug Mode
 	StartMode = 0	 ;0: Stopped 1: Endless 2: Execute defined number of cycles 3: Execute defined number of cylces and close
@@ -174,7 +186,7 @@
 	StartOperationMode = 0	 ;0: Process mode 1: Configuration Mode
 	StartProgramMode = 2	 ;0: empty program 1: last program, 2: given program
 	StartProgramName = main-2021-09-21-instance8-withCommunication.ckp	 ;Name of program, if StartProgramMode is set to given program (2)
-	StartProgramRecentName = ./main-2021-09-21-instance8-withCommunication.ckp	 ;Name of program that was recently activated in the program list. This file will be used if StartProgramMode ist set to last program (1)
+	StartProgramRecentName = ./ThicknessMeasurementCube-Ins6-oneCube.ckp	 ;Name of program that was recently activated in the program list. This file will be used if StartProgramMode ist set to last program (1)
 
 [StartupPrograms.EnterApplication]
 	Enabled = 1	 ;0: Do not execute a startup program when entering the application 1: Execute a startup program with given name

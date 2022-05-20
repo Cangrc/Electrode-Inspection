@@ -1,9 +1,9 @@
 EVT 
-EYEVISION_VERSION 4.00.013
-FILE_VERSION 12
+EYEVISION_VERSION 4.01.003-69-g311e1ffc5e
+FILE_VERSION 16
 CREATED 14.12.2021 16:05:51
 CREATED_BY Admin
-LAST_MODIFIED 09.03.2022 10:00:54
+LAST_MODIFIED 12.05.2022 10:58:12
 LAST_MODIFIED_BY Admin
 START_PARM_LIST 
   KEY 1
@@ -397,10 +397,205 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 6
   KEY 7
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 7
+      CommandType 19980504
+      CommandName Trigger Mode: Off ***
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/AcquisitionControl/TriggerMode
+    VICIndex 0
+    Determination 0
+    TeachInCounter 0
+  END_KEY 7
+  KEY 8
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 8
+      CommandType 19980504
+      CommandName Trigger Mode: Off ***
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/AcquisitionControl/TriggerMode
+    VICIndex 1
+    Determination 0
+    TeachInCounter 0
+  END_KEY 8
+  KEY 9
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 9
+      CommandType 19980504
+      CommandName Trigger Mode: Off ***
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/AcquisitionControl/TriggerMode
+    VICIndex 2
+    Determination 0
+    TeachInCounter 0
+  END_KEY 9
+  KEY 10
     ClassVersion 12
     CKGENERAL 
       ClassVersion 3
-      Position 6
+      Position 11
       CommandType 1
       CommandName Capture image
       Enabled 1
@@ -493,12 +688,12 @@ START_PARM_LIST
     SaveAsynchronous 0
     FilenameType 0
     TeachInCounter 0
-  END_KEY 7
-  KEY 8
+  END_KEY 10
+  KEY 11
     ClassVersion 12
     CKGENERAL 
       ClassVersion 3
-      Position 7
+      Position 12
       CommandType 1
       CommandName Capture image
       Enabled 1
@@ -591,12 +786,12 @@ START_PARM_LIST
     SaveAsynchronous 0
     FilenameType 0
     TeachInCounter 0
-  END_KEY 8
-  KEY 9
+  END_KEY 11
+  KEY 12
     ClassVersion 12
     CKGENERAL 
       ClassVersion 3
-      Position 8
+      Position 13
       CommandType 1
       CommandName Capture image
       Enabled 1
@@ -689,7 +884,7 @@ START_PARM_LIST
     SaveAsynchronous 0
     FilenameType 0
     TeachInCounter 0
-  END_KEY 9
+  END_KEY 12
 END_PARM_LIST 
 CKPARAMETERS 
   ClassVersion 1

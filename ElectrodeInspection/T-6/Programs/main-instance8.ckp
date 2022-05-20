@@ -1,9 +1,9 @@
 EVT 
-EYEVISION_VERSION 4.01.003
-FILE_VERSION 322
+EYEVISION_VERSION 4.01.003-69-g311e1ffc5e
+FILE_VERSION 330
 CREATED 18.05.2021 10:01:24
 CREATED_BY Admin
-LAST_MODIFIED 22.04.2022 16:06:36
+LAST_MODIFIED 20.05.2022 16:04:01
 LAST_MODIFIED_BY Admin
 START_PARM_LIST 
   KEY 1
@@ -2563,7 +2563,7 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    Program Dim dReadEncodersFirst As Double~Dim dReadEncodersSecond As Double~CKGetValueRegister (0,dReadEncodersSecond, "")~CKGetValueRegister (1,dReadEncodersFirst, "") ~~If dReadEncodersSecond - dReadEncodersFirst < 10 Then~    JUMP_MARK = "Scan"~Else~    JUMP_MARK = "Loop"~End If~~
+    Program Dim dReadEncodersFirst As Double~Dim dReadEncodersSecond As Double~CKGetValueRegister (0,dReadEncodersSecond, "")~CKGetValueRegister (1,dReadEncodersFirst, "") ~~If Abs(dReadEncodersSecond - dReadEncodersFirst) > 10 Then~    JUMP_MARK = "Scan"~Else~    JUMP_MARK = "Loop"~End If~~
     EncodedBinary 
     ExternProgramFileName 
     UseExternProgram 0
@@ -5698,12 +5698,12 @@ START_PARM_LIST
       END_CKSTATISTIC 
     END_CKRESULT 
     Determination 1
-    TriggerMode 1
+    TriggerMode 0
     WaitUntilSnapComplete 1
     VICCamera 0
     ApplyTimeout 0
     TriggerTimeout 2000
-    RestartCaptureAfterWait 1
+    RestartCaptureAfterWait 0
     CaptureWithFlash 0
     CKPICKUP_TYPE_WRITE 
       ClassVersion 1
@@ -5711,8 +5711,8 @@ START_PARM_LIST
       PickupObjectType 5
       PickupListIndex 369512
     END_CKPICKUP_TYPE_WRITE 
-    RestartCaptureOnError 1
-    StartCaptureIfNotActive 1
+    RestartCaptureOnError 0
+    StartCaptureIfNotActive 0
     TeachInCounter 0
   END_KEY 60
   KEY 61
@@ -5763,12 +5763,12 @@ START_PARM_LIST
       END_CKSTATISTIC 
     END_CKRESULT 
     Determination 1
-    TriggerMode 1
+    TriggerMode 0
     WaitUntilSnapComplete 1
     VICCamera 1
     ApplyTimeout 0
     TriggerTimeout 2000
-    RestartCaptureAfterWait 1
+    RestartCaptureAfterWait 0
     CaptureWithFlash 0
     CKPICKUP_TYPE_WRITE 
       ClassVersion 1
@@ -5776,8 +5776,8 @@ START_PARM_LIST
       PickupObjectType 5
       PickupListIndex 369844
     END_CKPICKUP_TYPE_WRITE 
-    RestartCaptureOnError 1
-    StartCaptureIfNotActive 1
+    RestartCaptureOnError 0
+    StartCaptureIfNotActive 0
     TeachInCounter 0
   END_KEY 61
   KEY 62

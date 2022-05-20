@@ -1,9 +1,9 @@
 EVT 
-EYEVISION_VERSION 4.01.003
-FILE_VERSION 613
+EYEVISION_VERSION 4.01.003-69-g311e1ffc5e
+FILE_VERSION 648
 CREATED 18.05.2021 10:01:24
 CREATED_BY Admin
-LAST_MODIFIED 02.05.2022 16:43:08
+LAST_MODIFIED 20.05.2022 16:02:15
 LAST_MODIFIED_BY Admin
 START_PARM_LIST 
   KEY 1
@@ -699,388 +699,10 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 7
   KEY 8
-    ClassVersion 1
+    ClassVersion 7
     CKGENERAL 
       ClassVersion 3
       Position 11
-      CommandType 1004
-      CommandName Get From Communication
-      Enabled 2
-      Hidden 0
-      GraficMode 2
-      TextMode 2
-      ImageMemory 0
-      InvertResult 0
-      Memo 
-      IgnoreResult 0
-      OverlayImageMemory 1
-      DisplayOverlayInDifferentIM 0
-    END_CKGENERAL 
-    OldCMDType 0
-    TeachInCounter 0
-  END_KEY 8
-  KEY 9
-    ClassVersion 7
-    CKGENERAL 
-      ClassVersion 3
-      Position 12
-      CommandType 122
-      CommandName UpperLimit
-      Enabled 1
-      Hidden 0
-      GraficMode 0
-      TextMode 2
-      ImageMemory 0
-      InvertResult 0
-      Memo 
-      IgnoreResult 0
-      OverlayImageMemory 1
-      DisplayOverlayInDifferentIM 0
-    END_CKGENERAL 
-    CKRESULT 
-      ClassVersion 1
-      Name 
-      EnterResultToRTDisplay 0
-      RTDisplayIndex 0
-      RTWidthOfToleranceRegion 80
-      CKEVALUATION 
-        ClassVersion 3
-        GlobalToleranceIndex -1
-        UseWarningTolerances 0
-        NominalValue 0,0
-        PlusTolerance 10000,0
-        MinusTolerance 0,0
-        WarnPlusTolerance 0,0
-        WarnMinusTolerance 0,0
-        DynamicEvaluation 0
-        FileName ./
-        Section 
-        CorrectionActive 0
-        CorrectionType 0
-        EnableAutoTeachIn 1
-        NumberOfUsedCorrections 0
-      END_CKEVALUATION 
-      CKSTATISTIC 
-        ClassVersion 1
-        EnterToStatistic 0
-        Index -1
-      END_CKSTATISTIC 
-    END_CKRESULT 
-    DetType 1
-    VarType 0
-    RegisterIndex 0
-    OperatorType 3
-    VarIndex -1
-    Value 0,0
-    PointX 0,0
-    PointY 0,0
-    StartX 0,0
-    StartY 0,0
-    EndX 0,0
-    EndY 0,0
-    CenterX 0,0
-    CenterY 0,0
-    Radius 0,0
-    Result 0,0
-    WindowLeft 0,0
-    WindowTop 0,0
-    WindowWidth 0,0
-    WindowHeight 0,0
-    ConstantValue 0,0
-    ObjectName upperLimit
-    ArithmeticResultToPickup 0
-    ArithmeticElementType1 2
-    ArithmeticElementRegisterIndex1 5
-    ArithmeticElementType2 2
-    ArithmeticElementRegisterIndex2 0
-    ArithmeticManualElementX 0,0
-    ArithmeticManualElementY 0,0
-    CKPICKUP_TYPE_READ 
-      ClassVersion 1
-      Name 
-      PickupObjectType 0
-      PickupListIndex -1
-    END_CKPICKUP_TYPE_READ 
-    CKPICKUP_TYPE_READ 
-      ClassVersion 1
-      Name 
-      PickupObjectType 0
-      PickupListIndex -1
-    END_CKPICKUP_TYPE_READ 
-    CKPICKUP_TYPE_READ 
-      ClassVersion 1
-      Name 
-      PickupObjectType 0
-      PickupListIndex -1
-    END_CKPICKUP_TYPE_READ 
-    CKPICKUP_TYPE_WRITE 
-      ClassVersion 1
-      Name 
-      PickupObjectType 5
-      PickupListIndex 764978
-    END_CKPICKUP_TYPE_WRITE 
-    Static 0
-    CKPICKUP_TYPE_WRITE 
-      ClassVersion 1
-      Name 
-      PickupObjectType 0
-      PickupListIndex 315405
-    END_CKPICKUP_TYPE_WRITE 
-    ArithmeticFirstManualElementX 0,0
-    ArithmeticFirstManualElementY 0,0
-    Initialization 0,0
-    ConstantString 
-    InitializationString 
-    ArithmeticManualString 
-    ArithmeticManualFirstString 
-    StringArithmeticElementType1 1
-    StringArithmeticElementType2 1
-    MakeConstant 0
-    TeachInCounter 0
-  END_KEY 9
-  KEY 10
-    ClassVersion 7
-    CKGENERAL 
-      ClassVersion 3
-      Position 13
-      CommandType 122
-      CommandName LowerLimit
-      Enabled 1
-      Hidden 0
-      GraficMode 0
-      TextMode 2
-      ImageMemory 0
-      InvertResult 0
-      Memo 
-      IgnoreResult 0
-      OverlayImageMemory 1
-      DisplayOverlayInDifferentIM 0
-    END_CKGENERAL 
-    CKRESULT 
-      ClassVersion 1
-      Name 
-      EnterResultToRTDisplay 0
-      RTDisplayIndex 0
-      RTWidthOfToleranceRegion 80
-      CKEVALUATION 
-        ClassVersion 3
-        GlobalToleranceIndex -1
-        UseWarningTolerances 0
-        NominalValue 0,0
-        PlusTolerance 10000,0
-        MinusTolerance 0,0
-        WarnPlusTolerance 0,0
-        WarnMinusTolerance 0,0
-        DynamicEvaluation 0
-        FileName ./
-        Section 
-        CorrectionActive 0
-        CorrectionType 0
-        EnableAutoTeachIn 1
-        NumberOfUsedCorrections 0
-      END_CKEVALUATION 
-      CKSTATISTIC 
-        ClassVersion 1
-        EnterToStatistic 0
-        Index -1
-      END_CKSTATISTIC 
-    END_CKRESULT 
-    DetType 1
-    VarType 0
-    RegisterIndex 0
-    OperatorType 3
-    VarIndex -1
-    Value 0,0
-    PointX 0,0
-    PointY 0,0
-    StartX 0,0
-    StartY 0,0
-    EndX 0,0
-    EndY 0,0
-    CenterX 0,0
-    CenterY 0,0
-    Radius 0,0
-    Result 0,0
-    WindowLeft 0,0
-    WindowTop 0,0
-    WindowWidth 0,0
-    WindowHeight 0,0
-    ConstantValue 0,0
-    ObjectName lowerLimit
-    ArithmeticResultToPickup 0
-    ArithmeticElementType1 2
-    ArithmeticElementRegisterIndex1 5
-    ArithmeticElementType2 2
-    ArithmeticElementRegisterIndex2 0
-    ArithmeticManualElementX 0,0
-    ArithmeticManualElementY 0,0
-    CKPICKUP_TYPE_READ 
-      ClassVersion 1
-      Name 
-      PickupObjectType 0
-      PickupListIndex -1
-    END_CKPICKUP_TYPE_READ 
-    CKPICKUP_TYPE_READ 
-      ClassVersion 1
-      Name 
-      PickupObjectType 0
-      PickupListIndex -1
-    END_CKPICKUP_TYPE_READ 
-    CKPICKUP_TYPE_READ 
-      ClassVersion 1
-      Name 
-      PickupObjectType 0
-      PickupListIndex -1
-    END_CKPICKUP_TYPE_READ 
-    CKPICKUP_TYPE_WRITE 
-      ClassVersion 1
-      Name 
-      PickupObjectType 5
-      PickupListIndex 669260
-    END_CKPICKUP_TYPE_WRITE 
-    Static 0
-    CKPICKUP_TYPE_WRITE 
-      ClassVersion 1
-      Name 
-      PickupObjectType 0
-      PickupListIndex 841789
-    END_CKPICKUP_TYPE_WRITE 
-    ArithmeticFirstManualElementX 0,0
-    ArithmeticFirstManualElementY 0,0
-    Initialization 0,0
-    ConstantString 
-    InitializationString 
-    ArithmeticManualString 
-    ArithmeticManualFirstString 
-    StringArithmeticElementType1 1
-    StringArithmeticElementType2 1
-    MakeConstant 0
-    TeachInCounter 0
-  END_KEY 10
-  KEY 11
-    ClassVersion 7
-    CKGENERAL 
-      ClassVersion 3
-      Position 14
-      CommandType 122
-      CommandName ID
-      Enabled 1
-      Hidden 0
-      GraficMode 0
-      TextMode 2
-      ImageMemory 0
-      InvertResult 0
-      Memo 
-      IgnoreResult 0
-      OverlayImageMemory 1
-      DisplayOverlayInDifferentIM 0
-    END_CKGENERAL 
-    CKRESULT 
-      ClassVersion 1
-      Name 
-      EnterResultToRTDisplay 0
-      RTDisplayIndex 0
-      RTWidthOfToleranceRegion 80
-      CKEVALUATION 
-        ClassVersion 3
-        GlobalToleranceIndex -1
-        UseWarningTolerances 0
-        NominalValue 0,0
-        PlusTolerance 10000,0
-        MinusTolerance 0,0
-        WarnPlusTolerance 0,0
-        WarnMinusTolerance 0,0
-        DynamicEvaluation 0
-        FileName ./
-        Section 
-        CorrectionActive 0
-        CorrectionType 0
-        EnableAutoTeachIn 1
-        NumberOfUsedCorrections 0
-      END_CKEVALUATION 
-      CKSTATISTIC 
-        ClassVersion 1
-        EnterToStatistic 0
-        Index -1
-      END_CKSTATISTIC 
-    END_CKRESULT 
-    DetType 1
-    VarType 6
-    RegisterIndex 0
-    OperatorType 3
-    VarIndex -1
-    Value 0,0
-    PointX 0,0
-    PointY 0,0
-    StartX 0,0
-    StartY 0,0
-    EndX 0,0
-    EndY 0,0
-    CenterX 0,0
-    CenterY 0,0
-    Radius 0,0
-    Result 0,0
-    WindowLeft 0,0
-    WindowTop 0,0
-    WindowWidth 0,0
-    WindowHeight 0,0
-    ConstantValue 0,0
-    ObjectName ID
-    ArithmeticResultToPickup 0
-    ArithmeticElementType1 2
-    ArithmeticElementRegisterIndex1 5
-    ArithmeticElementType2 2
-    ArithmeticElementRegisterIndex2 0
-    ArithmeticManualElementX 0,0
-    ArithmeticManualElementY 0,0
-    CKPICKUP_TYPE_READ 
-      ClassVersion 1
-      Name 
-      PickupObjectType 0
-      PickupListIndex -1
-    END_CKPICKUP_TYPE_READ 
-    CKPICKUP_TYPE_READ 
-      ClassVersion 1
-      Name 
-      PickupObjectType 0
-      PickupListIndex -1
-    END_CKPICKUP_TYPE_READ 
-    CKPICKUP_TYPE_READ 
-      ClassVersion 1
-      Name 
-      PickupObjectType 0
-      PickupListIndex -1
-    END_CKPICKUP_TYPE_READ 
-    CKPICKUP_TYPE_WRITE 
-      ClassVersion 1
-      Name 
-      PickupObjectType 6
-      PickupListIndex 807406
-    END_CKPICKUP_TYPE_WRITE 
-    Static 0
-    CKPICKUP_TYPE_WRITE 
-      ClassVersion 1
-      Name 
-      PickupObjectType 0
-      PickupListIndex 408963
-    END_CKPICKUP_TYPE_WRITE 
-    ArithmeticFirstManualElementX 0,0
-    ArithmeticFirstManualElementY 0,0
-    Initialization 0,0
-    ConstantString 
-    InitializationString 
-    ArithmeticManualString 
-    ArithmeticManualFirstString 
-    StringArithmeticElementType1 1
-    StringArithmeticElementType2 1
-    MakeConstant 0
-    TeachInCounter 0
-  END_KEY 11
-  KEY 12
-    ClassVersion 7
-    CKGENERAL 
-      ClassVersion 3
-      Position 16
       CommandType 122
       CommandName Variable globalCount
       Enabled 1
@@ -1194,12 +816,12 @@ START_PARM_LIST
     StringArithmeticElementType2 1
     MakeConstant 0
     TeachInCounter 0
-  END_KEY 12
-  KEY 13
+  END_KEY 8
+  KEY 9
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 18
+      Position 13
       CommandType 246
       CommandName Reset
       Enabled 1
@@ -1336,12 +958,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 13
-  KEY 14
+  END_KEY 9
+  KEY 10
     ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 19
+      Position 14
       CommandType 122
       CommandName timeStamp
       Enabled 1
@@ -1455,12 +1077,12 @@ START_PARM_LIST
     StringArithmeticElementType2 1
     MakeConstant 0
     TeachInCounter 0
-  END_KEY 14
-  KEY 15
+  END_KEY 10
+  KEY 11
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 20
+      Position 15
       CommandType 1040
       CommandName SetNameFileNoDataReport
       Enabled 1
@@ -1516,12 +1138,12 @@ START_PARM_LIST
       PickupListIndex 395653
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 15
-  KEY 16
+  END_KEY 11
+  KEY 12
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 22
+      Position 17
       CommandType 1004
       CommandName CLEAR
       Enabled 1
@@ -1537,12 +1159,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 16
-  KEY 17
+  END_KEY 12
+  KEY 13
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 23
+      Position 18
       CommandType 2
       CommandName Clear Graphics
       Enabled 1
@@ -1600,12 +1222,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 17
-  KEY 18
+  END_KEY 13
+  KEY 14
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 24
+      Position 19
       CommandType 124
       CommandName Clear
       Enabled 1
@@ -1751,12 +1373,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 18
-  KEY 19
+  END_KEY 14
+  KEY 15
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 25
+      Position 20
       CommandType 124
       CommandName Clear
       Enabled 1
@@ -1902,12 +1524,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 19
-  KEY 20
+  END_KEY 15
+  KEY 16
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 26
+      Position 21
       CommandType 124
       CommandName Clear
       Enabled 1
@@ -2053,12 +1675,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 20
-  KEY 21
+  END_KEY 16
+  KEY 17
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 27
+      Position 22
       CommandType 124
       CommandName Clear
       Enabled 1
@@ -2204,12 +1826,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 21
-  KEY 22
+  END_KEY 17
+  KEY 18
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 28
+      Position 23
       CommandType 124
       CommandName Clear
       Enabled 1
@@ -2355,12 +1977,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 22
-  KEY 23
+  END_KEY 18
+  KEY 19
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 29
+      Position 24
       CommandType 124
       CommandName Clear
       Enabled 1
@@ -2506,12 +2128,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 23
-  KEY 24
+  END_KEY 19
+  KEY 20
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 31
+      Position 26
       CommandType 1004
       CommandName SCANNER EXIST OR NOT
       Enabled 1
@@ -2527,12 +2149,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 24
-  KEY 25
+  END_KEY 20
+  KEY 21
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 32
+      Position 27
       CommandType 19980504
       CommandName Read Some Settings From Scanner
       Enabled 1
@@ -2592,12 +2214,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 1
     TeachInCounter 0
-  END_KEY 25
-  KEY 26
+  END_KEY 21
+  KEY 22
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 33
+      Position 28
       CommandType 2
       CommandName Jump to No Scanner Warning
       Enabled 1
@@ -2655,12 +2277,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 26
-  KEY 27
+  END_KEY 22
+  KEY 23
     ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 35
+      Position 30
       CommandType 122
       CommandName Access to variable
       Enabled 1
@@ -2774,14 +2396,14 @@ START_PARM_LIST
     StringArithmeticElementType2 1
     MakeConstant 0
     TeachInCounter 0
-  END_KEY 27
-  KEY 28
+  END_KEY 23
+  KEY 24
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 36
+      Position 31
       CommandType 1040
-      CommandName Skip Settings or Not
+      CommandName Skip Settings + Variables
       Enabled 1
       Hidden 0
       GraficMode 2
@@ -2822,7 +2444,7 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    Program Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element 'Settings'~'Read result and value from Pickuplist~Dim dSettings As Double~Dim lSettings As Long~Dim lSettingsUpdateMode As Long~Dim sSettingsName As String~lResult = CKTRANSGetResultFromPickupList(587996 , lSettings, dSettings, sSettingsName, lSettingsUpdateMode)~~If dSettings > 0 Then~    JUMP_MARK = "skip"~    Print(dSettings)~    LogEntry("Skip")~Else~    LogEntry("Not Skip")~End If
+    Program Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element 'Settings'~'Read result and value from Pickuplist~Dim dSettings As Double~Dim lSettings As Long~Dim lSettingsUpdateMode As Long~Dim sSettingsName As String~lResult = CKTRANSGetResultFromPickupList(587996 , lSettings, dSettings, sSettingsName, lSettingsUpdateMode)~~If dSettings > 10 Then~    JUMP_MARK = "skip"~    Print(dSettings)~    LogEntry("Skip")~Else~    LogEntry("Not Skip")~End If~    ~    Dim AccessMode As Long: AccessMode = 2 + 4 + 8 '(static + var + user + init)~Dim i As Long: i = 1000001 ' address~Dim init As Double~Dim initStr As String~init = 123~Dim name As String~Dim r As Long~Dim val As Double~Dim updatemode As Double~~name= "upperLimit": init = 0: CKTRANSEnterResultToPickupList(i , 0, init , name , AccessMode): i = i + 1~name= "lowerLimit": init = 0: CKTRANSEnterResultToPickupList(i , 0, init , name , AccessMode): i = i + 1~name= "DMC": initStr = "ABCD12": CKTRANSEnterStringToPickupList(i , 0, initStr , name , AccessMode): i = i + 1
     EncodedBinary 
     ExternProgramFileName 
     UseExternProgram 0
@@ -2835,12 +2457,12 @@ START_PARM_LIST
       PickupListIndex 141665
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 28
-  KEY 29
+  END_KEY 24
+  KEY 25
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 37
+      Position 32
       CommandType 1004
       CommandName SUB PROGRAM 1
       Enabled 1
@@ -2856,12 +2478,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 29
-  KEY 30
+  END_KEY 25
+  KEY 26
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 38
+      Position 33
       CommandType 1000
       CommandName Go to Scanner Settings
       Enabled 1
@@ -2915,12 +2537,12 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_READ 
     CloseProgramOnTermination 0
     TeachInCounter 0
-  END_KEY 30
-  KEY 31
+  END_KEY 26
+  KEY 27
     ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 39
+      Position 34
       CommandType 122
       CommandName Access to variable
       Enabled 1
@@ -3034,12 +2656,12 @@ START_PARM_LIST
     StringArithmeticElementType2 1
     MakeConstant 0
     TeachInCounter 0
-  END_KEY 31
-  KEY 32
+  END_KEY 27
+  KEY 28
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 40
+      Position 35
       CommandType 2
       CommandName Mark:Skip
       Enabled 1
@@ -3097,12 +2719,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 32
-  KEY 33
+  END_KEY 28
+  KEY 29
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 42
+      Position 37
       CommandType 2
       CommandName Loop
       Enabled 1
@@ -3160,12 +2782,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 33
-  KEY 34
+  END_KEY 29
+  KEY 30
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 43
+      Position 38
       CommandType 246
       CommandName Reset
       Enabled 1
@@ -3302,12 +2924,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 34
-  KEY 35
+  END_KEY 30
+  KEY 31
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 44
+      Position 39
       CommandType 124
       CommandName No Encoder Change
       Enabled 1
@@ -3453,12 +3075,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 35
-  KEY 36
+  END_KEY 31
+  KEY 32
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 46
+      Position 41
       CommandType 1004
       CommandName ENCODER CHANGE
       Enabled 1
@@ -3474,12 +3096,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 36
-  KEY 37
+  END_KEY 32
+  KEY 33
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 47
+      Position 42
       CommandType 19980504
       CommandName Read Encoders First
       Enabled 3
@@ -3539,12 +3161,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 1
     TeachInCounter 0
-  END_KEY 37
-  KEY 38
+  END_KEY 33
+  KEY 34
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 48
+      Position 43
       CommandType 114
       CommandName Stop watch 50 ms
       Enabled 3
@@ -3596,12 +3218,12 @@ START_PARM_LIST
       PickupListIndex 779127
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 38
-  KEY 39
+  END_KEY 34
+  KEY 35
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 49
+      Position 44
       CommandType 19980504
       CommandName Read Encoders Second
       Enabled 3
@@ -3661,12 +3283,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 1
     TeachInCounter 0
-  END_KEY 39
-  KEY 40
+  END_KEY 35
+  KEY 36
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 50
+      Position 45
       CommandType 1040
       CommandName Check Encoder Change
       Enabled 3
@@ -3709,7 +3331,7 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    Program Dim dReadEncodersFirst As Double~Dim dReadEncodersSecond As Double~CKGetValueRegister (0,dReadEncodersSecond, "")~CKGetValueRegister (1,dReadEncodersFirst, "") ~~If dReadEncodersSecond - dReadEncodersFirst >10 Then~    JUMP_MARK = "Scan"~Else~    JUMP_MARK = "Loop"~End If~~
+    Program Dim dReadEncodersFirst As Double~Dim dReadEncodersSecond As Double~CKGetValueRegister (0,dReadEncodersSecond, "")~CKGetValueRegister (1,dReadEncodersFirst, "") ~~If Abs(dReadEncodersSecond - dReadEncodersFirst) > 10 Then~    JUMP_MARK = "Scan"~Else~    JUMP_MARK = "Loop"~End If~~
     EncodedBinary 
     ExternProgramFileName 
     UseExternProgram 0
@@ -3722,12 +3344,12 @@ START_PARM_LIST
       PickupListIndex 108749
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 40
-  KEY 41
+  END_KEY 36
+  KEY 37
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 52
+      Position 47
       CommandType 1004
       CommandName SCAN
       Enabled 1
@@ -3743,12 +3365,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 41
-  KEY 42
+  END_KEY 37
+  KEY 38
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 53
+      Position 48
       CommandType 2
       CommandName Mark Scan
       Enabled 1
@@ -3806,12 +3428,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 42
-  KEY 43
+  END_KEY 38
+  KEY 39
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 54
+      Position 49
       CommandType 124
       CommandName Encoder Change Detected
       Enabled 1
@@ -3957,12 +3579,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 43
-  KEY 44
+  END_KEY 39
+  KEY 40
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 55
+      Position 50
       CommandType 246
       CommandName reset global string
       Enabled 1
@@ -4099,12 +3721,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 44
-  KEY 45
+  END_KEY 40
+  KEY 41
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 56
+      Position 51
       CommandType 124
       CommandName Traffic Light Communication
       Enabled 1
@@ -4250,12 +3872,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 45
-  KEY 46
+  END_KEY 41
+  KEY 42
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 58
+      Position 53
       CommandType 1004
       CommandName COMMUNICATION 1: RECEIVE
       Enabled 1
@@ -4271,12 +3893,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 46
-  KEY 47
+  END_KEY 42
+  KEY 43
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 59
+      Position 54
       CommandType 246
       CommandName Receive Data
       Enabled 2
@@ -4413,12 +4035,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 47
-  KEY 48
+  END_KEY 43
+  KEY 44
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 60
+      Position 55
       CommandType 2
       CommandName Jump InputArrived
       Enabled 2
@@ -4476,12 +4098,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 48
-  KEY 49
+  END_KEY 44
+  KEY 45
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 62
+      Position 57
       CommandType 1000
       CommandName Ping String
       Enabled 2
@@ -4535,12 +4157,12 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_READ 
     CloseProgramOnTermination 0
     TeachInCounter 0
-  END_KEY 49
-  KEY 50
+  END_KEY 45
+  KEY 46
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 63
+      Position 58
       CommandType 246
       CommandName Send Data
       Enabled 2
@@ -4677,12 +4299,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 50
-  KEY 51
+  END_KEY 46
+  KEY 47
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 64
+      Position 59
       CommandType 124
       CommandName Data Sent
       Enabled 2
@@ -4828,12 +4450,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 51
-  KEY 52
+  END_KEY 47
+  KEY 48
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 65
+      Position 60
       CommandType 246
       CommandName Receive Data
       Enabled 2
@@ -4970,12 +4592,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 52
-  KEY 53
+  END_KEY 48
+  KEY 49
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 66
+      Position 61
       CommandType 2
       CommandName Jump to Scan
       Enabled 2
@@ -5033,12 +4655,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 53
-  KEY 54
+  END_KEY 49
+  KEY 50
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 68
+      Position 63
       CommandType 246
       CommandName Close Previous Communications
       Enabled 2
@@ -5175,12 +4797,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 54
-  KEY 55
+  END_KEY 50
+  KEY 51
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 69
+      Position 64
       CommandType 246
       CommandName reset global string
       Enabled 1
@@ -5317,12 +4939,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 55
-  KEY 56
+  END_KEY 51
+  KEY 52
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 70
+      Position 65
       CommandType 2
       CommandName Jump to Scan
       Enabled 2
@@ -5380,12 +5002,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 56
-  KEY 57
+  END_KEY 52
+  KEY 53
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 72
+      Position 67
       CommandType 2
       CommandName Mark: Input Arrived
       Enabled 2
@@ -5443,12 +5065,12 @@ START_PARM_LIST
       PickupListIndex 606664
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 57
-  KEY 58
+  END_KEY 53
+  KEY 54
     ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 73
+      Position 68
       CommandType 122
       CommandName loopCounter
       Enabled 1
@@ -5562,12 +5184,12 @@ START_PARM_LIST
     StringArithmeticElementType2 1
     MakeConstant 0
     TeachInCounter 0
-  END_KEY 58
-  KEY 59
+  END_KEY 54
+  KEY 55
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 74
+      Position 69
       CommandType 124
       CommandName Print Counter
       Enabled 1
@@ -5713,12 +5335,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 59
-  KEY 60
+  END_KEY 55
+  KEY 56
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 75
+      Position 70
       CommandType 124
       CommandName Text
       Enabled 2
@@ -5864,12 +5486,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 60
-  KEY 61
+  END_KEY 56
+  KEY 57
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 76
+      Position 71
       CommandType 1004
       CommandName 1. PARSE RECEIVED INPUT
       Enabled 2
@@ -5885,12 +5507,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 61
-  KEY 62
+  END_KEY 57
+  KEY 58
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 77
+      Position 72
       CommandType 124
       CommandName Traffic Light Communication
       Enabled 1
@@ -6036,12 +5658,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 62
-  KEY 63
+  END_KEY 58
+  KEY 59
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 78
+      Position 73
       CommandType 19980601
       CommandName read global string
       Enabled 2
@@ -6107,12 +5729,12 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     ConfigStartPoint UserData
     TeachInCounter 0
-  END_KEY 63
-  KEY 64
+  END_KEY 59
+  KEY 60
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 79
+      Position 74
       CommandType 19980602
       CommandName reset
       Enabled 2
@@ -6216,12 +5838,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 64
-  KEY 65
+  END_KEY 60
+  KEY 61
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 80
+      Position 75
       CommandType 19980601
       CommandName upLimit
       Enabled 2
@@ -6287,12 +5909,12 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     ConfigStartPoint UserData
     TeachInCounter 0
-  END_KEY 65
-  KEY 66
+  END_KEY 61
+  KEY 62
     ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 81
+      Position 76
       CommandType 122
       CommandName set UpperLimit
       Enabled 2
@@ -6368,7 +5990,7 @@ START_PARM_LIST
       ClassVersion 1
       Name 
       PickupObjectType 0
-      PickupListIndex 764978
+      PickupListIndex 1000001
     END_CKPICKUP_TYPE_READ 
     CKPICKUP_TYPE_READ 
       ClassVersion 1
@@ -6406,12 +6028,12 @@ START_PARM_LIST
     StringArithmeticElementType2 1
     MakeConstant 0
     TeachInCounter 0
-  END_KEY 66
-  KEY 67
+  END_KEY 62
+  KEY 63
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 82
+      Position 77
       CommandType 19980601
       CommandName lowLimit
       Enabled 2
@@ -6477,12 +6099,12 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     ConfigStartPoint UserData
     TeachInCounter 0
-  END_KEY 67
-  KEY 68
+  END_KEY 63
+  KEY 64
     ClassVersion 7
     CKGENERAL 
       ClassVersion 3
-      Position 83
+      Position 78
       CommandType 122
       CommandName set LowerLimit
       Enabled 2
@@ -6558,7 +6180,7 @@ START_PARM_LIST
       ClassVersion 1
       Name 
       PickupObjectType 0
-      PickupListIndex 669260
+      PickupListIndex 1000002
     END_CKPICKUP_TYPE_READ 
     CKPICKUP_TYPE_READ 
       ClassVersion 1
@@ -6596,12 +6218,12 @@ START_PARM_LIST
     StringArithmeticElementType2 1
     MakeConstant 0
     TeachInCounter 0
-  END_KEY 68
-  KEY 69
+  END_KEY 64
+  KEY 65
     ClassVersion 3
     CKGENERAL 
       ClassVersion 3
-      Position 84
+      Position 79
       CommandType 19980601
       CommandName dmc
       Enabled 2
@@ -6667,12 +6289,12 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_WRITE 
     ConfigStartPoint UserData
     TeachInCounter 0
-  END_KEY 69
-  KEY 70
+  END_KEY 65
+  KEY 66
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 85
+      Position 80
       CommandType 246
       CommandName set ID
       Enabled 2
@@ -6758,7 +6380,7 @@ START_PARM_LIST
       ClassVersion 1
       Name 
       PickupObjectType 6
-      PickupListIndex 807406
+      PickupListIndex 1000003
     END_CKPICKUP_TYPE_READ 
     FilenameSource 0
     CKPICKUP_TYPE_READ 
@@ -6809,12 +6431,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 70
-  KEY 71
+  END_KEY 66
+  KEY 67
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 86
+      Position 81
       CommandType 1040
       CommandName Print Obtained Result
       Enabled 2
@@ -6870,12 +6492,12 @@ START_PARM_LIST
       PickupListIndex 496371
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 71
-  KEY 72
+  END_KEY 67
+  KEY 68
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 88
+      Position 83
       CommandType 114
       CommandName Reset Time
       Enabled 1
@@ -6927,12 +6549,12 @@ START_PARM_LIST
       PickupListIndex 849871
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 72
-  KEY 73
+  END_KEY 68
+  KEY 69
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 90
+      Position 85
       CommandType 1040
       CommandName Stop Capture
       Enabled 1
@@ -6988,12 +6610,12 @@ START_PARM_LIST
       PickupListIndex 969746
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 73
-  KEY 74
+  END_KEY 69
+  KEY 70
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 91
+      Position 86
       CommandType 19980504
       CommandName Read Encoders Before
       Enabled 1
@@ -7053,12 +6675,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 1
     TeachInCounter 0
-  END_KEY 74
-  KEY 75
+  END_KEY 70
+  KEY 71
     ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 93
+      Position 88
       CommandType 3
       CommandName Asynchronous image capture
       Enabled 1
@@ -7118,12 +6740,12 @@ START_PARM_LIST
     RestartCaptureOnError 0
     StartCaptureIfNotActive 0
     TeachInCounter 0
-  END_KEY 75
-  KEY 76
+  END_KEY 71
+  KEY 72
     ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 94
+      Position 89
       CommandType 3
       CommandName Asynchronous image capture
       Enabled 1
@@ -7183,12 +6805,12 @@ START_PARM_LIST
     RestartCaptureOnError 0
     StartCaptureIfNotActive 0
     TeachInCounter 0
-  END_KEY 76
-  KEY 77
+  END_KEY 72
+  KEY 73
     ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 95
+      Position 90
       CommandType 3
       CommandName Asynchronous image capture
       Enabled 1
@@ -7248,12 +6870,12 @@ START_PARM_LIST
     RestartCaptureOnError 1
     StartCaptureIfNotActive 1
     TeachInCounter 0
-  END_KEY 77
-  KEY 78
+  END_KEY 73
+  KEY 74
     ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 96
+      Position 91
       CommandType 3
       CommandName Asynchronous image capture
       Enabled 1
@@ -7313,12 +6935,12 @@ START_PARM_LIST
     RestartCaptureOnError 1
     StartCaptureIfNotActive 1
     TeachInCounter 0
-  END_KEY 78
-  KEY 79
+  END_KEY 74
+  KEY 75
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 97
+      Position 92
       CommandType 2
       CommandName Data Check
       Enabled 1
@@ -7376,12 +6998,12 @@ START_PARM_LIST
       PickupListIndex 792007
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 79
-  KEY 80
+  END_KEY 75
+  KEY 76
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 98
+      Position 93
       CommandType 2
       CommandName Data Check
       Enabled 1
@@ -7439,12 +7061,12 @@ START_PARM_LIST
       PickupListIndex 792007
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 80
-  KEY 81
+  END_KEY 76
+  KEY 77
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 100
+      Position 95
       CommandType 19980504
       CommandName Read Encoders After
       Enabled 1
@@ -7504,12 +7126,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 1
     TeachInCounter 0
-  END_KEY 81
-  KEY 82
+  END_KEY 77
+  KEY 78
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 102
+      Position 97
       CommandType 1004
       CommandName SAVE
       Enabled 1
@@ -7525,12 +7147,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 82
-  KEY 83
+  END_KEY 78
+  KEY 79
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 103
+      Position 98
       CommandType 246
       CommandName Filename1
       Enabled 1
@@ -7667,12 +7289,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 83
-  KEY 84
+  END_KEY 79
+  KEY 80
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 104
+      Position 99
       CommandType 246
       CommandName Filename2
       Enabled 1
@@ -7809,12 +7431,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 84
-  KEY 85
+  END_KEY 80
+  KEY 81
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 105
+      Position 100
       CommandType 246
       CommandName Filename3
       Enabled 1
@@ -7951,12 +7573,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 85
-  KEY 86
+  END_KEY 81
+  KEY 82
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 106
+      Position 101
       CommandType 246
       CommandName Filename4
       Enabled 1
@@ -8093,12 +7715,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 86
-  KEY 87
+  END_KEY 82
+  KEY 83
     ClassVersion 12
     CKGENERAL 
       ClassVersion 3
-      Position 107
+      Position 102
       CommandType 1
       CommandName Save First Scanner
       Enabled 1
@@ -8191,12 +7813,12 @@ START_PARM_LIST
     SaveAsynchronous 0
     FilenameType 0
     TeachInCounter 0
-  END_KEY 87
-  KEY 88
+  END_KEY 83
+  KEY 84
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 108
+      Position 103
       CommandType 246
       CommandName Filename1
       Enabled 1
@@ -8333,12 +7955,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 88
-  KEY 89
+  END_KEY 84
+  KEY 85
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 109
+      Position 104
       CommandType 246
       CommandName Filename2
       Enabled 1
@@ -8475,12 +8097,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 89
-  KEY 90
+  END_KEY 85
+  KEY 86
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 110
+      Position 105
       CommandType 246
       CommandName Filename3
       Enabled 1
@@ -8617,12 +8239,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 90
-  KEY 91
+  END_KEY 86
+  KEY 87
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 111
+      Position 106
       CommandType 246
       CommandName Filename4
       Enabled 1
@@ -8759,12 +8381,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 91
-  KEY 92
+  END_KEY 87
+  KEY 88
     ClassVersion 12
     CKGENERAL 
       ClassVersion 3
-      Position 112
+      Position 107
       CommandType 1
       CommandName Save Second Scanner
       Enabled 1
@@ -8857,12 +8479,12 @@ START_PARM_LIST
     SaveAsynchronous 0
     FilenameType 0
     TeachInCounter 0
-  END_KEY 92
-  KEY 93
+  END_KEY 88
+  KEY 89
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 114
+      Position 109
       CommandType 124
       CommandName Data received
       Enabled 1
@@ -9008,12 +8630,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 93
-  KEY 94
+  END_KEY 89
+  KEY 90
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 116
+      Position 111
       CommandType 1004
       CommandName SUB PROGRAM 2
       Enabled 1
@@ -9029,12 +8651,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 94
-  KEY 95
+  END_KEY 90
+  KEY 91
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 117
+      Position 112
       CommandType 1000
       CommandName SurfaceInspection Program
       Enabled 1
@@ -9088,12 +8710,12 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_READ 
     CloseProgramOnTermination 0
     TeachInCounter 0
-  END_KEY 95
-  KEY 96
+  END_KEY 91
+  KEY 92
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 119
+      Position 114
       CommandType 114
       CommandName End Time
       Enabled 1
@@ -9145,12 +8767,12 @@ START_PARM_LIST
       PickupListIndex 671945
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 96
-  KEY 97
+  END_KEY 92
+  KEY 93
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 120
+      Position 115
       CommandType 124
       CommandName Print Cycle Time
       Enabled 1
@@ -9296,12 +8918,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 97
-  KEY 98
+  END_KEY 93
+  KEY 94
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 121
+      Position 116
       CommandType 2
       CommandName Loop
       Enabled 1
@@ -9359,12 +8981,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 98
-  KEY 99
+  END_KEY 94
+  KEY 95
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 123
+      Position 118
       CommandType 2
       CommandName No Data Warning
       Enabled 1
@@ -9422,12 +9044,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 99
-  KEY 100
+  END_KEY 95
+  KEY 96
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 125
+      Position 120
       CommandType 124
       CommandName Print No Data
       Enabled 1
@@ -9573,12 +9195,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 100
-  KEY 101
+  END_KEY 96
+  KEY 97
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 126
+      Position 121
       CommandType 246
       CommandName Add to NoDataFile
       Enabled 0
@@ -9715,12 +9337,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 101
-  KEY 102
+  END_KEY 97
+  KEY 98
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 127
+      Position 122
       CommandType 246
       CommandName NoDataFile
       Enabled 0
@@ -9773,7 +9395,7 @@ START_PARM_LIST
     SeparationIndex 0
     SendType 1
     TextToDisplay Height:
-    Filename ./2022_05_02_16_10_41_461_NoData_Report.txt
+    Filename ./2022_05_20_14_41_53_582_NoData_Report.txt
     AddIntegerOnly 1
     SeperatorAtStartOfString 1
     PortNumber 0
@@ -9857,12 +9479,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 102
-  KEY 103
+  END_KEY 98
+  KEY 99
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 128
+      Position 123
       CommandType 246
       CommandName Reset
       Enabled 1
@@ -9999,12 +9621,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 103
-  KEY 104
+  END_KEY 99
+  KEY 100
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 129
+      Position 124
       CommandType 114
       CommandName End Time
       Enabled 1
@@ -10056,12 +9678,12 @@ START_PARM_LIST
       PickupListIndex 480217
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 104
-  KEY 105
+  END_KEY 100
+  KEY 101
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 130
+      Position 125
       CommandType 124
       CommandName Print Cycle Time
       Enabled 1
@@ -10207,12 +9829,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 105
-  KEY 106
+  END_KEY 101
+  KEY 102
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 132
+      Position 127
       CommandType 2
       CommandName Jump to Loop
       Enabled 1
@@ -10270,12 +9892,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 106
-  KEY 107
+  END_KEY 102
+  KEY 103
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 134
+      Position 129
       CommandType 2
       CommandName No Scanner Warning
       Enabled 1
@@ -10333,12 +9955,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 107
-  KEY 108
+  END_KEY 103
+  KEY 104
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 135
+      Position 130
       CommandType 124
       CommandName Print No Scanner
       Enabled 1
@@ -10484,12 +10106,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 108
-  KEY 109
+  END_KEY 104
+  KEY 105
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 136
+      Position 131
       CommandType 2
       CommandName Jump to Loop
       Enabled 1
@@ -10547,7 +10169,7 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 109
+  END_KEY 105
 END_PARM_LIST 
 CKPARAMETERS 
   ClassVersion 1

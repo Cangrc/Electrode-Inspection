@@ -1,9 +1,9 @@
 EVT 
 EYEVISION_VERSION 4.01.003-69-g311e1ffc5e
-FILE_VERSION 523
+FILE_VERSION 519
 CREATED 18.05.2021 10:01:24
 CREATED_BY Admin
-LAST_MODIFIED 20.05.2022 16:02:37
+LAST_MODIFIED 20.05.2022 16:03:18
 LAST_MODIFIED_BY Admin
 START_PARM_LIST 
   KEY 1
@@ -69,7 +69,7 @@ START_PARM_LIST
     PortNumber 0
     WithQuotes 1
     IPAddress 127.0.0.1
-    NetPort 50011
+    NetPort 50013
     FloatingPointPrecision 2
     FloatingPointMode 0
     CKPICKUP_TYPE_READ 
@@ -2403,7 +2403,7 @@ START_PARM_LIST
       ClassVersion 3
       Position 30
       CommandType 1040
-      CommandName Skip + Variables
+      CommandName Skip+Variables
       Enabled 1
       Hidden 0
       GraficMode 2
@@ -2444,7 +2444,7 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    Program Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element 'Settings'~'Read result and value from Pickuplist~Dim dSettings As Double~Dim lSettings As Long~Dim lSettingsUpdateMode As Long~Dim sSettingsName As String~lResult = CKTRANSGetResultFromPickupList(871001 , lSettings, dSettings, sSettingsName, lSettingsUpdateMode)~~If dSettings > 10 Then~    JUMP_MARK = "skip"~    Print(dSettings)~    LogEntry("Skip")~Else~    LogEntry("Not Skip")~End If~    ~Dim AccessMode As Long: AccessMode = 2 + 4 + 8 '(static + var + user + init)~Dim i As Long: i = 1000001 ' address~Dim init As Double~Dim initStr As String~init = 123~Dim name As String~Dim r As Long~Dim val As Double~Dim updatemode As Double~~name= "upperLimit": init = 0: CKTRANSEnterResultToPickupList(i , 0, init , name , AccessMode): i = i + 1~name= "lowerLimit": init = 0: CKTRANSEnterResultToPickupList(i , 0, init , name , AccessMode): i = i + 1~name= "DMC": initStr = "ABCD12": CKTRANSEnterStringToPickupList(i , 0, initStr , name , AccessMode): i = i + 1~
+    Program Dim lResult As Long 'Only needed once ~ ~'Accessing pickuplist element 'Settings'~'Read result and value from Pickuplist~Dim dSettings As Double~Dim lSettings As Long~Dim lSettingsUpdateMode As Long~Dim sSettingsName As String~lResult = CKTRANSGetResultFromPickupList(871001 , lSettings, dSettings, sSettingsName, lSettingsUpdateMode)~~If dSettings > 10 Then~    JUMP_MARK = "skip"~    Print(dSettings)~    LogEntry("Skip")~Else~    LogEntry("Not Skip")~End If~    ~        ~Dim AccessMode As Long: AccessMode = 2 + 4 + 8 '(static + var + user + init)~Dim i As Long: i = 1000001 ' address~Dim init As Double~Dim initStr As String~init = 123~Dim name As String~Dim r As Long~Dim val As Double~Dim updatemode As Double~~name= "upperLimit": init = 0: CKTRANSEnterResultToPickupList(i , 0, init , name , AccessMode): i = i + 1~name= "lowerLimit": init = 0: CKTRANSEnterResultToPickupList(i , 0, init , name , AccessMode): i = i + 1~name= "DMC": initStr = "ABCD12": CKTRANSEnterStringToPickupList(i , 0, initStr , name , AccessMode): i = i + 1
     EncodedBinary 
     ExternProgramFileName 
     UseExternProgram 0
@@ -2526,7 +2526,7 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    NameOfSubProgram ./Q5-EncoderBasedSettings-I2.ckp
+    NameOfSubProgram ./Q5-EncoderBasedSettings-I4.ckp
     RunSubprogramMode 0
     ResultMode 0
     CKPICKUP_TYPE_READ 
@@ -4014,7 +4014,7 @@ START_PARM_LIST
     PortNumber 0
     WithQuotes 1
     IPAddress 127.0.0.1
-    NetPort 50011
+    NetPort 50013
     FloatingPointPrecision 2
     FloatingPointMode 0
     CKPICKUP_TYPE_READ 
@@ -4278,7 +4278,7 @@ START_PARM_LIST
     PortNumber 0
     WithQuotes 1
     IPAddress 127.0.0.1
-    NetPort 50011
+    NetPort 50013
     FloatingPointPrecision 2
     FloatingPointMode 0
     CKPICKUP_TYPE_READ 
@@ -4571,7 +4571,7 @@ START_PARM_LIST
     PortNumber 0
     WithQuotes 1
     IPAddress 127.0.0.1
-    NetPort 50011
+    NetPort 50013
     FloatingPointPrecision 2
     FloatingPointMode 0
     CKPICKUP_TYPE_READ 
@@ -4776,7 +4776,7 @@ START_PARM_LIST
     PortNumber 0
     WithQuotes 1
     IPAddress 127.0.0.1
-    NetPort 50011
+    NetPort 50013
     FloatingPointPrecision 2
     FloatingPointMode 0
     CKPICKUP_TYPE_READ 
@@ -6740,7 +6740,202 @@ START_PARM_LIST
       Position 90
       CommandType 3
       CommandName Asynchronous image capture
-      Enabled 0
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 2
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Asynchronous image capture
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    Determination 0
+    TriggerMode 0
+    WaitUntilSnapComplete 0
+    VICCamera 0
+    ApplyTimeout 0
+    TriggerTimeout 5000
+    RestartCaptureAfterWait 0
+    CaptureWithFlash 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 864427
+    END_CKPICKUP_TYPE_WRITE 
+    RestartCaptureOnError 0
+    StartCaptureIfNotActive 0
+    TeachInCounter 0
+  END_KEY 72
+  KEY 73
+    ClassVersion 6
+    CKGENERAL 
+      ClassVersion 3
+      Position 91
+      CommandType 3
+      CommandName Asynchronous image capture
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 3
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Asynchronous image capture
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    Determination 0
+    TriggerMode 0
+    WaitUntilSnapComplete 0
+    VICCamera 2
+    ApplyTimeout 0
+    TriggerTimeout 5000
+    RestartCaptureAfterWait 0
+    CaptureWithFlash 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 513288
+    END_CKPICKUP_TYPE_WRITE 
+    RestartCaptureOnError 0
+    StartCaptureIfNotActive 0
+    TeachInCounter 0
+  END_KEY 73
+  KEY 74
+    ClassVersion 6
+    CKGENERAL 
+      ClassVersion 3
+      Position 92
+      CommandType 3
+      CommandName Asynchronous image capture
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 4
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Asynchronous image capture
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    Determination 0
+    TriggerMode 0
+    WaitUntilSnapComplete 0
+    VICCamera 1
+    ApplyTimeout 0
+    TriggerTimeout 5000
+    RestartCaptureAfterWait 0
+    CaptureWithFlash 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 553781
+    END_CKPICKUP_TYPE_WRITE 
+    RestartCaptureOnError 0
+    StartCaptureIfNotActive 0
+    TeachInCounter 0
+  END_KEY 74
+  KEY 75
+    ClassVersion 6
+    CKGENERAL 
+      ClassVersion 3
+      Position 94
+      CommandType 3
+      CommandName Asynchronous image capture
+      Enabled 1
       Hidden 0
       GraficMode 2
       TextMode 2
@@ -6786,30 +6981,30 @@ START_PARM_LIST
     VICCamera 0
     ApplyTimeout 0
     TriggerTimeout 50000
-    RestartCaptureAfterWait 1
+    RestartCaptureAfterWait 0
     CaptureWithFlash 0
     CKPICKUP_TYPE_WRITE 
       ClassVersion 1
       Name 
       PickupObjectType 5
-      PickupListIndex 317200
+      PickupListIndex 351396
     END_CKPICKUP_TYPE_WRITE 
     RestartCaptureOnError 0
-    StartCaptureIfNotActive 1
+    StartCaptureIfNotActive 0
     TeachInCounter 0
-  END_KEY 72
-  KEY 73
-    ClassVersion 12
+  END_KEY 75
+  KEY 76
+    ClassVersion 6
     CKGENERAL 
       ClassVersion 3
-      Position 91
-      CommandType 1
-      CommandName Scan
+      Position 95
+      CommandType 3
+      CommandName Asynchronous image capture
       Enabled 1
       Hidden 0
       GraficMode 2
       TextMode 2
-      ImageMemory 2
+      ImageMemory 3
       InvertResult 0
       Memo 
       IgnoreResult 0
@@ -6818,7 +7013,7 @@ START_PARM_LIST
     END_CKGENERAL 
     CKRESULT 
       ClassVersion 1
-      Name Capture image
+      Name Asynchronous image capture
       EnterResultToRTDisplay 0
       RTDisplayIndex 0
       RTWidthOfToleranceRegion 80
@@ -6845,62 +7040,94 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    CaptureWithVIC 0
-    CaptureType 0
-    SaveType 3
-    OnlyOnActivate 0
-    SaveWithGrafic 0
-    TriggeredCapture 0
+    Determination 1
+    TriggerMode 0
+    WaitUntilSnapComplete 1
+    VICCamera 2
     ApplyTimeout 0
+    TriggerTimeout 50000
+    RestartCaptureAfterWait 0
     CaptureWithFlash 0
-    NumberOfCyclicFiles 10
-    CurrentCycleNumber 0
-    TriggerTimeout 0
-    TriggerInputLine 0
-    MinimumSignalDuration 0
-    FileName ./IM0.e3c
-    AVIframes 1
-    AVImode 0
-    HWTriggeredCapture 1
-    CaptureWithVIC2 1
-    DualSnap 0
-    ImageMem2 1
-    ImageAdjust 0
-    ImageRefresh 1
-    SourceImageMode 0
-    SourceVIC 0
-    LoadOption 1
-    LoadImageIndex 0
-    LoadDirectory ./
-    RawDataConversionActive 0
-    RawDataType 1
-    PixelDataSize 2
-    ByteOrder 0
-    NumberOfChannels 1
-    ChannelOrder 0
-    DataRangeLow 0,0
-    DataRangeHigh 65535,0
-    UseDisplayValues 1
-    DisplayRangeLow 0,0
-    DisplayRangeHigh 65535,0
-    DeleteFile 0
-    FileNameToGlobalString 0
     CKPICKUP_TYPE_WRITE 
       ClassVersion 1
       Name 
       PickupObjectType 5
-      PickupListIndex 425940
+      PickupListIndex 273792
     END_CKPICKUP_TYPE_WRITE 
-    NoRestartOfCyclicLoad 0
-    SaveAsynchronous 0
-    FilenameType 0
+    RestartCaptureOnError 0
+    StartCaptureIfNotActive 0
     TeachInCounter 0
-  END_KEY 73
-  KEY 74
+  END_KEY 76
+  KEY 77
+    ClassVersion 6
+    CKGENERAL 
+      ClassVersion 3
+      Position 96
+      CommandType 3
+      CommandName Asynchronous image capture
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 4
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Asynchronous image capture
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    Determination 1
+    TriggerMode 0
+    WaitUntilSnapComplete 1
+    VICCamera 1
+    ApplyTimeout 0
+    TriggerTimeout 50000
+    RestartCaptureAfterWait 0
+    CaptureWithFlash 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 396325
+    END_CKPICKUP_TYPE_WRITE 
+    RestartCaptureOnError 0
+    StartCaptureIfNotActive 0
+    TeachInCounter 0
+  END_KEY 77
+  KEY 78
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 92
+      Position 97
       CommandType 2
       CommandName Data Check
       Enabled 1
@@ -6949,7 +7176,7 @@ START_PARM_LIST
     NumberOfLoops 0
     LoopCounter 0
     ClearAllGoi 0
-    CMDOffset 1
+    CMDOffset 3
     ExecuteCommands 0
     CKPICKUP_TYPE_READ 
       ClassVersion 1
@@ -6958,17 +7185,17 @@ START_PARM_LIST
       PickupListIndex 792007
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 74
-  KEY 75
-    ClassVersion 3
+  END_KEY 78
+  KEY 79
+    ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 93
-      CommandType 19980121
-      CommandName 3D Cut Filter
-      Enabled 0
+      Position 98
+      CommandType 2
+      CommandName Data Check
+      Enabled 1
       Hidden 0
-      GraficMode 2
+      GraficMode 0
       TextMode 2
       ImageMemory 0
       InvertResult 0
@@ -6979,7 +7206,7 @@ START_PARM_LIST
     END_CKGENERAL 
     CKRESULT 
       ClassVersion 1
-      Name 
+      Name Interpreter control
       EnterResultToRTDisplay 0
       RTDisplayIndex 0
       RTWidthOfToleranceRegion 80
@@ -7006,70 +7233,90 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    CutDirection 3
-    InvertCut 1
-    CKSOURCEVALUE 
+    Marker NoDataWarning
+    DeterminationMode 3
+    ResultMode 2
+    NumberOfLoops 0
+    LoopCounter 0
+    ClearAllGoi 0
+    CMDOffset 3
+    ExecuteCommands 0
+    CKPICKUP_TYPE_READ 
       ClassVersion 1
       Name 
-      SourceMode 3
-      RegisterIndex 0
-      ManualValue 0,0
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 5
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      END_CKSOURCEVALUE 
-    CKSOURCEVALUE 
-      ClassVersion 1
-      Name 
-      SourceMode 3
-      RegisterIndex 0
-      ManualValue 0,0
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 5
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      END_CKSOURCEVALUE 
-    OutputIM 0
-      CKSOURCEVALUE 
-      ClassVersion 2
-      Name 
-      SourceMode 3
-      RegisterIndex 0
-      TransformToCurrent 1
-      CKGEO3D 
-        ClassVersion 2
-        Name 
-        Type 4
-        Value0 -969,2836303711
-        Value1 -1467,2358398438
-        Value2 0,0
-        Value3 -282,9196472168
-        Value4 641,0720214844
-        Value5 0,0
-        Value6 0,0
-        Value7 0,0
-        Value8 0,0
-      END_CKGEO3D 
-      CKPICKUP_TYPE_READ 
-        ClassVersion 1
-        Name 
-        PickupObjectType 8
-        PickupListIndex -1
-      END_CKPICKUP_TYPE_READ 
-      END_CKSOURCEVALUE 
-    ShrinkOrderedToFit 1
+      PickupObjectType 0
+      PickupListIndex 792007
+    END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 75
-  KEY 76
+  END_KEY 79
+  KEY 80
+    ClassVersion 5
+    CKGENERAL 
+      ClassVersion 3
+      Position 99
+      CommandType 2
+      CommandName Data Check
+      Enabled 1
+      Hidden 0
+      GraficMode 0
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Interpreter control
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    Marker NoDataWarning
+    DeterminationMode 3
+    ResultMode 2
+    NumberOfLoops 0
+    LoopCounter 0
+    ClearAllGoi 0
+    CMDOffset 3
+    ExecuteCommands 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 0
+      PickupListIndex 792007
+    END_CKPICKUP_TYPE_READ 
+    TeachInCounter 0
+  END_KEY 80
+  KEY 81
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 95
+      Position 101
       CommandType 19980504
       CommandName Read Encoders After
       Enabled 1
@@ -7129,12 +7376,2415 @@ START_PARM_LIST
     VICIndex 0
     Determination 1
     TeachInCounter 0
-  END_KEY 76
-  KEY 77
+  END_KEY 81
+  KEY 82
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 96
+      Position 103
+      CommandType 246
+      CommandName Filename1
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Global string
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    DetType 2
+    UseText 1
+    UseDate 1
+    UseWert 0
+    UsePoint 0
+    VariablesIndex 0
+    PointIndex 0
+    SeparationIndex 0
+    SendType 5
+    TextToDisplay IM2
+    Filename ./string.txt
+    AddIntegerOnly 0
+    SeperatorAtStartOfString 0
+    PortNumber 0
+    WithQuotes 1
+    IPAddress 127.0.0.1
+    NetPort 50013
+    FloatingPointPrecision 0
+    FloatingPointMode 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 162286
+    END_CKPICKUP_TYPE_READ 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 1
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    SourceModeVal 1
+    SourceModePoint 2
+    ReceiveType 1
+    SocketType 0
+    EndChar <NONE>
+    Timeout 5000
+    TextVarDir 0
+    TextVarEnterMode 2
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    FilenameSource 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    StringFormat String
+    Separator ;
+    TrimSeparator 1
+    ParserOutput 3
+    NoPickupEntriesString 0
+    NoPickupEntriesValue 0
+    CloseAfterCommunication 0
+    DataFormat 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 943162
+    END_CKPICKUP_TYPE_WRITE 
+    FileAccessMode 1
+    ClearStringBefore 1
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 874043
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
+    TeachInCounter 0
+  END_KEY 82
+  KEY 83
+    ClassVersion 18
+    CKGENERAL 
+      ClassVersion 3
+      Position 104
+      CommandType 246
+      CommandName Filename2
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Global string
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    DetType 2
+    UseText 1
+    UseDate 0
+    UseWert 1
+    UsePoint 0
+    VariablesIndex 0
+    PointIndex 0
+    SeparationIndex 0
+    SendType 5
+    TextToDisplay FinalEnc
+    Filename ./string.txt
+    AddIntegerOnly 1
+    SeperatorAtStartOfString 1
+    PortNumber 0
+    WithQuotes 1
+    IPAddress 127.0.0.1
+    NetPort 50013
+    FloatingPointPrecision 0
+    FloatingPointMode 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 162286
+    END_CKPICKUP_TYPE_READ 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 1
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    SourceModeVal 2
+    SourceModePoint 2
+    ReceiveType 1
+    SocketType 0
+    EndChar <NONE>
+    Timeout 5000
+    TextVarDir 0
+    TextVarEnterMode 2
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    FilenameSource 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    StringFormat String
+    Separator ;
+    TrimSeparator 1
+    ParserOutput 3
+    NoPickupEntriesString 0
+    NoPickupEntriesValue 0
+    CloseAfterCommunication 0
+    DataFormat 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 571858
+    END_CKPICKUP_TYPE_WRITE 
+    FileAccessMode 1
+    ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 899789
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
+    TeachInCounter 0
+  END_KEY 83
+  KEY 84
+    ClassVersion 18
+    CKGENERAL 
+      ClassVersion 3
+      Position 105
+      CommandType 246
+      CommandName Filename3
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Global string
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    DetType 2
+    UseText 1
+    UseDate 0
+    UseWert 1
+    UsePoint 0
+    VariablesIndex 1
+    PointIndex 0
+    SeparationIndex 0
+    SendType 5
+    TextToDisplay StartEnc
+    Filename ./string.txt
+    AddIntegerOnly 1
+    SeperatorAtStartOfString 1
+    PortNumber 0
+    WithQuotes 1
+    IPAddress 127.0.0.1
+    NetPort 50013
+    FloatingPointPrecision 0
+    FloatingPointMode 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 162286
+    END_CKPICKUP_TYPE_READ 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 1
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    SourceModeVal 2
+    SourceModePoint 2
+    ReceiveType 1
+    SocketType 0
+    EndChar <NONE>
+    Timeout 5000
+    TextVarDir 0
+    TextVarEnterMode 2
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    FilenameSource 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    StringFormat String
+    Separator ;
+    TrimSeparator 1
+    ParserOutput 3
+    NoPickupEntriesString 0
+    NoPickupEntriesValue 0
+    CloseAfterCommunication 0
+    DataFormat 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 780350
+    END_CKPICKUP_TYPE_WRITE 
+    FileAccessMode 1
+    ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 57026
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
+    TeachInCounter 0
+  END_KEY 84
+  KEY 85
+    ClassVersion 18
+    CKGENERAL 
+      ClassVersion 3
+      Position 106
+      CommandType 246
+      CommandName Filename4
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Global string
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    DetType 2
+    UseText 1
+    UseDate 0
+    UseWert 0
+    UsePoint 0
+    VariablesIndex 1
+    PointIndex 0
+    SeparationIndex 0
+    SendType 5
+    TextToDisplay .e3c
+    Filename ./string.txt
+    AddIntegerOnly 1
+    SeperatorAtStartOfString 0
+    PortNumber 0
+    WithQuotes 1
+    IPAddress 127.0.0.1
+    NetPort 50013
+    FloatingPointPrecision 0
+    FloatingPointMode 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 162286
+    END_CKPICKUP_TYPE_READ 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 1
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    SourceModeVal 2
+    SourceModePoint 2
+    ReceiveType 1
+    SocketType 0
+    EndChar <NONE>
+    Timeout 5000
+    TextVarDir 0
+    TextVarEnterMode 2
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    FilenameSource 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    StringFormat String
+    Separator ;
+    TrimSeparator 1
+    ParserOutput 3
+    NoPickupEntriesString 0
+    NoPickupEntriesValue 0
+    CloseAfterCommunication 0
+    DataFormat 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 494166
+    END_CKPICKUP_TYPE_WRITE 
+    FileAccessMode 1
+    ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 444957
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
+    TeachInCounter 0
+  END_KEY 85
+  KEY 86
+    ClassVersion 12
+    CKGENERAL 
+      ClassVersion 3
+      Position 107
+      CommandType 1
+      CommandName Save 2
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 2
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Capture image
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CaptureWithVIC 0
+    CaptureType 1
+    SaveType 3
+    OnlyOnActivate 0
+    SaveWithGrafic 0
+    TriggeredCapture 0
+    ApplyTimeout 0
+    CaptureWithFlash 0
+    NumberOfCyclicFiles 10
+    CurrentCycleNumber 0
+    TriggerTimeout 0
+    TriggerInputLine 0
+    MinimumSignalDuration 0
+    FileName ./IM2.e3c
+    AVIframes 1
+    AVImode 0
+    HWTriggeredCapture 1
+    CaptureWithVIC2 1
+    DualSnap 0
+    ImageMem2 1
+    ImageAdjust 0
+    ImageRefresh 0
+    SourceImageMode 0
+    SourceVIC 0
+    LoadOption 1
+    LoadImageIndex 0
+    LoadDirectory ./
+    RawDataConversionActive 0
+    RawDataType 1
+    PixelDataSize 2
+    ByteOrder 0
+    NumberOfChannels 1
+    ChannelOrder 0
+    DataRangeLow 0,0
+    DataRangeHigh 65535,0
+    UseDisplayValues 1
+    DisplayRangeLow 0,0
+    DisplayRangeHigh 65535,0
+    DeleteFile 0
+    FileNameToGlobalString 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 972188
+    END_CKPICKUP_TYPE_WRITE 
+    NoRestartOfCyclicLoad 0
+    SaveAsynchronous 1
+    FilenameType 0
+    TeachInCounter 0
+  END_KEY 86
+  KEY 87
+    ClassVersion 18
+    CKGENERAL 
+      ClassVersion 3
+      Position 108
+      CommandType 246
+      CommandName Filename1
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Global string
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    DetType 2
+    UseText 1
+    UseDate 1
+    UseWert 0
+    UsePoint 0
+    VariablesIndex 0
+    PointIndex 0
+    SeparationIndex 0
+    SendType 5
+    TextToDisplay IM3
+    Filename ./string.txt
+    AddIntegerOnly 1
+    SeperatorAtStartOfString 0
+    PortNumber 0
+    WithQuotes 1
+    IPAddress 127.0.0.1
+    NetPort 50013
+    FloatingPointPrecision 0
+    FloatingPointMode 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 162286
+    END_CKPICKUP_TYPE_READ 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 1
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    SourceModeVal 1
+    SourceModePoint 2
+    ReceiveType 1
+    SocketType 0
+    EndChar <NONE>
+    Timeout 5000
+    TextVarDir 0
+    TextVarEnterMode 2
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    FilenameSource 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    StringFormat String
+    Separator ;
+    TrimSeparator 1
+    ParserOutput 3
+    NoPickupEntriesString 0
+    NoPickupEntriesValue 0
+    CloseAfterCommunication 0
+    DataFormat 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 275947
+    END_CKPICKUP_TYPE_WRITE 
+    FileAccessMode 1
+    ClearStringBefore 1
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 478376
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
+    TeachInCounter 0
+  END_KEY 87
+  KEY 88
+    ClassVersion 18
+    CKGENERAL 
+      ClassVersion 3
+      Position 109
+      CommandType 246
+      CommandName Filename2
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Global string
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    DetType 2
+    UseText 1
+    UseDate 0
+    UseWert 1
+    UsePoint 0
+    VariablesIndex 0
+    PointIndex 0
+    SeparationIndex 0
+    SendType 5
+    TextToDisplay FinalEnc
+    Filename ./string.txt
+    AddIntegerOnly 1
+    SeperatorAtStartOfString 1
+    PortNumber 0
+    WithQuotes 1
+    IPAddress 127.0.0.1
+    NetPort 50013
+    FloatingPointPrecision 0
+    FloatingPointMode 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 162286
+    END_CKPICKUP_TYPE_READ 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 1
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    SourceModeVal 2
+    SourceModePoint 2
+    ReceiveType 1
+    SocketType 0
+    EndChar <NONE>
+    Timeout 5000
+    TextVarDir 0
+    TextVarEnterMode 2
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    FilenameSource 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    StringFormat String
+    Separator ;
+    TrimSeparator 1
+    ParserOutput 3
+    NoPickupEntriesString 0
+    NoPickupEntriesValue 0
+    CloseAfterCommunication 0
+    DataFormat 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 823994
+    END_CKPICKUP_TYPE_WRITE 
+    FileAccessMode 1
+    ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 881412
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
+    TeachInCounter 0
+  END_KEY 88
+  KEY 89
+    ClassVersion 18
+    CKGENERAL 
+      ClassVersion 3
+      Position 110
+      CommandType 246
+      CommandName Filename3
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Global string
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    DetType 2
+    UseText 1
+    UseDate 0
+    UseWert 1
+    UsePoint 0
+    VariablesIndex 1
+    PointIndex 0
+    SeparationIndex 0
+    SendType 5
+    TextToDisplay StartEnc
+    Filename ./string.txt
+    AddIntegerOnly 1
+    SeperatorAtStartOfString 1
+    PortNumber 0
+    WithQuotes 1
+    IPAddress 127.0.0.1
+    NetPort 50013
+    FloatingPointPrecision 0
+    FloatingPointMode 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 162286
+    END_CKPICKUP_TYPE_READ 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 1
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    SourceModeVal 2
+    SourceModePoint 2
+    ReceiveType 1
+    SocketType 0
+    EndChar <NONE>
+    Timeout 5000
+    TextVarDir 0
+    TextVarEnterMode 2
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    FilenameSource 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    StringFormat String
+    Separator ;
+    TrimSeparator 1
+    ParserOutput 3
+    NoPickupEntriesString 0
+    NoPickupEntriesValue 0
+    CloseAfterCommunication 0
+    DataFormat 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 439388
+    END_CKPICKUP_TYPE_WRITE 
+    FileAccessMode 1
+    ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 770372
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
+    TeachInCounter 0
+  END_KEY 89
+  KEY 90
+    ClassVersion 18
+    CKGENERAL 
+      ClassVersion 3
+      Position 111
+      CommandType 246
+      CommandName Filename4
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Global string
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    DetType 2
+    UseText 1
+    UseDate 0
+    UseWert 0
+    UsePoint 0
+    VariablesIndex 1
+    PointIndex 0
+    SeparationIndex 0
+    SendType 5
+    TextToDisplay .e3c
+    Filename ./string.txt
+    AddIntegerOnly 1
+    SeperatorAtStartOfString 0
+    PortNumber 0
+    WithQuotes 1
+    IPAddress 127.0.0.1
+    NetPort 50013
+    FloatingPointPrecision 0
+    FloatingPointMode 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 162286
+    END_CKPICKUP_TYPE_READ 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 1
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    SourceModeVal 2
+    SourceModePoint 2
+    ReceiveType 1
+    SocketType 0
+    EndChar <NONE>
+    Timeout 5000
+    TextVarDir 0
+    TextVarEnterMode 2
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    FilenameSource 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    StringFormat String
+    Separator ;
+    TrimSeparator 1
+    ParserOutput 3
+    NoPickupEntriesString 0
+    NoPickupEntriesValue 0
+    CloseAfterCommunication 0
+    DataFormat 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 299461
+    END_CKPICKUP_TYPE_WRITE 
+    FileAccessMode 1
+    ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 514777
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
+    TeachInCounter 0
+  END_KEY 90
+  KEY 91
+    ClassVersion 12
+    CKGENERAL 
+      ClassVersion 3
+      Position 112
+      CommandType 1
+      CommandName Save 3
+      Enabled 2
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 3
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Capture image
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CaptureWithVIC 0
+    CaptureType 1
+    SaveType 3
+    OnlyOnActivate 0
+    SaveWithGrafic 0
+    TriggeredCapture 0
+    ApplyTimeout 0
+    CaptureWithFlash 0
+    NumberOfCyclicFiles 10
+    CurrentCycleNumber 0
+    TriggerTimeout 0
+    TriggerInputLine 0
+    MinimumSignalDuration 0
+    FileName ./IM3.e3c
+    AVIframes 1
+    AVImode 0
+    HWTriggeredCapture 1
+    CaptureWithVIC2 1
+    DualSnap 0
+    ImageMem2 1
+    ImageAdjust 0
+    ImageRefresh 0
+    SourceImageMode 0
+    SourceVIC 0
+    LoadOption 1
+    LoadImageIndex 0
+    LoadDirectory ./
+    RawDataConversionActive 0
+    RawDataType 1
+    PixelDataSize 2
+    ByteOrder 0
+    NumberOfChannels 1
+    ChannelOrder 0
+    DataRangeLow 0,0
+    DataRangeHigh 65535,0
+    UseDisplayValues 1
+    DisplayRangeLow 0,0
+    DisplayRangeHigh 65535,0
+    DeleteFile 0
+    FileNameToGlobalString 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 837866
+    END_CKPICKUP_TYPE_WRITE 
+    NoRestartOfCyclicLoad 0
+    SaveAsynchronous 1
+    FilenameType 0
+    TeachInCounter 0
+  END_KEY 91
+  KEY 92
+    ClassVersion 18
+    CKGENERAL 
+      ClassVersion 3
+      Position 113
+      CommandType 246
+      CommandName Filename1
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Global string
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    DetType 2
+    UseText 1
+    UseDate 1
+    UseWert 0
+    UsePoint 0
+    VariablesIndex 0
+    PointIndex 0
+    SeparationIndex 0
+    SendType 5
+    TextToDisplay IM4
+    Filename ./string.txt
+    AddIntegerOnly 1
+    SeperatorAtStartOfString 0
+    PortNumber 0
+    WithQuotes 1
+    IPAddress 127.0.0.1
+    NetPort 50013
+    FloatingPointPrecision 0
+    FloatingPointMode 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 162286
+    END_CKPICKUP_TYPE_READ 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 1
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    SourceModeVal 1
+    SourceModePoint 2
+    ReceiveType 1
+    SocketType 0
+    EndChar <NONE>
+    Timeout 5000
+    TextVarDir 0
+    TextVarEnterMode 2
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    FilenameSource 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    StringFormat String
+    Separator ;
+    TrimSeparator 1
+    ParserOutput 3
+    NoPickupEntriesString 0
+    NoPickupEntriesValue 0
+    CloseAfterCommunication 0
+    DataFormat 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 264595
+    END_CKPICKUP_TYPE_WRITE 
+    FileAccessMode 1
+    ClearStringBefore 1
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 696143
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
+    TeachInCounter 0
+  END_KEY 92
+  KEY 93
+    ClassVersion 18
+    CKGENERAL 
+      ClassVersion 3
+      Position 114
+      CommandType 246
+      CommandName Filename2
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Global string
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    DetType 2
+    UseText 1
+    UseDate 0
+    UseWert 1
+    UsePoint 0
+    VariablesIndex 0
+    PointIndex 0
+    SeparationIndex 0
+    SendType 5
+    TextToDisplay FinalEnc
+    Filename ./string.txt
+    AddIntegerOnly 1
+    SeperatorAtStartOfString 1
+    PortNumber 0
+    WithQuotes 1
+    IPAddress 127.0.0.1
+    NetPort 50013
+    FloatingPointPrecision 0
+    FloatingPointMode 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 162286
+    END_CKPICKUP_TYPE_READ 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 1
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    SourceModeVal 2
+    SourceModePoint 2
+    ReceiveType 1
+    SocketType 0
+    EndChar <NONE>
+    Timeout 5000
+    TextVarDir 0
+    TextVarEnterMode 2
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    FilenameSource 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    StringFormat String
+    Separator ;
+    TrimSeparator 1
+    ParserOutput 3
+    NoPickupEntriesString 0
+    NoPickupEntriesValue 0
+    CloseAfterCommunication 0
+    DataFormat 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 538877
+    END_CKPICKUP_TYPE_WRITE 
+    FileAccessMode 1
+    ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 947742
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
+    TeachInCounter 0
+  END_KEY 93
+  KEY 94
+    ClassVersion 18
+    CKGENERAL 
+      ClassVersion 3
+      Position 115
+      CommandType 246
+      CommandName Filename3
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Global string
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    DetType 2
+    UseText 1
+    UseDate 0
+    UseWert 1
+    UsePoint 0
+    VariablesIndex 1
+    PointIndex 0
+    SeparationIndex 0
+    SendType 5
+    TextToDisplay StartEnc
+    Filename ./string.txt
+    AddIntegerOnly 1
+    SeperatorAtStartOfString 1
+    PortNumber 0
+    WithQuotes 1
+    IPAddress 127.0.0.1
+    NetPort 50013
+    FloatingPointPrecision 0
+    FloatingPointMode 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 162286
+    END_CKPICKUP_TYPE_READ 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 1
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    SourceModeVal 2
+    SourceModePoint 2
+    ReceiveType 1
+    SocketType 0
+    EndChar <NONE>
+    Timeout 5000
+    TextVarDir 0
+    TextVarEnterMode 2
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    FilenameSource 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    StringFormat String
+    Separator ;
+    TrimSeparator 1
+    ParserOutput 3
+    NoPickupEntriesString 0
+    NoPickupEntriesValue 0
+    CloseAfterCommunication 0
+    DataFormat 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 446036
+    END_CKPICKUP_TYPE_WRITE 
+    FileAccessMode 1
+    ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 259719
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
+    TeachInCounter 0
+  END_KEY 94
+  KEY 95
+    ClassVersion 18
+    CKGENERAL 
+      ClassVersion 3
+      Position 116
+      CommandType 246
+      CommandName Filename4
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Global string
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    DetType 2
+    UseText 1
+    UseDate 0
+    UseWert 0
+    UsePoint 0
+    VariablesIndex 1
+    PointIndex 0
+    SeparationIndex 0
+    SendType 5
+    TextToDisplay .e3c
+    Filename ./string.txt
+    AddIntegerOnly 1
+    SeperatorAtStartOfString 0
+    PortNumber 0
+    WithQuotes 1
+    IPAddress 127.0.0.1
+    NetPort 50013
+    FloatingPointPrecision 0
+    FloatingPointMode 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 162286
+    END_CKPICKUP_TYPE_READ 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 1
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    SourceModeVal 2
+    SourceModePoint 2
+    ReceiveType 1
+    SocketType 0
+    EndChar <NONE>
+    Timeout 5000
+    TextVarDir 0
+    TextVarEnterMode 2
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    FilenameSource 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 6
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    StringFormat String
+    Separator ;
+    TrimSeparator 1
+    ParserOutput 3
+    NoPickupEntriesString 0
+    NoPickupEntriesValue 0
+    CloseAfterCommunication 0
+    DataFormat 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 201089
+    END_CKPICKUP_TYPE_WRITE 
+    FileAccessMode 1
+    ClearStringBefore 0
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 1
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKDESTINATIONSTRING 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      ManualVal 
+      CKPICKUP_TYPE_WRITE 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex 154943
+      END_CKPICKUP_TYPE_WRITE 
+    END_CKDESTINATIONSTRING 
+    TeachInCounter 0
+  END_KEY 95
+  KEY 96
+    ClassVersion 12
+    CKGENERAL 
+      ClassVersion 3
+      Position 117
+      CommandType 1
+      CommandName Save 4
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 4
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Capture image
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CaptureWithVIC 0
+    CaptureType 1
+    SaveType 3
+    OnlyOnActivate 0
+    SaveWithGrafic 0
+    TriggeredCapture 0
+    ApplyTimeout 0
+    CaptureWithFlash 0
+    NumberOfCyclicFiles 10
+    CurrentCycleNumber 0
+    TriggerTimeout 0
+    TriggerInputLine 0
+    MinimumSignalDuration 0
+    FileName ./IM4.e3c
+    AVIframes 1
+    AVImode 0
+    HWTriggeredCapture 1
+    CaptureWithVIC2 1
+    DualSnap 0
+    ImageMem2 1
+    ImageAdjust 0
+    ImageRefresh 0
+    SourceImageMode 0
+    SourceVIC 0
+    LoadOption 1
+    LoadImageIndex 0
+    LoadDirectory ./
+    RawDataConversionActive 0
+    RawDataType 1
+    PixelDataSize 2
+    ByteOrder 0
+    NumberOfChannels 1
+    ChannelOrder 0
+    DataRangeLow 0,0
+    DataRangeHigh 65535,0
+    UseDisplayValues 1
+    DisplayRangeLow 0,0
+    DisplayRangeHigh 65535,0
+    DeleteFile 0
+    FileNameToGlobalString 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 779510
+    END_CKPICKUP_TYPE_WRITE 
+    NoRestartOfCyclicLoad 0
+    SaveAsynchronous 1
+    FilenameType 0
+    TeachInCounter 0
+  END_KEY 96
+  KEY 97
+    ClassVersion 8
+    CKGENERAL 
+      ClassVersion 3
+      Position 118
+      CommandType 124
+      CommandName Data Saved
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo Could not load command ( file format error). Command must be reconfigured.
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Text
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKPOINT 
+      ClassVersion 1
+      Name Probe 1
+      X 50,0
+      Y 50,0
+    END_CKPOINT 
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 1
+      PickupListIndex 500059
+    END_CKPICKUP_TYPE_WRITE 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 1
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    eDeterminationType 1
+    lTextColour 1
+    lTextSize 30
+    lPositionOffset 0
+    lRegisterIndex 0
+    lWriteInStatusInfo 1
+    lColourOption 0
+    lWriteInOverlay 0
+    lWriteColourInPicture 0
+    lWriteColourGreyValue 128
+    sText Data Saved
+    SourceMode 0
+    CommandOption 1
+    CommandOffset 1
+    OrderMode 0
+    CKPICKUP_TYPE_WRITE 
+      ClassVersion 1
+      Name 
+      PickupObjectType 5
+      PickupListIndex 403935
+    END_CKPICKUP_TYPE_WRITE 
+    ResultDisplay Info.LE0
+    FloatingPointMode 0
+    FloatingPointPrecision 2
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      CKPOINT 
+        ClassVersion 1
+        Name 
+        X 0,0
+        Y 0,0
+      END_CKPOINT 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 0
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    UpdateImmediately 1
+    Severity 4
+    ModuleName User
+    Text2 
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString Data Saved
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    CKSOURCESTRING 
+      ClassVersion 2
+      Name 
+      SourceMode 3
+      ManualString 
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 6
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      RegisterIndex 0
+    END_CKSOURCESTRING 
+    TeachInCounter 0
+  END_KEY 97
+  KEY 98
+    ClassVersion 5
+    CKGENERAL 
+      ClassVersion 3
+      Position 120
+      CommandType 2
+      CommandName Update Display
+      Enabled 1
+      Hidden 0
+      GraficMode 0
+      TextMode 2
+      ImageMemory 2
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Interpreter control
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    Marker EndSection
+    DeterminationMode 9
+    ResultMode 0
+    NumberOfLoops 0
+    LoopCounter 0
+    ClearAllGoi 1
+    CMDOffset 1
+    ExecuteCommands 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 0
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    TeachInCounter 0
+  END_KEY 98
+  KEY 99
+    ClassVersion 5
+    CKGENERAL 
+      ClassVersion 3
+      Position 121
+      CommandType 2
+      CommandName Update Display
+      Enabled 1
+      Hidden 0
+      GraficMode 0
+      TextMode 2
+      ImageMemory 3
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Interpreter control
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    Marker EndSection
+    DeterminationMode 9
+    ResultMode 0
+    NumberOfLoops 0
+    LoopCounter 0
+    ClearAllGoi 1
+    CMDOffset 1
+    ExecuteCommands 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 0
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    TeachInCounter 0
+  END_KEY 99
+  KEY 100
+    ClassVersion 5
+    CKGENERAL 
+      ClassVersion 3
+      Position 122
+      CommandType 2
+      CommandName Update Display
+      Enabled 1
+      Hidden 0
+      GraficMode 0
+      TextMode 2
+      ImageMemory 4
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name Interpreter control
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    Marker EndSection
+    DeterminationMode 9
+    ResultMode 0
+    NumberOfLoops 0
+    LoopCounter 0
+    ClearAllGoi 1
+    CMDOffset 1
+    ExecuteCommands 0
+    CKPICKUP_TYPE_READ 
+      ClassVersion 1
+      Name 
+      PickupObjectType 0
+      PickupListIndex -1
+    END_CKPICKUP_TYPE_READ 
+    TeachInCounter 0
+  END_KEY 100
+  KEY 101
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 124
+      CommandType 19980504
+      CommandName Read Encoders After
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 2
+      RegisterIndex 0
+      ManualValue 197,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex 700841
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath CameraSettings/EncoderControl/EncoderValue
+    VICIndex 0
+    Determination 1
+    TeachInCounter 0
+  END_KEY 101
+  KEY 102
+    ClassVersion 18
+    CKGENERAL 
+      ClassVersion 3
+      Position 125
       CommandType 246
       CommandName Filename1
       Enabled 1
@@ -7271,12 +9921,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 77
-  KEY 78
+  END_KEY 102
+  KEY 103
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 97
+      Position 126
       CommandType 246
       CommandName Filename2
       Enabled 1
@@ -7413,12 +10063,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 78
-  KEY 79
+  END_KEY 103
+  KEY 104
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 98
+      Position 127
       CommandType 246
       CommandName Filename3
       Enabled 1
@@ -7555,12 +10205,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 79
-  KEY 80
+  END_KEY 104
+  KEY 105
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 99
+      Position 128
       CommandType 246
       CommandName Filename4
       Enabled 1
@@ -7697,12 +10347,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 80
-  KEY 81
+  END_KEY 105
+  KEY 106
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 101
+      Position 130
       CommandType 2
       CommandName Update Display
       Enabled 1
@@ -7760,12 +10410,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 81
-  KEY 82
+  END_KEY 106
+  KEY 107
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 102
+      Position 131
       CommandType 124
       CommandName Data Received Message
       Enabled 1
@@ -7911,19 +10561,19 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 82
-  KEY 83
+  END_KEY 107
+  KEY 108
     ClassVersion 12
     CKGENERAL 
       ClassVersion 3
-      Position 103
+      Position 132
       CommandType 1
-      CommandName Save
+      CommandName Save Data
       Enabled 1
       Hidden 0
       GraficMode 2
       TextMode 2
-      ImageMemory 2
+      ImageMemory 0
       InvertResult 0
       Memo 
       IgnoreResult 0
@@ -7980,7 +10630,7 @@ START_PARM_LIST
     DualSnap 0
     ImageMem2 1
     ImageAdjust 0
-    ImageRefresh 1
+    ImageRefresh 0
     SourceImageMode 0
     SourceVIC 0
     LoadOption 1
@@ -8003,18 +10653,18 @@ START_PARM_LIST
       ClassVersion 1
       Name 
       PickupObjectType 5
-      PickupListIndex 205011
+      PickupListIndex 454257
     END_CKPICKUP_TYPE_WRITE 
     NoRestartOfCyclicLoad 0
     SaveAsynchronous 0
     FilenameType 0
     TeachInCounter 0
-  END_KEY 83
-  KEY 84
+  END_KEY 108
+  KEY 109
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 105
+      Position 134
       CommandType 1004
       CommandName SUB PROGRAM 2
       Enabled 1
@@ -8030,12 +10680,12 @@ START_PARM_LIST
     END_CKGENERAL 
     OldCMDType 0
     TeachInCounter 0
-  END_KEY 84
-  KEY 85
+  END_KEY 109
+  KEY 110
     ClassVersion 4
     CKGENERAL 
       ClassVersion 3
-      Position 106
+      Position 135
       CommandType 1000
       CommandName SurfaceInspection Program
       Enabled 1
@@ -8078,7 +10728,7 @@ START_PARM_LIST
         Index -1
       END_CKSTATISTIC 
     END_CKRESULT 
-    NameOfSubProgram ./profileEvaluationCube-instance2.ckp
+    NameOfSubProgram ./profileEvaluationCube-instance4.ckp
     RunSubprogramMode 0
     ResultMode 0
     CKPICKUP_TYPE_READ 
@@ -8089,12 +10739,12 @@ START_PARM_LIST
     END_CKPICKUP_TYPE_READ 
     CloseProgramOnTermination 0
     TeachInCounter 0
-  END_KEY 85
-  KEY 86
+  END_KEY 110
+  KEY 111
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 107
+      Position 136
       CommandType 2
       CommandName Update Display
       Enabled 1
@@ -8152,12 +10802,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 86
-  KEY 87
+  END_KEY 111
+  KEY 112
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 109
+      Position 138
       CommandType 114
       CommandName End Time
       Enabled 1
@@ -8209,12 +10859,12 @@ START_PARM_LIST
       PickupListIndex 438576
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 87
-  KEY 88
+  END_KEY 112
+  KEY 113
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 110
+      Position 139
       CommandType 124
       CommandName Print Cycle Time
       Enabled 1
@@ -8360,12 +11010,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 88
-  KEY 89
+  END_KEY 113
+  KEY 114
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 111
+      Position 140
       CommandType 2
       CommandName Loop
       Enabled 1
@@ -8423,12 +11073,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 89
-  KEY 90
+  END_KEY 114
+  KEY 115
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 113
+      Position 142
       CommandType 2
       CommandName No Data Warning
       Enabled 1
@@ -8486,12 +11136,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 90
-  KEY 91
+  END_KEY 115
+  KEY 116
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 115
+      Position 144
       CommandType 124
       CommandName Print No Data
       Enabled 1
@@ -8637,12 +11287,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 91
-  KEY 92
+  END_KEY 116
+  KEY 117
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 116
+      Position 145
       CommandType 246
       CommandName Add to NoDataFile
       Enabled 0
@@ -8779,12 +11429,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 92
-  KEY 93
+  END_KEY 117
+  KEY 118
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 117
+      Position 146
       CommandType 246
       CommandName NoDataFile
       Enabled 0
@@ -8837,7 +11487,7 @@ START_PARM_LIST
     SeparationIndex 0
     SendType 1
     TextToDisplay Height:
-    Filename ./2022_05_20_14_36_46_754_NoData_Report.txt
+    Filename ./2022_05_20_14_46_29_154_NoData_Report.txt
     AddIntegerOnly 1
     SeperatorAtStartOfString 1
     PortNumber 0
@@ -8921,12 +11571,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 93
-  KEY 94
+  END_KEY 118
+  KEY 119
     ClassVersion 18
     CKGENERAL 
       ClassVersion 3
-      Position 118
+      Position 147
       CommandType 246
       CommandName Reset
       Enabled 1
@@ -9063,12 +11713,12 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_WRITE 
     END_CKDESTINATIONSTRING 
     TeachInCounter 0
-  END_KEY 94
-  KEY 95
+  END_KEY 119
+  KEY 120
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 119
+      Position 148
       CommandType 114
       CommandName End Time
       Enabled 1
@@ -9120,12 +11770,12 @@ START_PARM_LIST
       PickupListIndex 605538
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 95
-  KEY 96
+  END_KEY 120
+  KEY 121
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 120
+      Position 149
       CommandType 124
       CommandName Print Cycle Time
       Enabled 1
@@ -9271,12 +11921,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 96
-  KEY 97
+  END_KEY 121
+  KEY 122
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 122
+      Position 151
       CommandType 2
       CommandName Jump to Loop
       Enabled 1
@@ -9334,12 +11984,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 97
-  KEY 98
+  END_KEY 122
+  KEY 123
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 124
+      Position 153
       CommandType 2
       CommandName No Scanner Warning
       Enabled 1
@@ -9397,12 +12047,12 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 98
-  KEY 99
+  END_KEY 123
+  KEY 124
     ClassVersion 8
     CKGENERAL 
       ClassVersion 3
-      Position 125
+      Position 154
       CommandType 124
       CommandName Print No Scanner
       Enabled 1
@@ -9548,12 +12198,12 @@ START_PARM_LIST
       RegisterIndex 0
     END_CKSOURCESTRING 
     TeachInCounter 0
-  END_KEY 99
-  KEY 100
+  END_KEY 124
+  KEY 125
     ClassVersion 5
     CKGENERAL 
       ClassVersion 3
-      Position 126
+      Position 155
       CommandType 2
       CommandName Jump to Loop
       Enabled 1
@@ -9611,7 +12261,7 @@ START_PARM_LIST
       PickupListIndex -1
     END_CKPICKUP_TYPE_READ 
     TeachInCounter 0
-  END_KEY 100
+  END_KEY 125
 END_PARM_LIST 
 CKPARAMETERS 
   ClassVersion 1

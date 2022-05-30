@@ -1,9 +1,9 @@
 EVT 
 EYEVISION_VERSION 4.01.003-69-g311e1ffc5e
-FILE_VERSION 110
+FILE_VERSION 130
 CREATED 07.08.2019 15:17:56
 CREATED_BY Admin
-LAST_MODIFIED 20.05.2022 14:41:33
+LAST_MODIFIED 23.05.2022 16:21:52
 LAST_MODIFIED_BY Admin
 START_PARM_LIST 
   KEY 1
@@ -1053,71 +1053,10 @@ START_PARM_LIST
     TeachInCounter 0
   END_KEY 17
   KEY 18
-    ClassVersion 4
-    CKGENERAL 
-      ClassVersion 3
-      Position 17
-      CommandType 1040
-      CommandName Encoder Based for two Scanners
-      Enabled 1
-      Hidden 0
-      GraficMode 2
-      TextMode 2
-      ImageMemory 0
-      InvertResult 0
-      Memo 
-      IgnoreResult 0
-      OverlayImageMemory 1
-      DisplayOverlayInDifferentIM 0
-    END_CKGENERAL 
-    CKRESULT 
-      ClassVersion 1
-      Name Script interpreter
-      EnterResultToRTDisplay 0
-      RTDisplayIndex 0
-      RTWidthOfToleranceRegion 80
-      CKEVALUATION 
-        ClassVersion 3
-        GlobalToleranceIndex -1
-        UseWarningTolerances 0
-        NominalValue 0,0
-        PlusTolerance 10000,0
-        MinusTolerance 0,0
-        WarnPlusTolerance 0,0
-        WarnMinusTolerance 0,0
-        DynamicEvaluation 0
-        FileName ./
-        Section 
-        CorrectionActive 0
-        CorrectionType 0
-        EnableAutoTeachIn 1
-        NumberOfUsedCorrections 0
-      END_CKEVALUATION 
-      CKSTATISTIC 
-        ClassVersion 1
-        EnterToStatistic 0
-        Index -1
-      END_CKSTATISTIC 
-    END_CKRESULT 
-    Program Dim lValue As Long: lValue = 3~EVHDCCTLSetParameterLongByName(0, "/Trigger/ProfileTriggerMode", lValue)~~Dim lValue As Long: lValue = 3~EVHDCCTLSetParameterLongByName(1, "/Trigger/ProfileTriggerMode", lValue)
-    EncodedBinary 
-    ExternProgramFileName 
-    UseExternProgram 0
-    NumberOfAdditionalLinesProgram 0
-    NumberOfAdditionalLinesBinary 0
-    CKPICKUP_TYPE_WRITE 
-      ClassVersion 1
-      Name 
-      PickupObjectType 5
-      PickupListIndex 776317
-    END_CKPICKUP_TYPE_WRITE 
-    TeachInCounter 0
-  END_KEY 18
-  KEY 19
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 18
+      Position 17
       CommandType 19980504
       CommandName Set LightBrightness: 100
       Enabled 1
@@ -1177,12 +1116,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 19
-  KEY 20
+  END_KEY 18
+  KEY 19
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 19
+      Position 18
       CommandType 19980504
       CommandName Light Permenant ON
       Enabled 1
@@ -1242,12 +1181,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 20
-  KEY 21
+  END_KEY 19
+  KEY 20
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 20
+      Position 19
       CommandType 19980504
       CommandName FIR Filter OFF
       Enabled 1
@@ -1307,12 +1246,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 21
-  KEY 22
+  END_KEY 20
+  KEY 21
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 21
+      Position 20
       CommandType 19980504
       CommandName Set AOI Height
       Enabled 1
@@ -1372,12 +1311,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 22
-  KEY 23
+  END_KEY 21
+  KEY 22
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 22
+      Position 21
       CommandType 19980504
       CommandName Set AOI Threshold
       Enabled 1
@@ -1437,12 +1376,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 23
-  KEY 24
+  END_KEY 22
+  KEY 23
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 23
+      Position 22
       CommandType 19980504
       CommandName Set AOI Offset
       Enabled 1
@@ -1502,12 +1441,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 24
-  KEY 25
+  END_KEY 23
+  KEY 24
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 24
+      Position 23
       CommandType 19980504
       CommandName Set Exposure Time
       Enabled 1
@@ -1567,12 +1506,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 25
-  KEY 26
+  END_KEY 24
+  KEY 25
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 25
+      Position 24
       CommandType 19980504
       CommandName Reset Sensor Step1
       Enabled 1
@@ -1632,12 +1571,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 26
-  KEY 27
+  END_KEY 25
+  KEY 26
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 26
+      Position 25
       CommandType 19980504
       CommandName Reset Sensor Step2
       Enabled 1
@@ -1697,12 +1636,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 27
-  KEY 28
+  END_KEY 26
+  KEY 27
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 27
+      Position 26
       CommandType 19980504
       CommandName Enable DC0
       Enabled 0
@@ -1762,12 +1701,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 28
-  KEY 29
+  END_KEY 27
+  KEY 28
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 28
+      Position 27
       CommandType 19980504
       CommandName Enable DC2
       Enabled 1
@@ -1827,12 +1766,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 29
-  KEY 30
+  END_KEY 28
+  KEY 29
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 29
+      Position 28
       CommandType 19980504
       CommandName Enable Intensity Image
       Enabled 0
@@ -1892,12 +1831,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 30
-  KEY 31
+  END_KEY 29
+  KEY 30
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 30
+      Position 29
       CommandType 19980504
       CommandName Enable Continous Mode
       Enabled 1
@@ -1957,12 +1896,12 @@ START_PARM_LIST
     VICIndex 0
     Determination 0
     TeachInCounter 0
-  END_KEY 31
-  KEY 32
+  END_KEY 30
+  KEY 31
     ClassVersion 1
     CKGENERAL 
       ClassVersion 3
-      Position 31
+      Position 30
       CommandType 114
       CommandName Stop watch
       Enabled 1
@@ -2014,12 +1953,12 @@ START_PARM_LIST
       PickupListIndex 865936
     END_CKPICKUP_TYPE_WRITE 
     TeachInCounter 0
-  END_KEY 32
-  KEY 33
+  END_KEY 31
+  KEY 32
     ClassVersion 2
     CKGENERAL 
       ClassVersion 3
-      Position 32
+      Position 31
       CommandType 19980504
       CommandName FIR GAIN
       Enabled 1
@@ -2076,6 +2015,71 @@ START_PARM_LIST
       END_CKPICKUP_TYPE_READ 
       END_CKSOURCEVALUE 
     ParameterPath GeniCam/Camera/GenICam/CameraControl/FIRControl/FIRGain
+    VICIndex 0
+    Determination 0
+    TeachInCounter 0
+  END_KEY 32
+  KEY 33
+    ClassVersion 2
+    CKGENERAL 
+      ClassVersion 3
+      Position 32
+      CommandType 19980504
+      CommandName FIR Filter OFF
+      Enabled 1
+      Hidden 0
+      GraficMode 2
+      TextMode 2
+      ImageMemory 0
+      InvertResult 0
+      Memo 
+      IgnoreResult 0
+      OverlayImageMemory 1
+      DisplayOverlayInDifferentIM 0
+    END_CKGENERAL 
+    CKRESULT 
+      ClassVersion 1
+      Name 
+      EnterResultToRTDisplay 0
+      RTDisplayIndex 0
+      RTWidthOfToleranceRegion 80
+      CKEVALUATION 
+        ClassVersion 3
+        GlobalToleranceIndex -1
+        UseWarningTolerances 0
+        NominalValue 0,0
+        PlusTolerance 10000,0
+        MinusTolerance 0,0
+        WarnPlusTolerance 0,0
+        WarnMinusTolerance 0,0
+        DynamicEvaluation 0
+        FileName ./
+        Section 
+        CorrectionActive 0
+        CorrectionType 0
+        EnableAutoTeachIn 1
+        NumberOfUsedCorrections 0
+      END_CKEVALUATION 
+      CKSTATISTIC 
+        ClassVersion 1
+        EnterToStatistic 0
+        Index -1
+      END_CKSTATISTIC 
+    END_CKRESULT 
+    CKSOURCEVALUE 
+      ClassVersion 1
+      Name 
+      SourceMode 3
+      RegisterIndex 0
+      ManualValue 0,0
+      CKPICKUP_TYPE_READ 
+        ClassVersion 1
+        Name 
+        PickupObjectType 5
+        PickupListIndex -1
+      END_CKPICKUP_TYPE_READ 
+      END_CKSOURCEVALUE 
+    ParameterPath GeniCam/Camera/GenICam/CameraControl/FIRControl/FIR
     VICIndex 0
     Determination 0
     TeachInCounter 0
@@ -3485,7 +3489,7 @@ START_PARM_LIST
       PickupObjectType 0
       PickupListIndex 613067
     END_CKPICKUP_TYPE_WRITE 
-    ArithmeticFirstManualElementX 16,0
+    ArithmeticFirstManualElementX 8,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
     ConstantString 
@@ -4173,7 +4177,7 @@ START_PARM_LIST
       ClassVersion 3
       Position 67
       CommandType 122
-      CommandName Trigger Impulse per mm * 590
+      CommandName Trigger Impulse per mm (337) * 560
       Enabled 1
       Hidden 0
       GraficMode 2
@@ -4274,7 +4278,7 @@ START_PARM_LIST
       PickupObjectType 0
       PickupListIndex 158741
     END_CKPICKUP_TYPE_WRITE 
-    ArithmeticFirstManualElementX 82,0
+    ArithmeticFirstManualElementX 337,0
     ArithmeticFirstManualElementY 0,0
     Initialization 0,0
     ConstantString 
@@ -4292,7 +4296,7 @@ START_PARM_LIST
       ClassVersion 3
       Position 68
       CommandType 122
-      CommandName Trigger Raw Impulse / Number of Calculated Profiles
+      CommandName Trigger Raw Impulse / 3733
       Enabled 1
       Hidden 0
       GraficMode 2
@@ -4358,9 +4362,9 @@ START_PARM_LIST
     ArithmeticResultToPickup 0
     ArithmeticElementType1 2
     ArithmeticElementRegisterIndex1 0
-    ArithmeticElementType2 1
+    ArithmeticElementType2 3
     ArithmeticElementRegisterIndex2 1
-    ArithmeticManualElementX 200,0
+    ArithmeticManualElementX 3733,0
     ArithmeticManualElementY 0,0
     CKPICKUP_TYPE_READ 
       ClassVersion 1
@@ -4738,7 +4742,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,15
+      ManualValue 0,154
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
@@ -4803,7 +4807,7 @@ START_PARM_LIST
       Name 
       SourceMode 3
       RegisterIndex 0
-      ManualValue 0,15
+      ManualValue 0,154
       CKPICKUP_TYPE_READ 
         ClassVersion 1
         Name 
